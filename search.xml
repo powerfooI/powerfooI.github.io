@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>为什么前端开发要选择 GraphQL</title>
+      <link href="2022/06/03/WhyWeChooseGraphQL/"/>
+      <url>2022/06/03/WhyWeChooseGraphQL/</url>
+      
+        <content type="html"><![CDATA[<p>这篇博客其实是以一次公司内的技术分享为基础做的调研和总结归纳，包含了我自己很多不成熟的观点看法。这次分享主要是想向新同事介绍为什么我们选择在项目中大规模使用 GraphQL 而不是更传统更简单的 RESTful API。</p><h2 id="GraphQL-是什么"><a href="#GraphQL-是什么" class="headerlink" title="GraphQL 是什么"></a>GraphQL 是什么</h2><p>在上一篇有关 GraphQL 的<a href="/2021/07/23/UseGraphQLElegantly">博客</a>里，我简单地说明了 GraphQL 的定义及其大致用途，贴了官网链接就开始介绍我使用 GraphQL 的“更优雅的”方式，对 GraphQL 本身描述得并不多。这里又贴一下英文的定义：<strong>A query language for your API</strong></p><blockquote><p>GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. GraphQL provides a complete and understandable description of the data in your API, gives clients the power to ask for exactly what they need and nothing more, makes it easier to evolve APIs over time, and enables powerful developer tools.</p></blockquote><p>划重点，它是一种<strong>查询语言</strong>和<strong>使数据可查询的运行时</strong>。作为一种语言，它有自己的语法，能够定义<code>Type</code>, <code>Enum</code>, <code>Input</code>, <code>Fragment</code>, <code>Query</code>, <code>Mutation</code>等元素，熟悉 Typescript 的朋友会对此感到亲切。而在前端开发中需要重点关注的是以下几个部分：</p><span id="more"></span><ol><li><code>Schema</code>: 可以类比为整个 API 的全貌，通过类型系统定义了所有的类型和方法，描述了如何进行数据的查询和修改；</li><li><code>Query</code>: 是 Schema 中定义的方法，用于查询数据，无副作用，在后端并行执行；</li><li><code>Mutation</code>: 是 Schema 中定义的另一类方法，用于修改数据产生副作用，在后端串行执行；</li><li><code>Operation</code>: 是客户端定义的方法，命名和参数自定义，用于调用 GraphQL 的「查询」</li></ol><p>根据以上主要元素，使用 GraphQL 进行开发的大致范式如下图所示，当然在这里我简化了后端的工作。首先后端（至少）需要将 API Schema 定义并提供到指定端点上，前端开发者将 Schema 拉取到本地当作接口文档或者是编写 Operation 时代码补全的蓝本，需要调用接口时向指定端点传递 Operations 及其对应参数即可，整个过程十分丝滑。</p><img src="/2022/06/03/WhyWeChooseGraphQL/graphql-pipeline.png" class="" title="使用 GraphQL 的开发范式"><p>虽然但是，上述过程本质还是向某个 URL 地址以某种 HTTP 方法传递了某些参数且得到了某些返回数据，和传统的 RESTful API 有什么区别呢？</p><h2 id="RESTful-API-的劣势"><a href="#RESTful-API-的劣势" class="headerlink" title="RESTful API 的劣势"></a>RESTful API 的劣势</h2><h3 id="RESTful-API-是什么"><a href="#RESTful-API-是什么" class="headerlink" title="RESTful API 是什么"></a>RESTful API 是什么</h3><p>下面这是 REST 的<a href="https://restfulapi.net/">定义</a>，比较晦涩难懂。符合 REST 规范的 API 被称为 RESTful API，特点是使用 URI 和 HTTP Method 来区分接口方法。</p><blockquote><p>REST is an acronym for REpresentational State Transfer and an architectural style for distributed hypermedia systems.</p></blockquote><p><strong>规范</strong>的 RESTful API 将资源放在 URI 中，如 <code>/api/v1/articles</code> 表示「文章」资源；用 HTTP Method 方法来表示动作语义，如 GET 表示获取，POST 表示更新，PUT 表示新增，DELETE 表示删除等，<strong>但是</strong> RESTful 的规范很难实现或维持。我见过很多公开的 API 都直接将动作语义包含在 URI 里，而真正应该用来表达动作的 HTTP Method 则只用 <code>GET</code> 和 <code>POST</code>。最近刚好在接微信的接口，正好拎出来批评一下。</p><img src="/2022/06/03/WhyWeChooseGraphQL/wechat1.png" class="" title="微信某接口1"><img src="/2022/06/03/WhyWeChooseGraphQL/wechat2.png" class="" title="微信某接口2"><h3 id="不规范使用-RESTful-API-的问题"><a href="#不规范使用-RESTful-API-的问题" class="headerlink" title="不规范使用 RESTful API 的问题"></a>不规范使用 RESTful API 的问题</h3><p>因为 RESTful API 规范很难在开发过程中贯彻执行，所以下面我就归纳了目前常见 RESTful API 的缺陷：</p><ul><li>容易过度获取数据或获取数据不足</li><li>不支持一次网络请求调用多个接口</li><li>前端需要知道所有接口服务的地址，强依赖于接口文档</li><li>导致 HTTP Method 滥用，如查询表单字段稍多就写成了 POST 接口</li><li>前端开发强依赖于后端，后端接口变化前端反应剧烈</li><li>当增加新功能时后端需要整合多个微服务的数据提供给前端，即需要数据网关</li><li>接口返回值没有类型，无法利用 TS 的优秀特性</li><li>难以编写接口文档，虽然有 OpenAPI/Swagger 等工具，但编写起来仍然很麻烦</li><li>API 升版本会直接改变端点 URL，对前端开发影响较大</li></ul><h3 id="GraphQL-的改进"><a href="#GraphQL-的改进" class="headerlink" title="GraphQL 的改进"></a>GraphQL 的改进</h3><p>GraphQL 的诞生可以说是刀法精准，每一处都正中 RESTful 的弱点：</p><ul><li>需要什么信息就定义什么字段，不多不少</li><li>支持一次请求调用多个接口</li><li>所有接口的 URL Endpoint 统一</li><li>进一步促进前后端解耦和 API 迭代优化，消除 API 版本</li><li>给接口赋予类型系统，代码即文档，无需 <a href="https://swagger.io/specification/">OpenAPI</a> 式的补丁式接口说明</li><li>支持在线调试和文档查询 IDE 如 <a href="https://graphiql-test.netlify.app/?">GraphiQL</a> 和 <a href="https://www.graphqlbin.com/v2/6RQ6TM">GraphQL Playground</a></li></ul><p>目前越来越多公司都开始使用 GraphQL API，包括但不限于 Meta，Github，PayPal，Netflix，Airbnb 还有国内的快手等。</p><h2 id="GraphQL-给前端的新可能"><a href="#GraphQL-给前端的新可能" class="headerlink" title="GraphQL 给前端的新可能"></a>GraphQL 给前端的新可能</h2><h3 id="获得更大的自主性"><a href="#获得更大的自主性" class="headerlink" title="获得更大的自主性"></a>获得更大的自主性</h3><ul><li>数据存取上比起 RESTful API 完全隶属于后端，使用 GraphQL 给前端开发更多的自主性</li><li>需要用什么数据，用多少数据，怎么用数据以前端为主；后端只需要将 Schema 这个「全集」定义好、测试好</li><li>页面增加或减少信息呈现、数据字段改名等操作都可以在前端独立完成</li><li>GraphQL Schema 应当是前后端开发者共同制定出来的，强化前端开发在数据层面的重要性</li></ul><h3 id="充分利用类型系统的优势"><a href="#充分利用类型系统的优势" class="headerlink" title="充分利用类型系统的优势"></a>充分利用类型系统的优势</h3><ul><li>利用代码生成工具，前端开发时可以将 GraphQL 的 Schema 拉取下来，并且参照其类型系统生成对应的 TS 代码，此类工具集大成者是 <a href="https://www.graphql-code-generator.com/">GraphQL Code Generator</a></li><li>兼容性好：只生成 API 代码，不涉及页面模板，React、Vue 和微信小程序都可以支持，基本涵盖目前需要接触所有类型的前端开发</li><li>自由度高：code generator 支持多种插件，可根据开发习惯和偏好进行选择</li><li>可维护性强：使用 TS 调用接口后不会在代码逻辑中出现任何与接口名称、URL地址、HTTP方法相关的任何硬编码字符串；TS 指定接口参数返回值，避免许多 JS 中常见的运行时错误</li></ul><h3 id="声明式的语言提高确定性"><a href="#声明式的语言提高确定性" class="headerlink" title="声明式的语言提高确定性"></a>声明式的语言提高确定性</h3><p>GraphQL 的查询语言是 <code>type &#123; …fields &#125;</code> 这样声明式的，在 Operations 中定义了什么字段，一切正常的情况下就会返回相应结构的字段，所见即所得。而且，声明式的查询使得接口的确定性更高，消除歧义，前端开发不用猜接口返回的信息包含什么数据。</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>因为从一开始接触 Web 应用开发以来我就开始使用 GraphQL，所以反而是 RESTful API 没有大规模的使用过（只用在自己的玩具应用），对它的认识没有特别深入。但是直观感受是 GraphQL 对前端开发来说只有好处没有坏处，倒是后端实现起来 GraphQL 成本比 RESTful 高一些，毕竟要定义 Schema 和各式各样的方法、类型和参数，比直接定义 <code>URI + Method + Params</code> 的方式要复杂一点。但是一旦 RESTful API 要规范化规模化的话，应该也需要投入大量时间编写接口文档，这个时候两种 API 实现方式的成本就相差无几了。而开发体验上 GraphQL 是完胜的，所以我希望越来越多企业转向 GraphQL API。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 前端开发 </tag>
+            
+            <tag> GraphQL </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>好久不见，前端再见</title>
       <link href="2022/05/09/GoodbyeFrontEnd/"/>
       <url>2022/05/09/GoodbyeFrontEnd/</url>
