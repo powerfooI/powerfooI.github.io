@@ -6,7 +6,7 @@
   <link href="https://powerfooi.github.io/atom.xml" rel="self"/>
   
   <link href="https://powerfooi.github.io/"/>
-  <updated>2024-04-05T05:57:45.721Z</updated>
+  <updated>2024-04-08T14:15:15.167Z</updated>
   <id>https://powerfooi.github.io/</id>
   
   <author>
@@ -21,10 +21,10 @@
     <link href="https://powerfooi.github.io/2024/02/27/YetAnotherImporter-VSCode/"/>
     <id>https://powerfooi.github.io/2024/02/27/YetAnotherImporter-VSCode/</id>
     <published>2024-02-27T15:46:17.000Z</published>
-    <updated>2024-04-05T05:57:45.721Z</updated>
+    <updated>2024-04-08T14:15:15.167Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h2&gt;&lt;p&gt;这又是一次目标回收计划，早在 2021 年我还在广泛地写 TypeScript 代码时就想完成这样一个插件来满足我“不打断心流地引入模块”的需求，但“新建文件夹”之后我一直没有实际的迭代动作。直到最近高频写 Go 代码时，才真正意识到这个需求的重要性。于是我又重新打开了这个项目的代码仓库。&lt;/p&gt;
+    <summary type="html">&lt;h1 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h1&gt;&lt;p&gt;这又是一次目标回收计划，早在 2021 年我还在广泛地写 TypeScript 代码时就想完成这样一个插件来满足我“不打断心流地引入模块”的需求，但“新建文件夹”之后我一直没有实际的迭代动作。直到最近高频写 Go 代码时，才真正意识到这个需求的重要性。于是我又重新打开了这个项目的代码仓库。&lt;/p&gt;
 &lt;p&gt;这是一个 VSCode 插件，叫做 YAI，全称 Yet Another Importer，英文项目命名的 Yet Another 数不胜数，我也随波逐流一次。这个插件是用来帮助开发者方便地引入模块的，它可以自动识别当前项目中的依赖，并且扫描项目本地的文件，统计当前项目中引入模块的规律和频次，在需要引入模块时给出相应提示，并且以编程语言“原生”的方式将模块引入到代码中。何为“原生”，也就是适应当前项目编程语言的引入方式，比如在 JavaScript 项目中，它会使用 &lt;code&gt;import&lt;/code&gt; 或 &lt;code&gt;require&lt;/code&gt; 语句引入模块，而在 Python 项目中，它会使用 &lt;code&gt;import&lt;/code&gt; 语句引入模块，在 Go 项目中，它会使用别名来引入模块等。&lt;/p&gt;
 &lt;p&gt;目前这个插件还处于开发阶段，但是已经可以在 Go 语言中使用了。目前规划的编程语言还有 ECMAScript、Python、C&amp;#x2F;C++ 这几种。该插件的代码仓库在 Github &lt;a href=&quot;https://github.com/PowerfooI/yai-vscode&quot;&gt;代码仓库&lt;/a&gt;中，如果你也对这个插件感兴趣，欢迎使用或者参与开发。&lt;/p&gt;
 &lt;p&gt;插件已发布，可以在 &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=powerfooi.yai&quot;&gt;yai - VSCode Marketplace&lt;/a&gt; 查看安装。&lt;/p&gt;
@@ -46,7 +46,7 @@
     <link href="https://powerfooi.github.io/2024/02/03/ReadSourceOfControllerRuntime/"/>
     <id>https://powerfooi.github.io/2024/02/03/ReadSourceOfControllerRuntime/</id>
     <published>2024-02-03T13:56:52.000Z</published>
-    <updated>2024-02-12T13:49:05.637Z</updated>
+    <updated>2024-04-08T14:14:12.175Z</updated>
     
     
     <summary type="html">&lt;p&gt;Operator 是 Kubernetes 用来拓展其 API 的一种开发范式（Pattern），其核心是定义若干的自定义资源及其对应的资源控制器，当这些资源发生变化时其对应的控制器对变化进行调解（Reconcile），最终使得实际状态与预期状态达成一致。K8s-sigs 推出的 &lt;a href=&quot;https://book.kubebuilder.io/&quot;&gt;kubebuilder&lt;/a&gt; 是一个用于构建 Operator 应用的框架，和 &lt;a href=&quot;https://github.com/operator-framework/operator-sdk&quot;&gt;Operator-SDK&lt;/a&gt; 一样都依赖了 &lt;a href=&quot;https://github.com/kubernetes-sigs/controller-runtime&quot;&gt;controller-runtime&lt;/a&gt;，提供了高级 API 和抽象，让开发者更直观地编写操作逻辑，并提供用于快速启动新项目的脚手架和代码生成工具。&lt;/p&gt;
@@ -68,7 +68,7 @@
     <link href="https://powerfooi.github.io/2024/01/13/WhatHappensWhenK8s/"/>
     <id>https://powerfooi.github.io/2024/01/13/WhatHappensWhenK8s/</id>
     <published>2024-01-13T14:15:49.000Z</published>
-    <updated>2024-01-23T14:55:19.505Z</updated>
+    <updated>2024-04-08T14:14:52.387Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -99,7 +99,7 @@
     <link href="https://powerfooi.github.io/2023/12/31/WhiteDeerPlain/"/>
     <id>https://powerfooi.github.io/2023/12/31/WhiteDeerPlain/</id>
     <published>2023-12-31T14:49:03.000Z</published>
-    <updated>2024-04-05T02:02:14.748Z</updated>
+    <updated>2024-04-08T14:15:00.694Z</updated>
     
     
     <summary type="html">&lt;p&gt;陈忠实先生花了六年时间著出《白鹿原》这部巨作，而我却前前后用了近两年时间才读完这部作品，实在惭愧。因为用的是“微信读书”读的电子书，阅读记录都有存储在其平台上，才能得知我原来在 2022 年看完《杀死一只知更鸟》之后就开启了《白鹿原》。然而，过去在学校因为事情众多难以聚焦到“读闲书”上，所以 2022 年的 2 月开启这部书的阅读，走入白鹿原的广袤天地之后就一度搁置。&lt;/p&gt;
@@ -121,10 +121,10 @@
     <link href="https://powerfooi.github.io/2023/01/20/RFTP-1/"/>
     <id>https://powerfooi.github.io/2023/01/20/RFTP-1/</id>
     <published>2023-01-20T14:30:19.000Z</published>
-    <updated>2024-02-13T04:10:14.758Z</updated>
+    <updated>2024-04-08T14:14:18.056Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;开发动机&quot;&gt;&lt;a href=&quot;#开发动机&quot; class=&quot;headerlink&quot; title=&quot;开发动机&quot;&gt;&lt;/a&gt;开发动机&lt;/h2&gt;&lt;p&gt;核心动力是我有&lt;strong&gt;学会一门系统级编程语言的梦想&lt;/strong&gt;。所以计划用 Rust 为开发语言（手段）完成本科三年级计算机网络专业课上的 FTP 大作业（目标），学习 Rust 的同时巩固计网的基础知识。&lt;/p&gt;
+    <summary type="html">&lt;h1 id=&quot;开发动机&quot;&gt;&lt;a href=&quot;#开发动机&quot; class=&quot;headerlink&quot; title=&quot;开发动机&quot;&gt;&lt;/a&gt;开发动机&lt;/h1&gt;&lt;p&gt;核心动力是我有&lt;strong&gt;学会一门系统级编程语言的梦想&lt;/strong&gt;。所以计划用 Rust 为开发语言（手段）完成本科三年级计算机网络专业课上的 FTP 大作业（目标），学习 Rust 的同时巩固计网的基础知识。&lt;/p&gt;
 &lt;p&gt;虽然大一刚入学就开始接触 &lt;code&gt;C/C++&lt;/code&gt;，但是对于当时没有任计算机知识何积累的我来说用这样的方式开始我的编程入门实在是颇为残忍。或许我当时连内存大小和磁盘容量都分不清，不知堆栈为何物，也搞不懂什么编译链接，让我去理解指针实在是有点为难。现在回过头来看，当时的教学顺序对零基础的学生来说是不太友好的：老师在讲指针结构的内存优化时我甚至还写不出像样的符合语法的程序，课程内容就自然也就无法很好地消化了。&lt;/p&gt;
 &lt;p&gt;如果由我来制定教学计划，我一定将最开始的编程入门课定为使用 Python 教学而不是 C&amp;#x2F;C++，在知道如何写出鲁棒、高效、优雅的代码前，先要做到能写代码，就好似学会跑步之前需要先学会走路；等学生们了解了计算机组成原理、操作系统等计算机基础知识之后（或同时），再教授 C&amp;#x2F;C++ 等较低层的、系统的编程语言了。话扯太远了，就此打住。&lt;/p&gt;</summary>
     
@@ -163,11 +163,11 @@
     <link href="https://powerfooi.github.io/2022/06/03/WhyWeChooseGraphQL/"/>
     <id>https://powerfooi.github.io/2022/06/03/WhyWeChooseGraphQL/</id>
     <published>2022-06-03T15:32:11.000Z</published>
-    <updated>2022-12-30T16:41:40.367Z</updated>
+    <updated>2024-04-08T14:15:08.601Z</updated>
     
     
     <summary type="html">&lt;p&gt;这篇博客其实是以一次公司内的技术分享为基础做的调研和总结归纳，包含了我自己很多不成熟的观点看法。这次分享主要是想向新同事介绍为什么我们选择在项目中大规模使用 GraphQL 而不是更传统更简单的 RESTful API。&lt;/p&gt;
-&lt;h2 id=&quot;GraphQL-是什么&quot;&gt;&lt;a href=&quot;#GraphQL-是什么&quot; class=&quot;headerlink&quot; title=&quot;GraphQL 是什么&quot;&gt;&lt;/a&gt;GraphQL 是什么&lt;/h2&gt;&lt;p&gt;在上一篇有关 GraphQL 的&lt;a href=&quot;/2021/07/23/UseGraphQLElegantly&quot;&gt;博客&lt;/a&gt;里，我简单地说明了 GraphQL 的定义及其大致用途，贴了官网链接就开始介绍我使用 GraphQL 的“更优雅的”方式，对 GraphQL 本身描述得并不多。这里又贴一下英文的定义：&lt;strong&gt;A query language for your API&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&quot;GraphQL-是什么&quot;&gt;&lt;a href=&quot;#GraphQL-是什么&quot; class=&quot;headerlink&quot; title=&quot;GraphQL 是什么&quot;&gt;&lt;/a&gt;GraphQL 是什么&lt;/h1&gt;&lt;p&gt;在上一篇有关 GraphQL 的&lt;a href=&quot;/2021/07/23/UseGraphQLElegantly&quot;&gt;博客&lt;/a&gt;里，我简单地说明了 GraphQL 的定义及其大致用途，贴了官网链接就开始介绍我使用 GraphQL 的“更优雅的”方式，对 GraphQL 本身描述得并不多。这里又贴一下英文的定义：&lt;strong&gt;A query language for your API&lt;/strong&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. GraphQL provides a complete and understandable description of the data in your API, gives clients the power to ask for exactly what they need and nothing more, makes it easier to evolve APIs over time, and enables powerful developer tools.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -189,7 +189,7 @@
     <link href="https://powerfooi.github.io/2022/05/09/GoodbyeFrontEnd/"/>
     <id>https://powerfooi.github.io/2022/05/09/GoodbyeFrontEnd/</id>
     <published>2022-05-09T14:33:27.000Z</published>
-    <updated>2022-05-10T13:55:24.577Z</updated>
+    <updated>2024-04-08T14:13:25.192Z</updated>
     
     
     <summary type="html">&lt;p&gt;断断续续写前端项目也有好几年了，从大二接触 Javascript 和 Vue 时的兴奋，到接触小程序和 React 时的“渐入佳境”，再到这段时间的感到无比疲惫，我希望我在前端开发上大规模投入的阶段先暂告一段落了。为什么有这样的疲惫感呢？原因总结起来有以下几点：&lt;/p&gt;
@@ -215,10 +215,10 @@
     <link href="https://powerfooi.github.io/2022/03/12/PublishNpmPackageOfReactComponents/"/>
     <id>https://powerfooi.github.io/2022/03/12/PublishNpmPackageOfReactComponents/</id>
     <published>2022-03-12T09:24:00.000Z</published>
-    <updated>2022-03-12T14:40:23.175Z</updated>
+    <updated>2024-04-08T14:13:55.453Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;起因&quot;&gt;&lt;a href=&quot;#起因&quot; class=&quot;headerlink&quot; title=&quot;起因&quot;&gt;&lt;/a&gt;起因&lt;/h2&gt;&lt;p&gt;「代码写了不测等于白写」我总是跟身边的朋友这样调侃。然而我们写前端项目时很难在代码层面进行测试，大部分函数都是基于事件响应，接收用户输入的参数，并对页面组件或数据产生一定副作用，Mock 起来很麻烦。所以前端项目的测试往往都是端到端测试，即模拟用户在页面上进行操作，测试路径越离奇越好，因为无法提前预知用户会如何使用，所以最好在测试时可劲儿造。&lt;/p&gt;
+    <summary type="html">&lt;h1 id=&quot;起因&quot;&gt;&lt;a href=&quot;#起因&quot; class=&quot;headerlink&quot; title=&quot;起因&quot;&gt;&lt;/a&gt;起因&lt;/h1&gt;&lt;p&gt;「代码写了不测等于白写」我总是跟身边的朋友这样调侃。然而我们写前端项目时很难在代码层面进行测试，大部分函数都是基于事件响应，接收用户输入的参数，并对页面组件或数据产生一定副作用，Mock 起来很麻烦。所以前端项目的测试往往都是端到端测试，即模拟用户在页面上进行操作，测试路径越离奇越好，因为无法提前预知用户会如何使用，所以最好在测试时可劲儿造。&lt;/p&gt;
 &lt;p&gt;曾经还会想着用 Cypress 等自动化工具进行端到端测试，例如用代码定义【打开某页面–&amp;gt;拖拽滑动条至页面下方–&amp;gt;点击输入框使之获取焦点–&amp;gt;输入“Hello world”–&amp;gt;按下回车–&amp;gt;等待页面响应–&amp;gt;观察响应是否符合预期】这个过程，但只要遇到元素稍多的页面，编写测试用例的过程就会变得机械呆板。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;如果组件足够小，内容够聚焦，那么测一下也不是不可以。&lt;/strong&gt;因为想在不同的项目中复用同一套富文本编辑组件(体积比较大，且包含机器构建的JS)，我把它单独提出来作为 NPM 包发布以便各个项目安装使用。这当中编码和测试都遇到了一些问题。&lt;/p&gt;</summary>
     
@@ -259,10 +259,10 @@
     <link href="https://powerfooi.github.io/2021/08/15/NginxBasics-1/"/>
     <id>https://powerfooi.github.io/2021/08/15/NginxBasics-1/</id>
     <published>2021-08-15T07:35:11.000Z</published>
-    <updated>2022-01-11T17:17:11.850Z</updated>
+    <updated>2024-04-08T14:13:50.536Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h2&gt;&lt;p&gt;Nginx 读作 &lt;code&gt;engine x&lt;/code&gt;，是一个高性能的 HTTP 和反向代理服务器，还能用作邮件代理服务器或是通用的 TCP&amp;#x2F;UDP 代理服务器。有过后端程序部署经历的同学应该会有所了解，用 Nginx 能够很方便地完成反向代理、服务静态文件、实现负载均衡、接入HTTPS协议等任务。&lt;/p&gt;
+    <summary type="html">&lt;h1 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h1&gt;&lt;p&gt;Nginx 读作 &lt;code&gt;engine x&lt;/code&gt;，是一个高性能的 HTTP 和反向代理服务器，还能用作邮件代理服务器或是通用的 TCP&amp;#x2F;UDP 代理服务器。有过后端程序部署经历的同学应该会有所了解，用 Nginx 能够很方便地完成反向代理、服务静态文件、实现负载均衡、接入HTTPS协议等任务。&lt;/p&gt;
 &lt;p&gt;根据官方文档里面写到的，除了提供静态文件服务、反向代理和负载均衡等功能之外，还提供以下包括单不限于若干个方面的支持：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;FastCGI, uwsgi 之类服务器和反向代理服务器的缓存支持；&lt;/li&gt;
@@ -294,7 +294,7 @@
     <link href="https://powerfooi.github.io/2021/07/23/UseGraphQLElegantly/"/>
     <id>https://powerfooi.github.io/2021/07/23/UseGraphQLElegantly/</id>
     <published>2021-07-23T05:38:11.000Z</published>
-    <updated>2024-03-04T15:11:16.844Z</updated>
+    <updated>2024-04-08T14:14:37.298Z</updated>
     
     
     <summary type="html">&lt;p&gt;关于 GraphQL，它的&lt;a href=&quot;https://graphql.org/&quot;&gt;官网&lt;/a&gt;(需要科学上网)是这样介绍的：&lt;/p&gt;
@@ -320,11 +320,11 @@
     <link href="https://powerfooi.github.io/2021/07/20/TheThirdMiniprogramCompetition/"/>
     <id>https://powerfooi.github.io/2021/07/20/TheThirdMiniprogramCompetition/</id>
     <published>2021-07-20T13:24:40.000Z</published>
-    <updated>2022-01-11T17:17:11.856Z</updated>
+    <updated>2024-04-08T14:14:30.317Z</updated>
     
     
     <summary type="html">&lt;p&gt;从本科到现在总共参加过三次微信小程序大赛，前几天刚完成赛区决赛的答辩，心想着以后应该都不想再参加了，于是想记录一下这次的参赛经历。&lt;/p&gt;
-&lt;h2 id=&quot;2018-和-2020&quot;&gt;&lt;a href=&quot;#2018-和-2020&quot; class=&quot;headerlink&quot; title=&quot;2018 和 2020&quot;&gt;&lt;/a&gt;2018 和 2020&lt;/h2&gt;&lt;h3 id=&quot;2018-阴差阳错&quot;&gt;&lt;a href=&quot;#2018-阴差阳错&quot; class=&quot;headerlink&quot; title=&quot;2018 阴差阳错&quot;&gt;&lt;/a&gt;2018 阴差阳错&lt;/h3&gt;&lt;p&gt;微信小程序从 2017 年正式上线博得广大关注，在第二年 2018 年春季，微信就推出了全国高校微信小程序开发大赛，吸引了很多大学生参加，我就是其中一个。正在读大二的我报名了一位学长组织的 SRT(Student Research Training) 项目，原本的题目是要开发一款在线客服平台。然而当时已经把项目申请里面提到的客服平台提前完成了，于是我们真正做的就变成了小程序。甚至还用这个小程序参加了第一届的微信小程序大赛。&lt;/p&gt;</summary>
+&lt;h1 id=&quot;2018-和-2020&quot;&gt;&lt;a href=&quot;#2018-和-2020&quot; class=&quot;headerlink&quot; title=&quot;2018 和 2020&quot;&gt;&lt;/a&gt;2018 和 2020&lt;/h1&gt;&lt;h2 id=&quot;2018-阴差阳错&quot;&gt;&lt;a href=&quot;#2018-阴差阳错&quot; class=&quot;headerlink&quot; title=&quot;2018 阴差阳错&quot;&gt;&lt;/a&gt;2018 阴差阳错&lt;/h2&gt;&lt;p&gt;微信小程序从 2017 年正式上线博得广大关注，在第二年 2018 年春季，微信就推出了全国高校微信小程序开发大赛，吸引了很多大学生参加，我就是其中一个。正在读大二的我报名了一位学长组织的 SRT(Student Research Training) 项目，原本的题目是要开发一款在线客服平台。然而当时已经把项目申请里面提到的客服平台提前完成了，于是我们真正做的就变成了小程序。甚至还用这个小程序参加了第一届的微信小程序大赛。&lt;/p&gt;</summary>
     
     
     
@@ -342,12 +342,12 @@
     <link href="https://powerfooi.github.io/2021/06/29/Graduation2021/"/>
     <id>https://powerfooi.github.io/2021/06/29/Graduation2021/</id>
     <published>2021-06-29T11:57:57.000Z</published>
-    <updated>2024-02-13T05:48:36.460Z</updated>
+    <updated>2024-04-08T14:13:29.637Z</updated>
     
     
     <summary type="html">&lt;p&gt;从 2016 年 8 月来到北京上学，到现在已经快要五年了。近期借着学校给 2020 届补办毕业典礼的契机，得以穿上学士服跟朋友们同学们一起拍毕业照。课程学习生活暂告一段落，心里有很多感慨不吐不快。&lt;/p&gt;
 &lt;p&gt;大概从以下几个方面来聊一聊吧：专业选择给我的影响，母校之于我的意义以及自己的成长和收获。&lt;/p&gt;
-&lt;h2 id=&quot;专业选择&quot;&gt;&lt;a href=&quot;#专业选择&quot; class=&quot;headerlink&quot; title=&quot;专业选择&quot;&gt;&lt;/a&gt;专业选择&lt;/h2&gt;&lt;p&gt;用为期两天的高考结束了漫长枯燥的高中生活之后，我进入了软件学院继续学习，专业名称是&lt;strong&gt;软件工程&lt;/strong&gt;。其实我填报志愿时对母校的专业不是很了解，在招生组老师和学长学姐的介绍之下选择了这个和计算机相关性最大的专业。（对没错，当时我们省不招计算机）&lt;/p&gt;</summary>
+&lt;h1 id=&quot;专业选择&quot;&gt;&lt;a href=&quot;#专业选择&quot; class=&quot;headerlink&quot; title=&quot;专业选择&quot;&gt;&lt;/a&gt;专业选择&lt;/h1&gt;&lt;p&gt;用为期两天的高考结束了漫长枯燥的高中生活之后，我进入了软件学院继续学习，专业名称是&lt;strong&gt;软件工程&lt;/strong&gt;。其实我填报志愿时对母校的专业不是很了解，在招生组老师和学长学姐的介绍之下选择了这个和计算机相关性最大的专业。（对没错，当时我们省不招计算机）&lt;/p&gt;</summary>
     
     
     
@@ -363,7 +363,7 @@
     <link href="https://powerfooi.github.io/2021/06/13/JourneyToTsingTao-2/"/>
     <id>https://powerfooi.github.io/2021/06/13/JourneyToTsingTao-2/</id>
     <published>2021-06-13T05:34:40.000Z</published>
-    <updated>2022-01-11T17:17:11.849Z</updated>
+    <updated>2024-04-08T14:13:42.998Z</updated>
     
     
     <summary type="html">&lt;p&gt;从青岛回来之后马上就是学生节和一系列的课程、任务和作业，根本没时间和心情来写这篇博客，所以青岛（二）这一篇拖了很久…&lt;br&gt;但是过了一个多月的时间很难再拾起当时的心情了，从拍下来的照片里才能记起来去过哪里有哪些好玩的地方，可以说是看图说话。反正也没人看，我直接这样随便写写就当给自己一个交代好了，不喜欢做半途而废的事情。正义虽然会迟到，但永远不会缺席。&lt;/p&gt;
@@ -385,10 +385,10 @@
     <link href="https://powerfooi.github.io/2021/05/05/JourneyToTsingTao-1/"/>
     <id>https://powerfooi.github.io/2021/05/05/JourneyToTsingTao-1/</id>
     <published>2021-05-04T16:03:59.000Z</published>
-    <updated>2022-01-11T17:17:11.811Z</updated>
+    <updated>2024-04-08T14:13:38.985Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;说在前面&quot;&gt;&lt;a href=&quot;#说在前面&quot; class=&quot;headerlink&quot; title=&quot;说在前面&quot;&gt;&lt;/a&gt;说在前面&lt;/h2&gt;&lt;p&gt;最近两个月遇到了不少的烦心事，让我颓废了好一阵子：懒得写博客，懒得跟人说话。很久没有到过海边，都要忘了在海边吹风是什么感觉了，趁着这次五一假期，和两个朋友一起去青岛玩了玩。虽然总共只待了 3 天 4 晚，但是还是有两点收获：&lt;/p&gt;
+    <summary type="html">&lt;h1 id=&quot;说在前面&quot;&gt;&lt;a href=&quot;#说在前面&quot; class=&quot;headerlink&quot; title=&quot;说在前面&quot;&gt;&lt;/a&gt;说在前面&lt;/h1&gt;&lt;p&gt;最近两个月遇到了不少的烦心事，让我颓废了好一阵子：懒得写博客，懒得跟人说话。很久没有到过海边，都要忘了在海边吹风是什么感觉了，趁着这次五一假期，和两个朋友一起去青岛玩了玩。虽然总共只待了 3 天 4 晚，但是还是有两点收获：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;青岛是一个不错的城市；&lt;/li&gt;
 &lt;li&gt;不要在黄金周出游；&lt;/li&gt;
@@ -411,11 +411,11 @@
     <link href="https://powerfooi.github.io/2021/03/28/EslintTaste/"/>
     <id>https://powerfooi.github.io/2021/03/28/EslintTaste/</id>
     <published>2021-03-28T02:14:19.000Z</published>
-    <updated>2022-01-11T17:17:11.798Z</updated>
+    <updated>2024-04-08T14:13:04.973Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h2&gt;&lt;p&gt;最近一两年写前端项目时一直都有接触 ESLint，很多文档和博客也一直都推荐使用开发者 ESLint，但是一直以来都没有好好地学习过它。最近因为使用 Nuxt 开发时 ESLint 缓存出问题导致浪费了半个小时，我越发觉得有必要深入地了解一下这个前端开发中最常使用的代码风格规范工具了。（不得不说，Nuxt 这个框架真的有点难用。）&lt;/p&gt;
-&lt;h2 id=&quot;ESLint-的用途和初衷&quot;&gt;&lt;a href=&quot;#ESLint-的用途和初衷&quot; class=&quot;headerlink&quot; title=&quot;ESLint 的用途和初衷&quot;&gt;&lt;/a&gt;ESLint 的用途和初衷&lt;/h2&gt;&lt;p&gt;ESLint 是在 ECMAScript&amp;#x2F;JavaScript 代码中识别和报告模式匹配的工具，它的目标是保证代码的一致性和避免错误。维基百科上这样解释的：lint, or a linter, is a static code analysis tool used to flag programming errors, bugs, stylistic errors, and suspicious constructs. 就是说 ESLint 是写 javascript 时用来分析静态代码是否存在语法错误、代码风格错误和可疑结构的工具。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h1 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h1&gt;&lt;p&gt;最近一两年写前端项目时一直都有接触 ESLint，很多文档和博客也一直都推荐使用开发者 ESLint，但是一直以来都没有好好地学习过它。最近因为使用 Nuxt 开发时 ESLint 缓存出问题导致浪费了半个小时，我越发觉得有必要深入地了解一下这个前端开发中最常使用的代码风格规范工具了。（不得不说，Nuxt 这个框架真的有点难用。）&lt;/p&gt;
+&lt;h1 id=&quot;ESLint-的用途和初衷&quot;&gt;&lt;a href=&quot;#ESLint-的用途和初衷&quot; class=&quot;headerlink&quot; title=&quot;ESLint 的用途和初衷&quot;&gt;&lt;/a&gt;ESLint 的用途和初衷&lt;/h1&gt;&lt;p&gt;ESLint 是在 ECMAScript&amp;#x2F;JavaScript 代码中识别和报告模式匹配的工具，它的目标是保证代码的一致性和避免错误。维基百科上这样解释的：lint, or a linter, is a static code analysis tool used to flag programming errors, bugs, stylistic errors, and suspicious constructs. 就是说 ESLint 是写 javascript 时用来分析静态代码是否存在语法错误、代码风格错误和可疑结构的工具。&lt;/p&gt;</summary>
     
     
     
@@ -431,11 +431,11 @@
     <link href="https://powerfooi.github.io/2021/03/27/Vue2React-1/"/>
     <id>https://powerfooi.github.io/2021/03/27/Vue2React-1/</id>
     <published>2021-03-27T11:58:13.000Z</published>
-    <updated>2022-01-11T17:17:11.859Z</updated>
+    <updated>2024-04-08T14:14:40.827Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;学习-React-的初衷&quot;&gt;&lt;a href=&quot;#学习-React-的初衷&quot; class=&quot;headerlink&quot; title=&quot;学习 React 的初衷&quot;&gt;&lt;/a&gt;学习 React 的初衷&lt;/h2&gt;&lt;p&gt;之前说过想要学习 React，秉持着边学边记录的想法，我随即开启了这篇帖子。&lt;/p&gt;
-&lt;h3 id=&quot;从-Vue-说起&quot;&gt;&lt;a href=&quot;#从-Vue-说起&quot; class=&quot;headerlink&quot; title=&quot;从 Vue 说起&quot;&gt;&lt;/a&gt;从 Vue 说起&lt;/h3&gt;&lt;p&gt;我是一个 Vue 的忠实粉丝，虽然没有全部读过 Vue 的源码，但是对它的基本实现原理和大体的使用方法还是比较熟悉的。我自己思考过，我觉得我喜欢 Vue 大概率是因为我最早接触的前端开发框架就是 Vue。记得是 2018 年参加一项 SRT 的时候，为了开发一款简单的后台管理系统，我开始学习 javascript 以及 Vue。&lt;/p&gt;
+    <summary type="html">&lt;h1 id=&quot;学习-React-的初衷&quot;&gt;&lt;a href=&quot;#学习-React-的初衷&quot; class=&quot;headerlink&quot; title=&quot;学习 React 的初衷&quot;&gt;&lt;/a&gt;学习 React 的初衷&lt;/h1&gt;&lt;p&gt;之前说过想要学习 React，秉持着边学边记录的想法，我随即开启了这篇帖子。&lt;/p&gt;
+&lt;h2 id=&quot;从-Vue-说起&quot;&gt;&lt;a href=&quot;#从-Vue-说起&quot; class=&quot;headerlink&quot; title=&quot;从 Vue 说起&quot;&gt;&lt;/a&gt;从 Vue 说起&lt;/h2&gt;&lt;p&gt;我是一个 Vue 的忠实粉丝，虽然没有全部读过 Vue 的源码，但是对它的基本实现原理和大体的使用方法还是比较熟悉的。我自己思考过，我觉得我喜欢 Vue 大概率是因为我最早接触的前端开发框架就是 Vue。记得是 2018 年参加一项 SRT 的时候，为了开发一款简单的后台管理系统，我开始学习 javascript 以及 Vue。&lt;/p&gt;
 &lt;p&gt;当时我还是第一次接触脚本语言，对没错，我接触 javascript 比接触 python 更早一些。熟悉了 C&amp;#x2F;C++ 的继承机制之后，突然要接受 javascript 的原型链继承一时间有点缓不过来。但是后来还是被磨平了棱角，被迫接受了原型这一设计。为了开发 Web 应用通过一位学长的介绍接触到了 Vue 这个框架。我直接惊为天人，还能这样写？因为根据我更早之前的一些浅显的印象，Web 开发是分别要编写 HTML，javascript 和 CSS 三种文件的。现在用 Vue 一个文件就可以生成一个完好的页面，着实非常酷炫。也是在 Vue 这里，我了解到了组件、生命周期、全局状态管理、前端路由等等一些重要的概念，所以先入为主地对 Vue 有强烈好感也正常吧。&lt;/p&gt;</summary>
     
     
@@ -454,7 +454,7 @@
     <link href="https://powerfooi.github.io/2021/03/14/MiniprogramFrameworks/"/>
     <id>https://powerfooi.github.io/2021/03/14/MiniprogramFrameworks/</id>
     <published>2021-03-14T06:29:34.000Z</published>
-    <updated>2022-01-11T17:17:11.850Z</updated>
+    <updated>2024-04-08T14:13:46.566Z</updated>
     
     
     <summary type="html">&lt;p&gt;在&lt;a href=&quot;/2021/01/21/WechatMiniprogram/&quot;&gt;上一篇博客《聊聊微信小程序及其框架》&lt;/a&gt;里面立了个调研微信小程序开发框架的 flag ，这篇博客就来填这个坑——我迫不及待地想要掌握一个能够“舒适编写”小程序代码的框架。&lt;/p&gt;
@@ -474,10 +474,10 @@
     <link href="https://powerfooi.github.io/2021/01/21/WechatMiniprogram/"/>
     <id>https://powerfooi.github.io/2021/01/21/WechatMiniprogram/</id>
     <published>2021-01-21T10:17:30.000Z</published>
-    <updated>2022-01-11T17:17:11.859Z</updated>
+    <updated>2024-04-08T14:14:45.741Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;为什么是微信小程序&quot;&gt;&lt;a href=&quot;#为什么是微信小程序&quot; class=&quot;headerlink&quot; title=&quot;为什么是微信小程序&quot;&gt;&lt;/a&gt;为什么是微信小程序&lt;/h2&gt;&lt;p&gt;微信很早就有一套专用的&lt;code&gt;JS-SDK&lt;/code&gt;在微信客户端上面使用，其开放了录音、二维码、地图、支付等几十个 API，能够支持微信服务号的运转，当时大部分支付、扫码等功能的对接方都是这样的服务号。但是在 2016 年 1 月 11 日微信之父张小龙表示服务号还不够优秀，微信正在研究一个新的服务形态，起名叫做“微信小程序”。在 2017 年 1 月 9 日，第一批微信小程序低调上线，而选择这一天也是为了向 iPhone 1 代的发布致敬。&lt;/p&gt;
+    <summary type="html">&lt;h1 id=&quot;为什么是微信小程序&quot;&gt;&lt;a href=&quot;#为什么是微信小程序&quot; class=&quot;headerlink&quot; title=&quot;为什么是微信小程序&quot;&gt;&lt;/a&gt;为什么是微信小程序&lt;/h1&gt;&lt;p&gt;微信很早就有一套专用的&lt;code&gt;JS-SDK&lt;/code&gt;在微信客户端上面使用，其开放了录音、二维码、地图、支付等几十个 API，能够支持微信服务号的运转，当时大部分支付、扫码等功能的对接方都是这样的服务号。但是在 2016 年 1 月 11 日微信之父张小龙表示服务号还不够优秀，微信正在研究一个新的服务形态，起名叫做“微信小程序”。在 2017 年 1 月 9 日，第一批微信小程序低调上线，而选择这一天也是为了向 iPhone 1 代的发布致敬。&lt;/p&gt;
 &lt;img src=&quot;/2021/01/21/WechatMiniprogram/iPhoneRelease.jpg&quot; class=&quot;&quot; title=&quot;向 iPhone 致敬&quot;&gt;</summary>
     
     
