@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>PowerfooI</title>
+  <title>PowerfooI 的个人博客</title>
   <icon>https://powerfooi.github.io/img/apple-touch-icon.png</icon>
-  
+  <subtitle>有趣的技术和精彩的生活</subtitle>
   <link href="https://powerfooi.github.io/atom.xml" rel="self"/>
   
   <link href="https://powerfooi.github.io/"/>
