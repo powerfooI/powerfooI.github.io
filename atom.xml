@@ -6,7 +6,7 @@
   <link href="https://powerfooi.github.io/atom.xml" rel="self"/>
   
   <link href="https://powerfooi.github.io/"/>
-  <updated>2024-06-04T14:48:47.850Z</updated>
+  <updated>2024-06-04T15:20:17.076Z</updated>
   <id>https://powerfooi.github.io/</id>
   
   <author>
@@ -21,10 +21,15 @@
     <link href="https://powerfooi.github.io/2024/05/19/RunAppSafelyInK8s/"/>
     <id>https://powerfooi.github.io/2024/05/19/RunAppSafelyInK8s/</id>
     <published>2024-05-19T13:54:57.000Z</published>
-    <updated>2024-06-04T14:48:47.850Z</updated>
+    <updated>2024-06-04T15:20:17.076Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h1&gt;&lt;p&gt;在近期的工作当中我大量接触 Kubernetes 集群以及容器化应用，在完成 Operator 拓展的开发和发布后，有海外用户反映在 OpenShift 平台上运行我们的容器化应用会遇到安全性问题，具体而言是我们的容器化应用默认需要 root 用户运行，而 OpenShift 平台如果不进行专门的设置是不允许容器使用 root 用户的。为了解决该用户的问题我们花费了一些功夫，正好我也想以此为契机进一步了解如何在 Kubernetes 中安全地运行应用。本文将记录我在调研和学习过程中的一些心得体会。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h1 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h1&gt;&lt;p&gt;在近期的工作当中我大量接触 Kubernetes 集群以及容器化应用，在完成 Operator 拓展的开发和发布后，有海外用户反映在 OpenShift 平台上运行我们的容器化应用会遇到安全性问题，具体而言是我们的容器化应用默认需要 root 用户运行，而 OpenShift 平台如果不进行专门的设置是不允许容器使用 root 用户的。为了解决该用户的问题我们花费了一些功夫，正好我也想以此为契机进一步了解如何在 Kubernetes 中安全地运行应用。本文将记录我在调研和学习过程中的一些心得体会。&lt;/p&gt;
+&lt;h1 id=&quot;容器安全&quot;&gt;&lt;a href=&quot;#容器安全&quot; class=&quot;headerlink&quot; title=&quot;容器安全&quot;&gt;&lt;/a&gt;容器安全&lt;/h1&gt;&lt;h2 id=&quot;Docker-Init-CLI&quot;&gt;&lt;a href=&quot;#Docker-Init-CLI&quot; class=&quot;headerlink&quot; title=&quot;Docker Init CLI&quot;&gt;&lt;/a&gt;Docker Init CLI&lt;/h2&gt;&lt;p&gt;Docker Init 命令是用来创建遵循最佳实践的 Docker 配置文件的命令行工具。在使用时通过选择需要运行的应用类型（例如 Go、Python、Node、Rust 等），Docker 会自动帮助用户创建出符合最佳实践的 Dockerfile 和 compose.yaml 文件。&lt;/p&gt;
+&lt;article class=&quot;message message-immersive is-success&quot;&gt;&lt;div class=&quot;message-body&quot;&gt;
+
+&lt;p&gt;&lt;i class=&quot;fa-solid fa-circle-info mr-2&quot;&gt;&lt;/i&gt;我的操作系统是 macOS, Docker 版本为 25.0.5，后续的版本中支持的应用类型可能会更多。&lt;/p&gt;
+&lt;/div&gt;&lt;/article&gt;</summary>
     
     
     
@@ -44,7 +49,7 @@
     <link href="https://powerfooi.github.io/2024/02/27/YetAnotherImporter-VSCode/"/>
     <id>https://powerfooi.github.io/2024/02/27/YetAnotherImporter-VSCode/</id>
     <published>2024-02-27T15:46:17.000Z</published>
-    <updated>2024-04-08T14:15:15.167Z</updated>
+    <updated>2024-06-04T15:20:01.702Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h1&gt;&lt;p&gt;这又是一次目标回收计划，早在 2021 年我还在广泛地写 TypeScript 代码时就想完成这样一个插件来满足我“不打断心流地引入模块”的需求，但“新建文件夹”之后我一直没有实际的迭代动作。直到最近高频写 Go 代码时，才真正意识到这个需求的重要性。于是我又重新打开了这个项目的代码仓库。&lt;/p&gt;
