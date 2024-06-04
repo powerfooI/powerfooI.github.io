@@ -6,7 +6,7 @@
   <link href="https://powerfooi.github.io/atom.xml" rel="self"/>
   
   <link href="https://powerfooi.github.io/"/>
-  <updated>2024-06-04T15:20:17.076Z</updated>
+  <updated>2024-06-04T15:24:52.271Z</updated>
   <id>https://powerfooi.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://powerfooi.github.io/2024/05/19/RunAppSafelyInK8s/"/>
     <id>https://powerfooi.github.io/2024/05/19/RunAppSafelyInK8s/</id>
     <published>2024-05-19T13:54:57.000Z</published>
-    <updated>2024-06-04T15:20:17.076Z</updated>
+    <updated>2024-06-04T15:24:52.271Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h1&gt;&lt;p&gt;在近期的工作当中我大量接触 Kubernetes 集群以及容器化应用，在完成 Operator 拓展的开发和发布后，有海外用户反映在 OpenShift 平台上运行我们的容器化应用会遇到安全性问题，具体而言是我们的容器化应用默认需要 root 用户运行，而 OpenShift 平台如果不进行专门的设置是不允许容器使用 root 用户的。为了解决该用户的问题我们花费了一些功夫，正好我也想以此为契机进一步了解如何在 Kubernetes 中安全地运行应用。本文将记录我在调研和学习过程中的一些心得体会。&lt;/p&gt;
