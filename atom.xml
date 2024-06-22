@@ -6,7 +6,7 @@
   <link href="https://powerfooi.github.io/atom.xml" rel="self"/>
   
   <link href="https://powerfooi.github.io/"/>
-  <updated>2024-06-04T15:24:52.271Z</updated>
+  <updated>2024-06-22T14:23:08.955Z</updated>
   <id>https://powerfooi.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>rFTP - 用 Rust 实现简单的 FTP Server (2)</title>
+    <link href="https://powerfooi.github.io/2024/06/22/RFTP-2/"/>
+    <id>https://powerfooi.github.io/2024/06/22/RFTP-2/</id>
+    <published>2024-06-22T15:48:27.000Z</published>
+    <updated>2024-06-22T14:23:08.955Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;前情提要&quot;&gt;&lt;a href=&quot;#前情提要&quot; class=&quot;headerlink&quot; title=&quot;前情提要&quot;&gt;&lt;/a&gt;前情提要&lt;/h1&gt;&lt;p&gt;在&lt;a href=&quot;/2023/01/20/RFTP-1&quot;&gt;上一篇文章&lt;/a&gt;中，我讲述了我为什么选择 Rust 作为学习计算机底层知识的工具，一些 Rust 的基础知识和我当时所遇到的困难。在这篇又是属于&lt;strong&gt;目标回收&lt;/strong&gt;的文章中，我将介绍最近的进展、Rust 开发的体验和下一步的计划。总的来说，用 Rust 写项目体验尚可，通过与编译器博弈而最终通过“考试”后，自己对 Rust 的理解也有了些许提升。&lt;/p&gt;
+&lt;h1 id=&quot;异步编程&quot;&gt;&lt;a href=&quot;#异步编程&quot; class=&quot;headerlink&quot; title=&quot;异步编程&quot;&gt;&lt;/a&gt;异步编程&lt;/h1&gt;&lt;p&gt;在 Rust 中，异步编程是通过 &lt;code&gt;Future&lt;/code&gt; 特征和 &lt;code&gt;async/await&lt;/code&gt; 语法糖来实现的。&lt;code&gt;Future&lt;/code&gt; 是 Rust 中的异步编程的基础，它代表了一个异步计算的结果或者异步任务的“承诺”，可以通过 &lt;code&gt;poll&lt;/code&gt; 方法来获取计算的结果。&lt;code&gt;async/await&lt;/code&gt; 语法糖则是为了让异步编程更加友好，通过 &lt;code&gt;async&lt;/code&gt; 关键字来定义异步函数，通过 &lt;code&gt;await&lt;/code&gt; 关键字来等待异步计算的结果。&lt;/p&gt;
+&lt;p&gt;越来越多的语言采纳异步编程机制，比如 Python 的 &lt;code&gt;asyncio&lt;/code&gt;、JavaScript 的 &lt;code&gt;Promise&lt;/code&gt;（或者是同样的 &lt;code&gt;async/await&lt;/code&gt;）、Golang 的 &lt;code&gt;goroutine&lt;/code&gt; 等等。异步编程的优势在于可以提高程序的并发性能，因为异步编程可以让程序在等待 I&amp;#x2F;O 操作的时候不阻塞，可以继续执行其他任务。Rust 的 Tokio 是一个基于 &lt;code&gt;Future&lt;/code&gt; 的异步编程框架，它提供了很多异步编程的工具，比如 &lt;code&gt;tokio::spawn&lt;/code&gt;、&lt;code&gt;tokio::net::TcpStream&lt;/code&gt; 等等。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="学习" scheme="https://powerfooi.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="Rust" scheme="https://powerfooi.github.io/tags/Rust/"/>
+    
+    <category term="后端开发" scheme="https://powerfooi.github.io/tags/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+  </entry>
   
   <entry>
     <title>在 Kubernetes 中安全地运行应用</title>
@@ -149,7 +172,7 @@
     <link href="https://powerfooi.github.io/2023/01/20/RFTP-1/"/>
     <id>https://powerfooi.github.io/2023/01/20/RFTP-1/</id>
     <published>2023-01-20T14:30:19.000Z</published>
-    <updated>2024-04-08T14:14:18.056Z</updated>
+    <updated>2024-06-22T14:07:35.454Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;开发动机&quot;&gt;&lt;a href=&quot;#开发动机&quot; class=&quot;headerlink&quot; title=&quot;开发动机&quot;&gt;&lt;/a&gt;开发动机&lt;/h1&gt;&lt;p&gt;核心动力是我有&lt;strong&gt;学会一门系统级编程语言的梦想&lt;/strong&gt;。所以计划用 Rust 为开发语言（手段）完成本科三年级计算机网络专业课上的 FTP 大作业（目标），学习 Rust 的同时巩固计网的基础知识。&lt;/p&gt;
@@ -474,26 +497,6 @@
     <category term="React" scheme="https://powerfooi.github.io/tags/React/"/>
     
     <category term="Vue" scheme="https://powerfooi.github.io/tags/Vue/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>小程序框架：WePY、uni-app 和 Taro</title>
-    <link href="https://powerfooi.github.io/2021/03/14/MiniprogramFrameworks/"/>
-    <id>https://powerfooi.github.io/2021/03/14/MiniprogramFrameworks/</id>
-    <published>2021-03-14T06:29:34.000Z</published>
-    <updated>2024-04-08T14:13:46.566Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;在&lt;a href=&quot;/2021/01/21/WechatMiniprogram/&quot;&gt;上一篇博客《聊聊微信小程序及其框架》&lt;/a&gt;里面立了个调研微信小程序开发框架的 flag ，这篇博客就来填这个坑——我迫不及待地想要掌握一个能够“舒适编写”小程序代码的框架。&lt;/p&gt;
-&lt;p&gt;我之前提到我最想先要了解的是 WePY 和 uni-app 这两个小程序框架，WePY 是微信官方出品的小程序框架，uni-app 是使用 Vue 开发小程序的最火的小程序框架，但是这两个框架都让我特别失望。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="学习" scheme="https://powerfooi.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="小程序" scheme="https://powerfooi.github.io/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
     
   </entry>
   

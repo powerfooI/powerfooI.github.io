@@ -1,3 +1,5 @@
+https://powerfooi.github.io/2024/06/22/RFTP-2/
+https://powerfooi.github.io/2023/01/20/RFTP-1/
 https://powerfooi.github.io/2024/05/19/RunAppSafelyInK8s/
 https://powerfooi.github.io/2024/02/27/YetAnotherImporter-VSCode/
 https://powerfooi.github.io/2022/06/03/WhyWeChooseGraphQL/
@@ -9,7 +11,6 @@ https://powerfooi.github.io/2021/01/21/WechatMiniprogram/
 https://powerfooi.github.io/2021/03/27/Vue2React-1/
 https://powerfooi.github.io/2021/07/23/UseGraphQLElegantly/
 https://powerfooi.github.io/2021/07/20/TheThirdMiniprogramCompetition/
-https://powerfooi.github.io/2023/01/20/RFTP-1/
 https://powerfooi.github.io/2024/02/03/ReadSourceOfControllerRuntime/
 https://powerfooi.github.io/2020/05/18/ReadRBAC/
 https://powerfooi.github.io/2022/03/12/PublishNpmPackageOfReactComponents/
@@ -51,6 +52,8 @@ https://powerfooi.github.io/tags/GraphQL/
 https://powerfooi.github.io/tags/Vue/
 https://powerfooi.github.io/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/
 https://powerfooi.github.io/tags/VSCode/
+https://powerfooi.github.io/tags/%E7%BD%91%E7%BB%9C/
+https://powerfooi.github.io/tags/Storage/
 https://powerfooi.github.io/categories/%E5%AD%A6%E4%B9%A0/
 https://powerfooi.github.io/categories/%E9%9A%8F%E7%AC%94/
 https://powerfooi.github.io/categories/%E6%B8%B8%E8%AE%B0/
