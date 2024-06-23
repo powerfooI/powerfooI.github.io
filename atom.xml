@@ -6,7 +6,7 @@
   <link href="https://powerfooi.github.io/atom.xml" rel="self"/>
   
   <link href="https://powerfooi.github.io/"/>
-  <updated>2024-06-22T14:23:08.955Z</updated>
+  <updated>2024-06-23T05:57:11.352Z</updated>
   <id>https://powerfooi.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://powerfooi.github.io/2024/06/22/RFTP-2/"/>
     <id>https://powerfooi.github.io/2024/06/22/RFTP-2/</id>
     <published>2024-06-22T15:48:27.000Z</published>
-    <updated>2024-06-22T14:23:08.955Z</updated>
+    <updated>2024-06-23T05:57:11.352Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;前情提要&quot;&gt;&lt;a href=&quot;#前情提要&quot; class=&quot;headerlink&quot; title=&quot;前情提要&quot;&gt;&lt;/a&gt;前情提要&lt;/h1&gt;&lt;p&gt;在&lt;a href=&quot;/2023/01/20/RFTP-1&quot;&gt;上一篇文章&lt;/a&gt;中，我讲述了我为什么选择 Rust 作为学习计算机底层知识的工具，一些 Rust 的基础知识和我当时所遇到的困难。在这篇又是属于&lt;strong&gt;目标回收&lt;/strong&gt;的文章中，我将介绍最近的进展、Rust 开发的体验和下一步的计划。总的来说，用 Rust 写项目体验尚可，通过与编译器博弈而最终通过“考试”后，自己对 Rust 的理解也有了些许提升。&lt;/p&gt;
