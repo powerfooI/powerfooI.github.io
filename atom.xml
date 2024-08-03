@@ -6,7 +6,7 @@
   <link href="https://powerfooi.github.io/atom.xml" rel="self"/>
   
   <link href="https://powerfooi.github.io/"/>
-  <updated>2024-06-23T05:57:11.352Z</updated>
+  <updated>2024-08-03T16:21:13.120Z</updated>
   <id>https://powerfooi.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>一起来做类型体操吧！😊</title>
+    <link href="https://powerfooi.github.io/2024/07/27/TypeGymnastics/"/>
+    <id>https://powerfooi.github.io/2024/07/27/TypeGymnastics/</id>
+    <published>2024-07-27T15:52:22.000Z</published>
+    <updated>2024-08-03T16:21:13.120Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;类型重要吗？&quot;&gt;&lt;a href=&quot;#类型重要吗？&quot; class=&quot;headerlink&quot; title=&quot;类型重要吗？&quot;&gt;&lt;/a&gt;类型重要吗？&lt;/h1&gt;&lt;p&gt;长话短说，类型很重要。&lt;/p&gt;
+&lt;h2 id=&quot;类型的重要性&quot;&gt;&lt;a href=&quot;#类型的重要性&quot; class=&quot;headerlink&quot; title=&quot;类型的重要性&quot;&gt;&lt;/a&gt;类型的重要性&lt;/h2&gt;&lt;h3 id=&quot;静态检查&quot;&gt;&lt;a href=&quot;#静态检查&quot; class=&quot;headerlink&quot; title=&quot;静态检查&quot;&gt;&lt;/a&gt;静态检查&lt;/h3&gt;&lt;p&gt;在编程中，类型往往是我们的第一道防线，它可以帮助我们在编译阶段就发现一些潜在的问题，避免一些不必要的错误。在过去，由于 JavaScript 是弱类型、解释型语言，所以在编译阶段无法发现一些类型相关的问题，这就需要我们在运行时进行一些类型检查，这样就会增加一些不必要的开销。而 TypeScript 则是由微软推出的、基于 JavaScript 的强类型语言，它可以在编译阶段就发现一些类型相关的问题，这样就可以避免一些不必要的错误。&lt;/p&gt;
+&lt;p&gt;当然也不是说用 JavaScript 就一定会出问题，但这&lt;strong&gt;要求编程者有更高的责任心和编程能力&lt;/strong&gt;，能够在编码阶段就提前规避问题，但对于大型项目来说，这是不现实的。不要完全相信任何人的代码，即使是自己的代码。因为人是会犯错的，需要加以约束。在 Web 应用开发过程中，JavaScript 代码如果访问了一个空对象的字段则会导致异常，如果程序有限定错误边界，那么这个错误可能会被忽略，但是如果没有限定错误边界，那么这个错误可能会导致程序崩溃，也就是页面白屏。而使用 TypeScript 配合 IDE 的类型检查、其他静态检查工具，可以在编码、编译和代码合并时就发现并修复这些问题。&lt;/p&gt;
+&lt;h3 id=&quot;类型即文档&quot;&gt;&lt;a href=&quot;#类型即文档&quot; class=&quot;headerlink&quot; title=&quot;类型即文档&quot;&gt;&lt;/a&gt;类型即文档&lt;/h3&gt;&lt;p&gt;另外，用弱类型语言编写的项目一旦涉及到多人协作（甚至是对于现在的自己和过去的自己来说也是如此），就会变得难以维护和协作，因为弱类型语言无法提供足够的信息，所以在多人协作时，很容易出现一些问题。而强类型语言则可以提供足够的信息，帮助我们更好地理解代码，提高代码的可维护性。所以我也认为“类型即文档”。&lt;/p&gt;
+&lt;p&gt;现在很多语言都有相关工具可以通过类型信息来生成文档，例如 openapi-generator、TypeDoc、JSDoc 等等，通过代码自动生成文档可以帮助开发者省去很多写文档的时间，同时也可以极大程度地提高交流效率。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="学习" scheme="https://powerfooi.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="前端开发" scheme="https://powerfooi.github.io/tags/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+    <category term="TypeScript" scheme="https://powerfooi.github.io/tags/TypeScript/"/>
+    
+    <category term="Docs" scheme="https://powerfooi.github.io/tags/Docs/"/>
+    
+  </entry>
   
   <entry>
     <title>rFTP - 用 Rust 实现简单的 FTP Server (2)</title>
@@ -474,29 +501,6 @@
     
     
     <category term="前端开发" scheme="https://powerfooi.github.io/tags/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>从 Vue 到 React —— 第一印象</title>
-    <link href="https://powerfooi.github.io/2021/03/27/Vue2React-1/"/>
-    <id>https://powerfooi.github.io/2021/03/27/Vue2React-1/</id>
-    <published>2021-03-27T11:58:13.000Z</published>
-    <updated>2024-04-08T14:14:40.827Z</updated>
-    
-    
-    <summary type="html">&lt;h1 id=&quot;学习-React-的初衷&quot;&gt;&lt;a href=&quot;#学习-React-的初衷&quot; class=&quot;headerlink&quot; title=&quot;学习 React 的初衷&quot;&gt;&lt;/a&gt;学习 React 的初衷&lt;/h1&gt;&lt;p&gt;之前说过想要学习 React，秉持着边学边记录的想法，我随即开启了这篇帖子。&lt;/p&gt;
-&lt;h2 id=&quot;从-Vue-说起&quot;&gt;&lt;a href=&quot;#从-Vue-说起&quot; class=&quot;headerlink&quot; title=&quot;从 Vue 说起&quot;&gt;&lt;/a&gt;从 Vue 说起&lt;/h2&gt;&lt;p&gt;我是一个 Vue 的忠实粉丝，虽然没有全部读过 Vue 的源码，但是对它的基本实现原理和大体的使用方法还是比较熟悉的。我自己思考过，我觉得我喜欢 Vue 大概率是因为我最早接触的前端开发框架就是 Vue。记得是 2018 年参加一项 SRT 的时候，为了开发一款简单的后台管理系统，我开始学习 javascript 以及 Vue。&lt;/p&gt;
-&lt;p&gt;当时我还是第一次接触脚本语言，对没错，我接触 javascript 比接触 python 更早一些。熟悉了 C&amp;#x2F;C++ 的继承机制之后，突然要接受 javascript 的原型链继承一时间有点缓不过来。但是后来还是被磨平了棱角，被迫接受了原型这一设计。为了开发 Web 应用通过一位学长的介绍接触到了 Vue 这个框架。我直接惊为天人，还能这样写？因为根据我更早之前的一些浅显的印象，Web 开发是分别要编写 HTML，javascript 和 CSS 三种文件的。现在用 Vue 一个文件就可以生成一个完好的页面，着实非常酷炫。也是在 Vue 这里，我了解到了组件、生命周期、全局状态管理、前端路由等等一些重要的概念，所以先入为主地对 Vue 有强烈好感也正常吧。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="学习" scheme="https://powerfooi.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="React" scheme="https://powerfooi.github.io/tags/React/"/>
-    
-    <category term="Vue" scheme="https://powerfooi.github.io/tags/Vue/"/>
     
   </entry>
   
