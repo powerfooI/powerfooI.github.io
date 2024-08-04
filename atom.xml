@@ -6,7 +6,7 @@
   <link href="https://powerfooi.github.io/atom.xml" rel="self"/>
   
   <link href="https://powerfooi.github.io/"/>
-  <updated>2024-08-03T16:29:19.527Z</updated>
+  <updated>2024-08-04T02:31:26.824Z</updated>
   <id>https://powerfooi.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://powerfooi.github.io/2024/07/27/TypeGymnastics/"/>
     <id>https://powerfooi.github.io/2024/07/27/TypeGymnastics/</id>
     <published>2024-07-27T15:52:22.000Z</published>
-    <updated>2024-08-03T16:29:19.527Z</updated>
+    <updated>2024-08-04T02:31:26.824Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;类型重要吗？&quot;&gt;&lt;a href=&quot;#类型重要吗？&quot; class=&quot;headerlink&quot; title=&quot;类型重要吗？&quot;&gt;&lt;/a&gt;类型重要吗？&lt;/h1&gt;&lt;p&gt;长话短说，类型很重要。&lt;/p&gt;
@@ -35,11 +35,13 @@
     <category term="学习" scheme="https://powerfooi.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="前端开发" scheme="https://powerfooi.github.io/tags/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
-    
     <category term="TypeScript" scheme="https://powerfooi.github.io/tags/TypeScript/"/>
     
     <category term="Docs" scheme="https://powerfooi.github.io/tags/Docs/"/>
+    
+    <category term="Coding" scheme="https://powerfooi.github.io/tags/Coding/"/>
+    
+    <category term="Python" scheme="https://powerfooi.github.io/tags/Python/"/>
     
   </entry>
   
@@ -48,7 +50,7 @@
     <link href="https://powerfooi.github.io/2024/06/22/RFTP-2/"/>
     <id>https://powerfooi.github.io/2024/06/22/RFTP-2/</id>
     <published>2024-06-22T15:48:27.000Z</published>
-    <updated>2024-06-23T05:57:11.352Z</updated>
+    <updated>2024-08-04T02:30:48.238Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;前情提要&quot;&gt;&lt;a href=&quot;#前情提要&quot; class=&quot;headerlink&quot; title=&quot;前情提要&quot;&gt;&lt;/a&gt;前情提要&lt;/h1&gt;&lt;p&gt;在&lt;a href=&quot;/2023/01/20/RFTP-1&quot;&gt;上一篇文章&lt;/a&gt;中，我讲述了我为什么选择 Rust 作为学习计算机底层知识的工具，一些 Rust 的基础知识和我当时所遇到的困难。在这篇又是属于&lt;strong&gt;目标回收&lt;/strong&gt;的文章中，我将介绍最近的进展、Rust 开发的体验和下一步的计划。总的来说，用 Rust 写项目体验尚可，通过与编译器博弈而最终通过“考试”后，自己对 Rust 的理解也有了些许提升。&lt;/p&gt;
@@ -62,7 +64,7 @@
     
     <category term="Rust" scheme="https://powerfooi.github.io/tags/Rust/"/>
     
-    <category term="后端开发" scheme="https://powerfooi.github.io/tags/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    <category term="Network" scheme="https://powerfooi.github.io/tags/Network/"/>
     
   </entry>
   
@@ -71,7 +73,7 @@
     <link href="https://powerfooi.github.io/2024/05/19/RunAppSafelyInK8s/"/>
     <id>https://powerfooi.github.io/2024/05/19/RunAppSafelyInK8s/</id>
     <published>2024-05-19T13:54:57.000Z</published>
-    <updated>2024-06-04T15:24:52.271Z</updated>
+    <updated>2024-08-04T02:38:54.165Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h1&gt;&lt;p&gt;在近期的工作当中我大量接触 Kubernetes 集群以及容器化应用，在完成 Operator 拓展的开发和发布后，有海外用户反映在 OpenShift 平台上运行我们的容器化应用会遇到安全性问题，具体而言是我们的容器化应用默认需要 root 用户运行，而 OpenShift 平台如果不进行专门的设置是不允许容器使用 root 用户的。为了解决该用户的问题我们花费了一些功夫，正好我也想以此为契机进一步了解如何在 Kubernetes 中安全地运行应用。本文将记录我在调研和学习过程中的一些心得体会。&lt;/p&gt;
@@ -86,11 +88,11 @@
     <category term="学习" scheme="https://powerfooi.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="K8s" scheme="https://powerfooi.github.io/tags/K8s/"/>
+    <category term="CloudNative" scheme="https://powerfooi.github.io/tags/CloudNative/"/>
     
-    <category term="安全" scheme="https://powerfooi.github.io/tags/%E5%AE%89%E5%85%A8/"/>
+    <category term="Security" scheme="https://powerfooi.github.io/tags/Security/"/>
     
-    <category term="访问控制" scheme="https://powerfooi.github.io/tags/%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6/"/>
+    <category term="AccessControl" scheme="https://powerfooi.github.io/tags/AccessControl/"/>
     
   </entry>
   
@@ -99,7 +101,7 @@
     <link href="https://powerfooi.github.io/2024/02/27/YetAnotherImporter-VSCode/"/>
     <id>https://powerfooi.github.io/2024/02/27/YetAnotherImporter-VSCode/</id>
     <published>2024-02-27T15:46:17.000Z</published>
-    <updated>2024-06-04T15:20:01.702Z</updated>
+    <updated>2024-08-04T02:33:45.193Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h1&gt;&lt;p&gt;这又是一次目标回收计划，早在 2021 年我还在广泛地写 TypeScript 代码时就想完成这样一个插件来满足我“不打断心流地引入模块”的需求，但“新建文件夹”之后我一直没有实际的迭代动作。直到最近高频写 Go 代码时，才真正意识到这个需求的重要性。于是我又重新打开了这个项目的代码仓库。&lt;/p&gt;
@@ -113,9 +115,13 @@
     <category term="学习" scheme="https://powerfooi.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="前端开发" scheme="https://powerfooi.github.io/tags/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
-    
     <category term="VSCode" scheme="https://powerfooi.github.io/tags/VSCode/"/>
+    
+    <category term="前端" scheme="https://powerfooi.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="Tools" scheme="https://powerfooi.github.io/tags/Tools/"/>
+    
+    <category term="Go" scheme="https://powerfooi.github.io/tags/Go/"/>
     
   </entry>
   
@@ -124,7 +130,7 @@
     <link href="https://powerfooi.github.io/2024/02/03/ReadSourceOfControllerRuntime/"/>
     <id>https://powerfooi.github.io/2024/02/03/ReadSourceOfControllerRuntime/</id>
     <published>2024-02-03T13:56:52.000Z</published>
-    <updated>2024-04-08T14:14:12.175Z</updated>
+    <updated>2024-08-04T02:40:36.185Z</updated>
     
     
     <summary type="html">&lt;p&gt;Operator 是 Kubernetes 用来拓展其 API 的一种开发范式（Pattern），其核心是定义若干的自定义资源及其对应的资源控制器，当这些资源发生变化时其对应的控制器对变化进行调解（Reconcile），最终使得实际状态与预期状态达成一致。K8s-sigs 推出的 &lt;a href=&quot;https://book.kubebuilder.io/&quot;&gt;kubebuilder&lt;/a&gt; 是一个用于构建 Operator 应用的框架，和 &lt;a href=&quot;https://github.com/operator-framework/operator-sdk&quot;&gt;Operator-SDK&lt;/a&gt; 一样都依赖了 &lt;a href=&quot;https://github.com/kubernetes-sigs/controller-runtime&quot;&gt;controller-runtime&lt;/a&gt;，提供了高级 API 和抽象，让开发者更直观地编写操作逻辑，并提供用于快速启动新项目的脚手架和代码生成工具。&lt;/p&gt;
@@ -135,9 +141,9 @@
     <category term="学习" scheme="https://powerfooi.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="K8s" scheme="https://powerfooi.github.io/tags/K8s/"/>
+    <category term="CloudNative" scheme="https://powerfooi.github.io/tags/CloudNative/"/>
     
-    <category term="源码阅读" scheme="https://powerfooi.github.io/tags/%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB/"/>
+    <category term="Reading" scheme="https://powerfooi.github.io/tags/Reading/"/>
     
   </entry>
   
@@ -146,7 +152,7 @@
     <link href="https://powerfooi.github.io/2024/01/13/WhatHappensWhenK8s/"/>
     <id>https://powerfooi.github.io/2024/01/13/WhatHappensWhenK8s/</id>
     <published>2024-01-13T14:15:49.000Z</published>
-    <updated>2024-04-08T14:14:52.387Z</updated>
+    <updated>2024-08-04T02:32:30.245Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -164,11 +170,9 @@
     <category term="学习" scheme="https://powerfooi.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="CI/CD" scheme="https://powerfooi.github.io/tags/CI-CD/"/>
+    <category term="CloudNative" scheme="https://powerfooi.github.io/tags/CloudNative/"/>
     
-    <category term="文档阅读" scheme="https://powerfooi.github.io/tags/%E6%96%87%E6%A1%A3%E9%98%85%E8%AF%BB/"/>
-    
-    <category term="K8s" scheme="https://powerfooi.github.io/tags/K8s/"/>
+    <category term="Reading" scheme="https://powerfooi.github.io/tags/Reading/"/>
     
   </entry>
   
@@ -177,7 +181,7 @@
     <link href="https://powerfooi.github.io/2023/12/31/WhiteDeerPlain/"/>
     <id>https://powerfooi.github.io/2023/12/31/WhiteDeerPlain/</id>
     <published>2023-12-31T14:49:03.000Z</published>
-    <updated>2024-04-08T14:15:00.694Z</updated>
+    <updated>2024-08-04T02:32:54.873Z</updated>
     
     
     <summary type="html">&lt;p&gt;陈忠实先生花了六年时间著出《白鹿原》这部巨作，而我却前前后用了近两年时间才读完这部作品，实在惭愧。因为用的是“微信读书”读的电子书，阅读记录都有存储在其平台上，才能得知我原来在 2022 年看完《杀死一只知更鸟》之后就开启了《白鹿原》。然而，过去在学校因为事情众多难以聚焦到“读闲书”上，所以 2022 年的 2 月开启这部书的阅读，走入白鹿原的广袤天地之后就一度搁置。&lt;/p&gt;
@@ -199,7 +203,7 @@
     <link href="https://powerfooi.github.io/2023/01/20/RFTP-1/"/>
     <id>https://powerfooi.github.io/2023/01/20/RFTP-1/</id>
     <published>2023-01-20T14:30:19.000Z</published>
-    <updated>2024-06-22T14:07:35.454Z</updated>
+    <updated>2024-08-04T02:30:45.181Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;开发动机&quot;&gt;&lt;a href=&quot;#开发动机&quot; class=&quot;headerlink&quot; title=&quot;开发动机&quot;&gt;&lt;/a&gt;开发动机&lt;/h1&gt;&lt;p&gt;核心动力是我有&lt;strong&gt;学会一门系统级编程语言的梦想&lt;/strong&gt;。所以计划用 Rust 为开发语言（手段）完成本科三年级计算机网络专业课上的 FTP 大作业（目标），学习 Rust 的同时巩固计网的基础知识。&lt;/p&gt;
@@ -213,7 +217,7 @@
     
     <category term="Rust" scheme="https://powerfooi.github.io/tags/Rust/"/>
     
-    <category term="后端开发" scheme="https://powerfooi.github.io/tags/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    <category term="Network" scheme="https://powerfooi.github.io/tags/Network/"/>
     
   </entry>
   
@@ -222,7 +226,7 @@
     <link href="https://powerfooi.github.io/2022/12/30/Goodbye2022/"/>
     <id>https://powerfooi.github.io/2022/12/30/Goodbye2022/</id>
     <published>2022-12-30T14:32:17.000Z</published>
-    <updated>2022-12-30T16:42:07.413Z</updated>
+    <updated>2024-08-04T02:25:57.034Z</updated>
     
     
     <summary type="html">&lt;p&gt;今天是2022年12月31日，2022年的最后一天，先给年初的自己说一声对不起：年初立的 Flag 基本没有一条是顺利达成的，我以为目标量化以后就可以逐项实现，但还是高估自己的执行力和时间充裕程度了。今年是我第二个本命年，本应过的虎虎生风，生龙活虎，但是现实没有我想象中那么精彩，但有一些事情还是值得记载。这一年我在专业上经历了迷茫，在情感上遇到波折，在工作上也遭遇了挑战，大环境上也在年底迎来了疫情政策的转折。我想对这一年做个小小的总结，也对明年做些展望和规划。&lt;/p&gt;</summary>
@@ -241,7 +245,7 @@
     <link href="https://powerfooi.github.io/2022/06/03/WhyWeChooseGraphQL/"/>
     <id>https://powerfooi.github.io/2022/06/03/WhyWeChooseGraphQL/</id>
     <published>2022-06-03T15:32:11.000Z</published>
-    <updated>2024-04-08T14:15:08.601Z</updated>
+    <updated>2024-08-04T02:33:14.515Z</updated>
     
     
     <summary type="html">&lt;p&gt;这篇博客其实是以一次公司内的技术分享为基础做的调研和总结归纳，包含了我自己很多不成熟的观点看法。这次分享主要是想向新同事介绍为什么我们选择在项目中大规模使用 GraphQL 而不是更传统更简单的 RESTful API。&lt;/p&gt;
@@ -256,9 +260,9 @@
     <category term="学习" scheme="https://powerfooi.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="前端开发" scheme="https://powerfooi.github.io/tags/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
-    
     <category term="GraphQL" scheme="https://powerfooi.github.io/tags/GraphQL/"/>
+    
+    <category term="前端" scheme="https://powerfooi.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
@@ -267,7 +271,7 @@
     <link href="https://powerfooi.github.io/2022/05/09/GoodbyeFrontEnd/"/>
     <id>https://powerfooi.github.io/2022/05/09/GoodbyeFrontEnd/</id>
     <published>2022-05-09T14:33:27.000Z</published>
-    <updated>2024-04-08T14:13:25.192Z</updated>
+    <updated>2024-08-04T02:26:36.476Z</updated>
     
     
     <summary type="html">&lt;p&gt;断断续续写前端项目也有好几年了，从大二接触 Javascript 和 Vue 时的兴奋，到接触小程序和 React 时的“渐入佳境”，再到这段时间的感到无比疲惫，我希望我在前端开发上大规模投入的阶段先暂告一段落了。为什么有这样的疲惫感呢？原因总结起来有以下几点：&lt;/p&gt;
@@ -282,9 +286,9 @@
     <category term="随笔" scheme="https://powerfooi.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
-    <category term="前端开发" scheme="https://powerfooi.github.io/tags/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
-    
     <category term="胡思乱想" scheme="https://powerfooi.github.io/tags/%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/"/>
+    
+    <category term="前端" scheme="https://powerfooi.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
@@ -293,23 +297,23 @@
     <link href="https://powerfooi.github.io/2022/03/12/PublishNpmPackageOfReactComponents/"/>
     <id>https://powerfooi.github.io/2022/03/12/PublishNpmPackageOfReactComponents/</id>
     <published>2022-03-12T09:24:00.000Z</published>
-    <updated>2024-04-08T14:13:55.453Z</updated>
+    <updated>2024-08-04T02:30:36.807Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;起因&quot;&gt;&lt;a href=&quot;#起因&quot; class=&quot;headerlink&quot; title=&quot;起因&quot;&gt;&lt;/a&gt;起因&lt;/h1&gt;&lt;p&gt;「代码写了不测等于白写」我总是跟身边的朋友这样调侃。然而我们写前端项目时很难在代码层面进行测试，大部分函数都是基于事件响应，接收用户输入的参数，并对页面组件或数据产生一定副作用，Mock 起来很麻烦。所以前端项目的测试往往都是端到端测试，即模拟用户在页面上进行操作，测试路径越离奇越好，因为无法提前预知用户会如何使用，所以最好在测试时可劲儿造。&lt;/p&gt;
 &lt;p&gt;曾经还会想着用 Cypress 等自动化工具进行端到端测试，例如用代码定义【打开某页面–&amp;gt;拖拽滑动条至页面下方–&amp;gt;点击输入框使之获取焦点–&amp;gt;输入“Hello world”–&amp;gt;按下回车–&amp;gt;等待页面响应–&amp;gt;观察响应是否符合预期】这个过程，但只要遇到元素稍多的页面，编写测试用例的过程就会变得机械呆板。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;如果组件足够小，内容够聚焦，那么测一下也不是不可以。&lt;/strong&gt;因为想在不同的项目中复用同一套富文本编辑组件(体积比较大，且包含机器构建的JS)，我把它单独提出来作为 NPM 包发布以便各个项目安装使用。这当中编码和测试都遇到了一些问题。&lt;/p&gt;</summary>
+&lt;p&gt;&lt;strong&gt;如果组件足够小，内容够聚焦，那么测一下也不是不可以。&lt;/strong&gt;因为想在不同的项目中复用同一套富文本编辑组件(体积比较大，且包含机器构建的 JS)，我把它单独提出来作为 NPM 包发布以便各个项目安装使用。这当中编码和测试都遇到了一些问题。&lt;/p&gt;</summary>
     
     
     
     <category term="学习" scheme="https://powerfooi.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="前端开发" scheme="https://powerfooi.github.io/tags/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
-    
     <category term="React" scheme="https://powerfooi.github.io/tags/React/"/>
     
     <category term="NPM" scheme="https://powerfooi.github.io/tags/NPM/"/>
+    
+    <category term="前端" scheme="https://powerfooi.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
@@ -321,7 +325,7 @@
     <updated>2022-01-14T16:00:00.000Z</updated>
     
     
-    <summary type="html">&lt;p&gt;新年的元月已然过半，但直到现在我才能说我完成了上一年的工作。我一直在追求“忙的时候闲一点，闲的时候忙一点”的从容，这一年大部分时间是保持着这个状态的，让我非常欣慰。但是真正从学生身份蜕变成“开发者”“软件工程师”（或者“社畜”？其实即使是自嘲我也不太喜欢这个词），还是有着截然不同的感受和体会的。对于2022也有着无数的憧憬。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;新年的元月已然过半，但直到现在我才能说我完成了上一年的工作。我一直在追求“忙的时候闲一点，闲的时候忙一点”的从容，这一年大部分时间是保持着这个状态的，让我非常欣慰。但是真正从学生身份蜕变成“开发者”“软件工程师”（或者“社畜”？其实即使是自嘲我也不太喜欢这个词），还是有着截然不同的感受和体会的。对于 2022 也有着无数的憧憬。&lt;/p&gt;</summary>
     
     
     
@@ -337,16 +341,16 @@
     <link href="https://powerfooi.github.io/2021/08/15/NginxBasics-1/"/>
     <id>https://powerfooi.github.io/2021/08/15/NginxBasics-1/</id>
     <published>2021-08-15T07:35:11.000Z</published>
-    <updated>2024-04-08T14:13:50.536Z</updated>
+    <updated>2024-08-04T02:30:24.565Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h1&gt;&lt;p&gt;Nginx 读作 &lt;code&gt;engine x&lt;/code&gt;，是一个高性能的 HTTP 和反向代理服务器，还能用作邮件代理服务器或是通用的 TCP&amp;#x2F;UDP 代理服务器。有过后端程序部署经历的同学应该会有所了解，用 Nginx 能够很方便地完成反向代理、服务静态文件、实现负载均衡、接入HTTPS协议等任务。&lt;/p&gt;
+    <summary type="html">&lt;h1 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h1&gt;&lt;p&gt;Nginx 读作 &lt;code&gt;engine x&lt;/code&gt;，是一个高性能的 HTTP 和反向代理服务器，还能用作邮件代理服务器或是通用的 TCP&amp;#x2F;UDP 代理服务器。有过后端程序部署经历的同学应该会有所了解，用 Nginx 能够很方便地完成反向代理、服务静态文件、实现负载均衡、接入 HTTPS 协议等任务。&lt;/p&gt;
 &lt;p&gt;根据官方文档里面写到的，除了提供静态文件服务、反向代理和负载均衡等功能之外，还提供以下包括单不限于若干个方面的支持：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;FastCGI, uwsgi 之类服务器和反向代理服务器的缓存支持；&lt;/li&gt;
-&lt;li&gt;以域名&amp;#x2F;IP为基础的虚拟服务器、Keep-alive 和流水线链接的支持；&lt;/li&gt;
+&lt;li&gt;以域名&amp;#x2F;IP 为基础的虚拟服务器、Keep-alive 和流水线链接的支持；&lt;/li&gt;
 &lt;li&gt;访问日志、错误日志的输出和格式化，带缓存的日志写机制；&lt;/li&gt;
-&lt;li&gt;3xx-5xx 错误码重定向，根据正则表达式重写URI (Rewrite)；&lt;/li&gt;
+&lt;li&gt;3xx-5xx 错误码重定向，根据正则表达式重写 URI (Rewrite)；&lt;/li&gt;
 &lt;li&gt;基于客户端地址的访问控制和函数调用；&lt;/li&gt;
 &lt;li&gt;HTTP referer 的验证、支持除了 GET 外的几种 HTTP 方法： PUT&amp;#x2F;DELETE&amp;#x2F;COPY&amp;#x2F;MOVE&amp;#x2F;MKCOL；&lt;/li&gt;
 &lt;li&gt;FLV&amp;#x2F;MP4 的流播放、响应限流、限制单点的并发连接数和请求数；&lt;/li&gt;
@@ -359,11 +363,9 @@
     <category term="学习" scheme="https://powerfooi.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="部署" scheme="https://powerfooi.github.io/tags/%E9%83%A8%E7%BD%B2/"/>
+    <category term="Deployment" scheme="https://powerfooi.github.io/tags/Deployment/"/>
     
-    <category term="Nginx" scheme="https://powerfooi.github.io/tags/Nginx/"/>
-    
-    <category term="文档阅读" scheme="https://powerfooi.github.io/tags/%E6%96%87%E6%A1%A3%E9%98%85%E8%AF%BB/"/>
+    <category term="Web Server" scheme="https://powerfooi.github.io/tags/Web-Server/"/>
     
   </entry>
   
@@ -372,7 +374,7 @@
     <link href="https://powerfooi.github.io/2021/07/23/UseGraphQLElegantly/"/>
     <id>https://powerfooi.github.io/2021/07/23/UseGraphQLElegantly/</id>
     <published>2021-07-23T05:38:11.000Z</published>
-    <updated>2024-04-08T14:14:37.298Z</updated>
+    <updated>2024-08-04T02:31:29.259Z</updated>
     
     
     <summary type="html">&lt;p&gt;关于 GraphQL，它的&lt;a href=&quot;https://graphql.org/&quot;&gt;官网&lt;/a&gt;(需要科学上网)是这样介绍的：&lt;/p&gt;
@@ -387,9 +389,9 @@
     <category term="学习" scheme="https://powerfooi.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="前端开发" scheme="https://powerfooi.github.io/tags/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
-    
     <category term="GraphQL" scheme="https://powerfooi.github.io/tags/GraphQL/"/>
+    
+    <category term="前端" scheme="https://powerfooi.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
@@ -398,7 +400,7 @@
     <link href="https://powerfooi.github.io/2021/07/20/TheThirdMiniprogramCompetition/"/>
     <id>https://powerfooi.github.io/2021/07/20/TheThirdMiniprogramCompetition/</id>
     <published>2021-07-20T13:24:40.000Z</published>
-    <updated>2024-04-08T14:14:30.317Z</updated>
+    <updated>2024-08-04T02:31:10.735Z</updated>
     
     
     <summary type="html">&lt;p&gt;从本科到现在总共参加过三次微信小程序大赛，前几天刚完成赛区决赛的答辩，心想着以后应该都不想再参加了，于是想记录一下这次的参赛经历。&lt;/p&gt;
@@ -412,6 +414,8 @@
     <category term="胡思乱想" scheme="https://powerfooi.github.io/tags/%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/"/>
     
     <category term="小程序" scheme="https://powerfooi.github.io/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    
+    <category term="前端" scheme="https://powerfooi.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
@@ -441,7 +445,7 @@
     <link href="https://powerfooi.github.io/2021/06/13/JourneyToTsingTao-2/"/>
     <id>https://powerfooi.github.io/2021/06/13/JourneyToTsingTao-2/</id>
     <published>2021-06-13T05:34:40.000Z</published>
-    <updated>2024-04-08T14:13:42.998Z</updated>
+    <updated>2024-08-04T02:30:20.609Z</updated>
     
     
     <summary type="html">&lt;p&gt;从青岛回来之后马上就是学生节和一系列的课程、任务和作业，根本没时间和心情来写这篇博客，所以青岛（二）这一篇拖了很久…&lt;br&gt;但是过了一个多月的时间很难再拾起当时的心情了，从拍下来的照片里才能记起来去过哪里有哪些好玩的地方，可以说是看图说话。反正也没人看，我直接这样随便写写就当给自己一个交代好了，不喜欢做半途而废的事情。正义虽然会迟到，但永远不会缺席。&lt;/p&gt;
@@ -463,7 +467,7 @@
     <link href="https://powerfooi.github.io/2021/05/05/JourneyToTsingTao-1/"/>
     <id>https://powerfooi.github.io/2021/05/05/JourneyToTsingTao-1/</id>
     <published>2021-05-04T16:03:59.000Z</published>
-    <updated>2024-04-08T14:13:38.985Z</updated>
+    <updated>2024-08-04T02:31:06.891Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;说在前面&quot;&gt;&lt;a href=&quot;#说在前面&quot; class=&quot;headerlink&quot; title=&quot;说在前面&quot;&gt;&lt;/a&gt;说在前面&lt;/h1&gt;&lt;p&gt;最近两个月遇到了不少的烦心事，让我颓废了好一阵子：懒得写博客，懒得跟人说话。很久没有到过海边，都要忘了在海边吹风是什么感觉了，趁着这次五一假期，和两个朋友一起去青岛玩了玩。虽然总共只待了 3 天 4 晚，但是还是有两点收获：&lt;/p&gt;
@@ -489,7 +493,7 @@
     <link href="https://powerfooi.github.io/2021/03/28/EslintTaste/"/>
     <id>https://powerfooi.github.io/2021/03/28/EslintTaste/</id>
     <published>2021-03-28T02:14:19.000Z</published>
-    <updated>2024-04-08T14:13:04.973Z</updated>
+    <updated>2024-08-04T02:34:26.824Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h1&gt;&lt;p&gt;最近一两年写前端项目时一直都有接触 ESLint，很多文档和博客也一直都推荐使用开发者 ESLint，但是一直以来都没有好好地学习过它。最近因为使用 Nuxt 开发时 ESLint 缓存出问题导致浪费了半个小时，我越发觉得有必要深入地了解一下这个前端开发中最常使用的代码风格规范工具了。（不得不说，Nuxt 这个框架真的有点难用。）&lt;/p&gt;
@@ -500,7 +504,9 @@
     <category term="学习" scheme="https://powerfooi.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="前端开发" scheme="https://powerfooi.github.io/tags/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    <category term="ECMAScript" scheme="https://powerfooi.github.io/tags/ECMAScript/"/>
+    
+    <category term="Lint" scheme="https://powerfooi.github.io/tags/Lint/"/>
     
   </entry>
   
