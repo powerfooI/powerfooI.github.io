@@ -6,7 +6,7 @@
   <link href="https://powerfooi.github.io/atom.xml" rel="self"/>
   
   <link href="https://powerfooi.github.io/"/>
-  <updated>2024-08-04T02:31:26.824Z</updated>
+  <updated>2024-09-17T13:15:07.346Z</updated>
   <id>https://powerfooi.github.io/</id>
   
   <author>
@@ -17,11 +17,37 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>记黑神话悟空云通关☁️</title>
+    <link href="https://powerfooi.github.io/2024/09/12/BlackMythWukong/"/>
+    <id>https://powerfooi.github.io/2024/09/12/BlackMythWukong/</id>
+    <published>2024-09-12T14:55:54.000Z</published>
+    <updated>2024-09-17T13:15:07.346Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;第一印象&quot;&gt;&lt;a href=&quot;#第一印象&quot; class=&quot;headerlink&quot; title=&quot;第一印象&quot;&gt;&lt;/a&gt;第一印象&lt;/h1&gt;&lt;p&gt;游戏科学在 2020 年 8 月放出黑神话悟空第一个实机演示视频以吸引游戏人才，“被迫”开始了对外宣传，到今年 2024 年 8 月 20 日正式发售，经历了四年的时间。这四年里，每年的 8 月 20 日都会释放出新的实机演示视频，赚足了单机游戏玩家的期待，其中自然也包括了我。&lt;/p&gt;
+&lt;p&gt;我在小学时期玩过很多游戏，各种各样的游戏都爱玩，仙剑奇侠传、波斯王子、英雄无敌、魔兽争霸、鬼泣等，对单机游戏是有足够好感的。中学之后娱乐时间变少后玩游戏的时间就趋近于零了，这个习惯一直延续到了大学毕业。在研究生阶段中期，多多少少受到些黑神话悟空的影响，我又开始断断续续接触了几款动作 RPG 游戏，例如古剑奇谭三、塞尔达传说、只狼、黑魂三、刺客信条·奥德赛等。&lt;/p&gt;
+&lt;p&gt;从释出的实机演示视频来看，黑悟空与近期接触过的只狼比较相似，战斗系统、画面风格、故事背景（都具有东方特色）等，而只狼是我玩过类似游戏里最喜欢的。黑悟空刺激的战斗系统搭配上西游记的故事背景，进一步拔高了我对黑悟空的期待。&lt;/p&gt;
+&lt;img src=&quot;/2024/09/12/BlackMythWukong/tianzhending.jpg&quot; class=&quot;&quot; title=&quot;通往天真顶的道路一隅&quot;&gt;
+
+&lt;h1 id=&quot;八十一难之第零难：启动游戏&quot;&gt;&lt;a href=&quot;#八十一难之第零难：启动游戏&quot; class=&quot;headerlink&quot; title=&quot;八十一难之第零难：启动游戏&quot;&gt;&lt;/a&gt;八十一难之第零难：启动游戏&lt;/h1&gt;&lt;p&gt;我手头的设备是 MacBook Pro 和 Switch，并且 Switch 长时间吃灰，彻底沦为了有氧拳击启动器。同时因为没有业余时间打游戏的习惯，没有再增配主机，近期只对黑悟空这一款游戏感兴趣，不打算单单为了它添置设备，所以我开始摸索如何在 Mac 上运行黑悟空。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="随笔" scheme="https://powerfooi.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="游戏" scheme="https://powerfooi.github.io/tags/%E6%B8%B8%E6%88%8F/"/>
+    
+    <category term="云游戏" scheme="https://powerfooi.github.io/tags/%E4%BA%91%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
     <title>一起来做类型体操吧！😊</title>
     <link href="https://powerfooi.github.io/2024/07/27/TypeGymnastics/"/>
     <id>https://powerfooi.github.io/2024/07/27/TypeGymnastics/</id>
     <published>2024-07-27T15:52:22.000Z</published>
-    <updated>2024-08-04T02:31:26.824Z</updated>
+    <updated>2024-08-09T15:52:24.772Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;类型重要吗？&quot;&gt;&lt;a href=&quot;#类型重要吗？&quot; class=&quot;headerlink&quot; title=&quot;类型重要吗？&quot;&gt;&lt;/a&gt;类型重要吗？&lt;/h1&gt;&lt;p&gt;长话短说，类型很重要。&lt;/p&gt;
@@ -37,11 +63,11 @@
     
     <category term="TypeScript" scheme="https://powerfooi.github.io/tags/TypeScript/"/>
     
+    <category term="Python" scheme="https://powerfooi.github.io/tags/Python/"/>
+    
     <category term="Docs" scheme="https://powerfooi.github.io/tags/Docs/"/>
     
     <category term="Coding" scheme="https://powerfooi.github.io/tags/Coding/"/>
-    
-    <category term="Python" scheme="https://powerfooi.github.io/tags/Python/"/>
     
   </entry>
   
@@ -88,11 +114,11 @@
     <category term="学习" scheme="https://powerfooi.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
+    <category term="AccessControl" scheme="https://powerfooi.github.io/tags/AccessControl/"/>
+    
     <category term="CloudNative" scheme="https://powerfooi.github.io/tags/CloudNative/"/>
     
     <category term="Security" scheme="https://powerfooi.github.io/tags/Security/"/>
-    
-    <category term="AccessControl" scheme="https://powerfooi.github.io/tags/AccessControl/"/>
     
   </entry>
   
@@ -115,11 +141,11 @@
     <category term="学习" scheme="https://powerfooi.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="VSCode" scheme="https://powerfooi.github.io/tags/VSCode/"/>
-    
     <category term="前端" scheme="https://powerfooi.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
     <category term="Tools" scheme="https://powerfooi.github.io/tags/Tools/"/>
+    
+    <category term="VSCode" scheme="https://powerfooi.github.io/tags/VSCode/"/>
     
     <category term="Go" scheme="https://powerfooi.github.io/tags/Go/"/>
     
@@ -141,9 +167,9 @@
     <category term="学习" scheme="https://powerfooi.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="CloudNative" scheme="https://powerfooi.github.io/tags/CloudNative/"/>
-    
     <category term="Reading" scheme="https://powerfooi.github.io/tags/Reading/"/>
+    
+    <category term="CloudNative" scheme="https://powerfooi.github.io/tags/CloudNative/"/>
     
   </entry>
   
@@ -170,9 +196,9 @@
     <category term="学习" scheme="https://powerfooi.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="CloudNative" scheme="https://powerfooi.github.io/tags/CloudNative/"/>
-    
     <category term="Reading" scheme="https://powerfooi.github.io/tags/Reading/"/>
+    
+    <category term="CloudNative" scheme="https://powerfooi.github.io/tags/CloudNative/"/>
     
   </entry>
   
@@ -260,9 +286,9 @@
     <category term="学习" scheme="https://powerfooi.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="GraphQL" scheme="https://powerfooi.github.io/tags/GraphQL/"/>
-    
     <category term="前端" scheme="https://powerfooi.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="GraphQL" scheme="https://powerfooi.github.io/tags/GraphQL/"/>
     
   </entry>
   
@@ -309,11 +335,11 @@
     <category term="学习" scheme="https://powerfooi.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
+    <category term="前端" scheme="https://powerfooi.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
     <category term="React" scheme="https://powerfooi.github.io/tags/React/"/>
     
     <category term="NPM" scheme="https://powerfooi.github.io/tags/NPM/"/>
-    
-    <category term="前端" scheme="https://powerfooi.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
@@ -389,9 +415,9 @@
     <category term="学习" scheme="https://powerfooi.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="GraphQL" scheme="https://powerfooi.github.io/tags/GraphQL/"/>
-    
     <category term="前端" scheme="https://powerfooi.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="GraphQL" scheme="https://powerfooi.github.io/tags/GraphQL/"/>
     
   </entry>
   
@@ -413,9 +439,9 @@
     
     <category term="胡思乱想" scheme="https://powerfooi.github.io/tags/%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/"/>
     
-    <category term="小程序" scheme="https://powerfooi.github.io/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
-    
     <category term="前端" scheme="https://powerfooi.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="小程序" scheme="https://powerfooi.github.io/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
     
   </entry>
   
@@ -485,28 +511,6 @@
     <category term="摄影" scheme="https://powerfooi.github.io/tags/%E6%91%84%E5%BD%B1/"/>
     
     <category term="旅游" scheme="https://powerfooi.github.io/tags/%E6%97%85%E6%B8%B8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>ESLint 入门</title>
-    <link href="https://powerfooi.github.io/2021/03/28/EslintTaste/"/>
-    <id>https://powerfooi.github.io/2021/03/28/EslintTaste/</id>
-    <published>2021-03-28T02:14:19.000Z</published>
-    <updated>2024-08-04T02:34:26.824Z</updated>
-    
-    
-    <summary type="html">&lt;h1 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h1&gt;&lt;p&gt;最近一两年写前端项目时一直都有接触 ESLint，很多文档和博客也一直都推荐使用开发者 ESLint，但是一直以来都没有好好地学习过它。最近因为使用 Nuxt 开发时 ESLint 缓存出问题导致浪费了半个小时，我越发觉得有必要深入地了解一下这个前端开发中最常使用的代码风格规范工具了。（不得不说，Nuxt 这个框架真的有点难用。）&lt;/p&gt;
-&lt;h1 id=&quot;ESLint-的用途和初衷&quot;&gt;&lt;a href=&quot;#ESLint-的用途和初衷&quot; class=&quot;headerlink&quot; title=&quot;ESLint 的用途和初衷&quot;&gt;&lt;/a&gt;ESLint 的用途和初衷&lt;/h1&gt;&lt;p&gt;ESLint 是在 ECMAScript&amp;#x2F;JavaScript 代码中识别和报告模式匹配的工具，它的目标是保证代码的一致性和避免错误。维基百科上这样解释的：lint, or a linter, is a static code analysis tool used to flag programming errors, bugs, stylistic errors, and suspicious constructs. 就是说 ESLint 是写 javascript 时用来分析静态代码是否存在语法错误、代码风格错误和可疑结构的工具。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="学习" scheme="https://powerfooi.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="ECMAScript" scheme="https://powerfooi.github.io/tags/ECMAScript/"/>
-    
-    <category term="Lint" scheme="https://powerfooi.github.io/tags/Lint/"/>
     
   </entry>
   
