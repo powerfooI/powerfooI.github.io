@@ -1,3 +1,6 @@
+https://powerfooi.github.io/2024/10/27/GoodByeBeijing/
+https://powerfooi.github.io/2021/05/05/JourneyToTsingTao-1/
+https://powerfooi.github.io/2021/06/13/JourneyToTsingTao-2/
 https://powerfooi.github.io/2024/09/12/BlackMythWukong/
 https://powerfooi.github.io/2024/07/27/TypeGymnastics/
 https://powerfooi.github.io/2021/01/21/WechatMiniprogram/
@@ -16,13 +19,11 @@ https://powerfooi.github.io/2024/01/13/WhatHappensWhenK8s/
 https://powerfooi.github.io/2021/03/27/Vue2React-1/
 https://powerfooi.github.io/2021/07/23/UseGraphQLElegantly/
 https://powerfooi.github.io/2021/07/20/TheThirdMiniprogramCompetition/
-https://powerfooi.github.io/2021/05/05/JourneyToTsingTao-1/
 https://powerfooi.github.io/2019/07/27/SummerVocation/
 https://powerfooi.github.io/2024/06/22/RFTP-2/
 https://powerfooi.github.io/2023/01/20/RFTP-1/
 https://powerfooi.github.io/2022/03/12/PublishNpmPackageOfReactComponents/
 https://powerfooi.github.io/2021/08/15/NginxBasics-1/
-https://powerfooi.github.io/2021/06/13/JourneyToTsingTao-2/
 https://powerfooi.github.io/2022/05/09/GoodbyeFrontEnd/
 https://powerfooi.github.io/2022/12/30/Goodbye2022/
 https://powerfooi.github.io/2019/06/12/GarbageCollectionSurvey/
@@ -32,14 +33,14 @@ https://powerfooi.github.io/2020/05/09/HowToUseGithubActions/
 https://powerfooi.github.io/
 https://powerfooi.github.io/tags/%E6%B8%B8%E6%88%8F/
 https://powerfooi.github.io/tags/%E4%BA%91%E6%B8%B8%E6%88%8F/
+https://powerfooi.github.io/tags/%E6%91%84%E5%BD%B1/
+https://powerfooi.github.io/tags/%E6%B8%B8%E8%AE%B0/
 https://powerfooi.github.io/tags/ECMAScript/
 https://powerfooi.github.io/tags/Lint/
 https://powerfooi.github.io/tags/GC/
 https://powerfooi.github.io/tags/%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/
 https://powerfooi.github.io/tags/%E5%89%8D%E7%AB%AF/
 https://powerfooi.github.io/tags/CI-CD/
-https://powerfooi.github.io/tags/%E6%91%84%E5%BD%B1/
-https://powerfooi.github.io/tags/%E6%97%85%E6%B8%B8/
 https://powerfooi.github.io/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/
 https://powerfooi.github.io/tags/Deployment/
 https://powerfooi.github.io/tags/Web-Server/
@@ -63,4 +64,3 @@ https://powerfooi.github.io/tags/VSCode/
 https://powerfooi.github.io/tags/Go/
 https://powerfooi.github.io/categories/%E9%9A%8F%E7%AC%94/
 https://powerfooi.github.io/categories/%E5%AD%A6%E4%B9%A0/
-https://powerfooi.github.io/categories/%E6%B8%B8%E8%AE%B0/
