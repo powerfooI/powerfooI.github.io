@@ -1,3 +1,4 @@
+https://powerfooi.github.io/2024/12/04/WriteCodeWithCursor/
 https://powerfooi.github.io/2024/10/27/GoodByeBeijing/
 https://powerfooi.github.io/2021/05/05/JourneyToTsingTao-1/
 https://powerfooi.github.io/2021/06/13/JourneyToTsingTao-2/
@@ -62,5 +63,8 @@ https://powerfooi.github.io/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/
 https://powerfooi.github.io/tags/Tools/
 https://powerfooi.github.io/tags/VSCode/
 https://powerfooi.github.io/tags/Go/
+https://powerfooi.github.io/tags/%E7%BC%96%E7%A8%8B/
+https://powerfooi.github.io/tags/%E5%B7%A5%E5%85%B7/
+https://powerfooi.github.io/tags/%E6%95%88%E7%8E%87/
 https://powerfooi.github.io/categories/%E9%9A%8F%E7%AC%94/
 https://powerfooi.github.io/categories/%E5%AD%A6%E4%B9%A0/

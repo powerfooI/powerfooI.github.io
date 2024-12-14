@@ -6,7 +6,7 @@
   <link href="https://powerfooi.github.io/atom.xml" rel="self"/>
   
   <link href="https://powerfooi.github.io/"/>
-  <updated>2024-10-28T15:31:57.323Z</updated>
+  <updated>2024-12-14T14:20:52.374Z</updated>
   <id>https://powerfooi.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>用 Cursor 快速搭建软件原型</title>
+    <link href="https://powerfooi.github.io/2024/12/04/WriteCodeWithCursor/"/>
+    <id>https://powerfooi.github.io/2024/12/04/WriteCodeWithCursor/</id>
+    <published>2024-12-04T15:20:06.000Z</published>
+    <updated>2024-12-14T14:20:52.374Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Cursor 是一款使用 AI 能力加持的代码编辑器，或者说得更大一点，文本编辑器。正如它在官网所说的那样 &lt;code&gt;Built to make you extraordinarily productive, Cursor is the best way to code with AI.&lt;/code&gt; 使用它能够让在编程时更加高效，几倍地提升编码效率，将工程师从平常繁琐、简单、机械、重复的代码编写工作中解放出来，更加专注于分析、建模和解决关键的问题。&lt;/p&gt;
+&lt;p&gt;但需要说在开头的是，Cursor &lt;strong&gt;无法让零基础的用户变成专精的软件工程师&lt;/strong&gt;，以能够解决所编写代码中发生的各种疑难杂症，但能让他们轻松搭建出一些有意思的应用，例如简单的网页，便捷的脚本等，真正遇到问题需要定位和调试的时候，往往是需要人类提供指导方案的。Cursor 能够做的是让有一定编程基础的用户更加高效地编写代码，让专业的软件工程师更加专注于解决问题本身。简而言之，让零基础的人玩得起来，让有基础的人更加高效。&lt;/p&gt;
+&lt;p&gt;本文介绍了我如何使用 Cursor 在业余时间独立完成了一个软件系统的原型搭建、后续演化以及最终部署上线的。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="学习" scheme="https://powerfooi.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="编程" scheme="https://powerfooi.github.io/tags/%E7%BC%96%E7%A8%8B/"/>
+    
+    <category term="工具" scheme="https://powerfooi.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="效率" scheme="https://powerfooi.github.io/tags/%E6%95%88%E7%8E%87/"/>
+    
+  </entry>
   
   <entry>
     <title>再见北京 👋</title>
@@ -485,28 +510,6 @@
     
     
     <category term="胡思乱想" scheme="https://powerfooi.github.io/tags/%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>青岛（二）</title>
-    <link href="https://powerfooi.github.io/2021/06/13/JourneyToTsingTao-2/"/>
-    <id>https://powerfooi.github.io/2021/06/13/JourneyToTsingTao-2/</id>
-    <published>2021-06-13T05:34:40.000Z</published>
-    <updated>2024-10-28T15:23:08.294Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;从青岛回来之后马上就是学生节和一系列的课程、任务和作业，根本没时间和心情来写这篇博客，所以青岛（二）这一篇拖了很久…&lt;br&gt;但是过了一个多月的时间很难再拾起当时的心情了，从拍下来的照片里才能记起来去过哪里有哪些好玩的地方，可以说是看图说话。反正也没人看，我直接这样随便写写就当给自己一个交代好了，不喜欢做半途而废的事情。正义虽然会迟到，但永远不会缺席。&lt;/p&gt;
-&lt;p&gt;这一篇我们主要是去了崂山、信号山公园、天主教堂、五四广场转了转。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="随笔" scheme="https://powerfooi.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-    
-    <category term="摄影" scheme="https://powerfooi.github.io/tags/%E6%91%84%E5%BD%B1/"/>
-    
-    <category term="游记" scheme="https://powerfooi.github.io/tags/%E6%B8%B8%E8%AE%B0/"/>
     
   </entry>
   
