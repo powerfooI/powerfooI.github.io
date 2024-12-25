@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>像使用 Windows 一样使用 MacOS</title>
+      <link href="/2024/12/25/UseMacLikeWindows/"/>
+      <url>/2024/12/25/UseMacLikeWindows/</url>
+      
+        <content type="html"><![CDATA[<p>我在学校时实验室配备的办公台式机是 Windows 系统，而我自己的笔记本电脑是 macOS 系统。在使用两个操作系统的过程中，我发现有一些 Windows 系统的使用方式比较高效，而且在 macOS 上也可以实现，这样既能让我在两个系统之间的切换变得流畅，也可以提高我在 macOS 上的工作效率。以下是我在 MacOS 上实现 Windows 系统使用方式的一些方法。</p><p>主要分为鼠标使用、窗口管理、软件切换、云盘存储和跨平台软件使用几个方面。</p><span id="more"></span><h2 id="鼠标使用"><a href="#鼠标使用" class="headerlink" title="鼠标使用"></a>鼠标使用</h2><p>Windows 电脑的触控板都不够好用，所以在 Windows 电脑的使用过程中鼠标是绕不过去的；而 macOS 的触控板使用起来非常方便，但如果有两块及以上屏幕时，只使用触控板就显得捉襟见肘了，所以在实际工作中鼠标是必不可少的。</p><p>但是 macOS 上的一个默认设定是鼠标滚轮的滚动方向和 Windows 系统相反的，这个设定在系统偏好设置中可以调整，但是如果把设置中的“自然滚动”进行调整，那么触控板的滚动方向也会变成和鼠标一样的（也就是在触控板上双指上滑表示的是展示上一页的内容），比较违反我的直觉。我在这里使用了一款叫做 <a href="https://github.com/noah-nuebling/mac-mouse-fix">mac mouse fix</a> 的开源的软件来解决在 macOS 上鼠标滚轮的滚动方向问题。开启这个软件之后，可以实现触控板上滑显示下一页内容而鼠标滚轮向上滚动显示上一页内容这样相反的设定，更加符合我的使用习惯。</p><p>另外，这个软件默认还支持一些鼠标快捷键，让鼠标具备一些触控板才有的功能，例如单击中键查询单词，在空白处单击中键实现智能缩放，长按中键显示桌面，按住中键左右拖动实现窗口切换，按住中键上下拖动实现任务控制和 App Expose 功能等。总之，使用这个软件让我在 macOS 上使用鼠标变得更加高效。</p><h2 id="窗口管理"><a href="#窗口管理" class="headerlink" title="窗口管理"></a>窗口管理</h2><p>Windows 中自带的 Win 键加上方向键可以实现窗口的快速移动和调整大小，在需要分屏浏览内容时能够极大地提升效率，而 macOS 中则默认不具备这样的功能。虽然鼠标悬停在窗口的左上角的绿色圆点处可以展开菜单实现窗口的分屏，但这个操作比起 Windows 的快捷键来说还是慢了许多。</p><img src="/2024/12/25/UseMacLikeWindows/macos-window-management.png" class="" title="macOS 上自带的窗口管理选项"><p>我在 macOS 上使用了一款叫做 <a href="https://magnet.crowdcafe.com/">Magnet</a> 的软件来实现窗口的快速移动和调整大小。这款软件可以让我使用快捷键来实现窗口的分屏，例如使用 Option + Command + 左键可以将窗口移动到屏幕的左侧，使用 Option + Command + 右键可以将窗口移动到屏幕的右侧，使用 Option + Command + 回车可以实现窗口的最大化等；同时它支持非常细粒度的窗口尺寸调整和快捷键设置，让我可以在 macOS 上更加高效地管理窗口。</p><img src="/2024/12/25/UseMacLikeWindows/magnet.png" class="" title="Magnet 窗口管理软件"><h2 id="软件切换"><a href="#软件切换" class="headerlink" title="软件切换"></a>软件切换</h2><p>Windows 系统中的某些软件切换快捷键使用起来非常方便，例如 Win + E 可以打开资源管理器，Win + L 可以锁定电脑等。而 macOS 系统中这样方便的快捷键则相对较少，虽然大多软件都可以通过 Command + Space 打开 Spotlight 等搜索工具后再搜索启动，但常用软件的打开频率之高会让使用程序坞、Launchpad 或者是 Spotlight 来打开软件都显得有些麻烦。</p><p>我使用了一款叫做 <a href="https://manico.im/">Manico</a> 的软件来自定义常用软件的快捷键，理论上使用它能够把任何软件的启动方式都定义成为快捷键。下面我分享一下我的设置，</p><ul><li><code>Option + 1</code> 打开浏览器 (Edge)</li><li><code>Option + t</code> 打开终端 (iTerm2)</li><li><code>Option + e</code> 打开文件管理器 (finder)</li><li><code>Option + v</code> 打开 VSCode</li><li><code>Option + c</code> 打开 Cursor</li><li><code>Option + n</code> 打开记事本 (Notes)</li><li><code>Option + m</code> 打开邮件 (Mail)</li><li><code>Option + l</code> 打开地图 (Maps&#x2F;Location?)</li><li><code>Option + q</code> 打开 Postman (Query?)</li><li><code>Option + p</code> 打开照片 (Photos)</li></ul><img src="/2024/12/25/UseMacLikeWindows/manico.png" class="" title="使用 Manico 完成软件切换"><p>虽然 macOS 中的动画很流畅，但是切换桌面、应用缩放的动画时间太长，容易打断心流，我在真正要投入注意力时不希望看到这些动画。配合<a href="#%E7%AA%97%E5%8F%A3%E7%AE%A1%E7%90%86">窗口管理</a>中介绍的 Magnet，我在 macOS 中只使用一个桌面，通过 Manico 和 Magnet 的配合快速地打开、切换和布局软件，能够减少桌面切换、应用收缩和窗口调整的时间，减少注意力被打断的概率。</p><h2 id="云盘存储"><a href="#云盘存储" class="headerlink" title="云盘存储"></a>云盘存储</h2><p>Windows 系统中的 OneDrive 和 macOS 系统中的 iCloud Drive 都是系统自带的云盘存储服务，但是 macOS 上的 OneDrive 客户端使用起来比 Windows 上的 iCloud Drive 客户端要好用得多——微软无愧为多年苹果应用商店的最佳开发者。而且 iCloud 的价格也比 OneDrive 要贵，所以我只开了 200GB 的 iCloud 来存储照片和一些必要的数据，其他需要存储和同步的数据都放在了与朋友合开的 1TB OneDrive 存储空间中。</p><h2 id="跨平台软件使用"><a href="#跨平台软件使用" class="headerlink" title="跨平台软件使用"></a>跨平台软件使用</h2><p>使用跨平台的软件而非平台专有的软件，例如使用 VSCode&#x2F;CLion 而非 Xcode、使用 Edge&#x2F;Chrome 而非 Safari、使用 Figma 而非 Sketch、使用 Adobe Premiere 而非 Final Cut 等。这样可以让我在两个系统之间的切换变得更加流畅，而且也能够减少学习新软件的时间。而且随着 Web 技术的发展，越来越多的软件都有了 Web 版本，例如微软的 Office 365，它们不需要安装客户端，也不需要担心跨平台的问题。Figma 还通过引入 Web Assembly 来提升 Web 应用中图形计算的性能，让它在浏览器中运行的性能和体验更加接近原生应用。</p><h2 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h2><p>总之，通过这些方法，我在 macOS 上部分实现了 Windows 系统的使用方式，在两个系统之间的切换变得更加流畅，也提高了我在 macOS 上的工作效率。希望能够将这些优秀 app 安利给大家。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Tools </tag>
+            
+            <tag> MacOS </tag>
+            
+            <tag> Windows </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>用 Cursor 快速搭建软件原型</title>
       <link href="/2024/12/04/WriteCodeWithCursor/"/>
       <url>/2024/12/04/WriteCodeWithCursor/</url>
@@ -649,11 +678,11 @@
       
         <tags>
             
+            <tag> Vue </tag>
+            
             <tag> 前端 </tag>
             
             <tag> React </tag>
-            
-            <tag> Vue </tag>
             
         </tags>
       
@@ -757,9 +786,9 @@
       
         <tags>
             
-            <tag> 前端 </tag>
-            
             <tag> Vue </tag>
+            
+            <tag> 前端 </tag>
             
         </tags>
       

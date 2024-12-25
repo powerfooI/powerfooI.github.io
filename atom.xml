@@ -6,7 +6,7 @@
   <link href="https://powerfooi.github.io/atom.xml" rel="self"/>
   
   <link href="https://powerfooi.github.io/"/>
-  <updated>2024-12-14T14:29:43.969Z</updated>
+  <updated>2024-12-25T14:29:15.085Z</updated>
   <id>https://powerfooi.github.io/</id>
   
   <author>
@@ -17,11 +17,35 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>像使用 Windows 一样使用 MacOS</title>
+    <link href="https://powerfooi.github.io/2024/12/25/UseMacLikeWindows/"/>
+    <id>https://powerfooi.github.io/2024/12/25/UseMacLikeWindows/</id>
+    <published>2024-12-25T14:20:38.000Z</published>
+    <updated>2024-12-25T14:29:15.085Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;我在学校时实验室配备的办公台式机是 Windows 系统，而我自己的笔记本电脑是 macOS 系统。在使用两个操作系统的过程中，我发现有一些 Windows 系统的使用方式比较高效，而且在 macOS 上也可以实现，这样既能让我在两个系统之间的切换变得流畅，也可以提高我在 macOS 上的工作效率。以下是我在 MacOS 上实现 Windows 系统使用方式的一些方法。&lt;/p&gt;
+&lt;p&gt;主要分为鼠标使用、窗口管理、软件切换、云盘存储和跨平台软件使用几个方面。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="随笔" scheme="https://powerfooi.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="Tools" scheme="https://powerfooi.github.io/tags/Tools/"/>
+    
+    <category term="MacOS" scheme="https://powerfooi.github.io/tags/MacOS/"/>
+    
+    <category term="Windows" scheme="https://powerfooi.github.io/tags/Windows/"/>
+    
+  </entry>
+  
+  <entry>
     <title>用 Cursor 快速搭建软件原型</title>
     <link href="https://powerfooi.github.io/2024/12/04/WriteCodeWithCursor/"/>
     <id>https://powerfooi.github.io/2024/12/04/WriteCodeWithCursor/</id>
     <published>2024-12-04T15:20:06.000Z</published>
-    <updated>2024-12-14T14:29:43.969Z</updated>
+    <updated>2024-12-14T14:30:38.086Z</updated>
     
     
     <summary type="html">&lt;p&gt;Cursor 是一款使用 AI 能力加持的代码编辑器，或者说得更大一点，文本编辑器。正如它在官网所说的那样 &lt;code&gt;Built to make you extraordinarily productive, Cursor is the best way to code with AI.&lt;/code&gt; 使用它能够让在编程时更加高效，几倍地提升编码效率，将工程师从平常繁琐、简单、机械、重复的代码编写工作中解放出来，更加专注于分析、建模和解决关键的问题。&lt;/p&gt;
@@ -46,7 +70,7 @@
     <link href="https://powerfooi.github.io/2024/10/27/GoodByeBeijing/"/>
     <id>https://powerfooi.github.io/2024/10/27/GoodByeBeijing/</id>
     <published>2024-10-27T12:24:12.000Z</published>
-    <updated>2024-10-30T13:53:22.539Z</updated>
+    <updated>2024-12-21T02:07:08.116Z</updated>
     
     
     <summary type="html">&lt;p&gt;因公司在北京举办的活动需要人员到现场支持，我提前了一个周末来到北京。刚到那天的温度就给了我一个下马威：寒潮过境，最低温度来到了 0 度，而我刚从气温接近 30 度的杭州过来，一时间难以适应。&lt;/p&gt;
@@ -489,27 +513,6 @@
     <category term="前端" scheme="https://powerfooi.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
     <category term="小程序" scheme="https://powerfooi.github.io/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>我毕业了</title>
-    <link href="https://powerfooi.github.io/2021/06/29/Graduation2021/"/>
-    <id>https://powerfooi.github.io/2021/06/29/Graduation2021/</id>
-    <published>2021-06-29T11:57:57.000Z</published>
-    <updated>2024-04-08T14:13:29.637Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;从 2016 年 8 月来到北京上学，到现在已经快要五年了。近期借着学校给 2020 届补办毕业典礼的契机，得以穿上学士服跟朋友们同学们一起拍毕业照。课程学习生活暂告一段落，心里有很多感慨不吐不快。&lt;/p&gt;
-&lt;p&gt;大概从以下几个方面来聊一聊吧：专业选择给我的影响，母校之于我的意义以及自己的成长和收获。&lt;/p&gt;
-&lt;h1 id=&quot;专业选择&quot;&gt;&lt;a href=&quot;#专业选择&quot; class=&quot;headerlink&quot; title=&quot;专业选择&quot;&gt;&lt;/a&gt;专业选择&lt;/h1&gt;&lt;p&gt;用为期两天的高考结束了漫长枯燥的高中生活之后，我进入了软件学院继续学习，专业名称是&lt;strong&gt;软件工程&lt;/strong&gt;。其实我填报志愿时对母校的专业不是很了解，在招生组老师和学长学姐的介绍之下选择了这个和计算机相关性最大的专业。（对没错，当时我们省不招计算机）&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="随笔" scheme="https://powerfooi.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-    
-    <category term="胡思乱想" scheme="https://powerfooi.github.io/tags/%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/"/>
     
   </entry>
   
