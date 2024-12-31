@@ -6,7 +6,7 @@
   <link href="https://powerfooi.github.io/atom.xml" rel="self"/>
   
   <link href="https://powerfooi.github.io/"/>
-  <updated>2024-12-29T15:32:49.443Z</updated>
+  <updated>2024-12-31T01:24:40.730Z</updated>
   <id>https://powerfooi.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2024 年终总结</title>
+    <link href="https://powerfooi.github.io/2024/12/31/ForMy2024/"/>
+    <id>https://powerfooi.github.io/2024/12/31/ForMy2024/</id>
+    <published>2024-12-31T00:46:33.000Z</published>
+    <updated>2024-12-31T01:24:40.730Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;2024 年过得很快，时间就像倾盆大雨时的雨滴，挡不住地从空中落在地上，然后消失在草地或者泥土里。这一年我经历了很多事情，也学到了很多事情，希望可以用这篇博客来总结和梳理一下自己的想法。主要还是围绕着与自己工作和兴趣相关的&lt;strong&gt;云原生、RAG 和 AI 三个方面&lt;/strong&gt;展开。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="学习" scheme="https://powerfooi.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="CloudNative" scheme="https://powerfooi.github.io/tags/CloudNative/"/>
+    
+    <category term="AI" scheme="https://powerfooi.github.io/tags/AI/"/>
+    
+    <category term="总结" scheme="https://powerfooi.github.io/tags/%E6%80%BB%E7%BB%93/"/>
+    
+    <category term="RAG" scheme="https://powerfooi.github.io/tags/RAG/"/>
+    
+    <category term="Github" scheme="https://powerfooi.github.io/tags/Github/"/>
+    
+  </entry>
   
   <entry>
     <title>像使用 Windows 一样使用 MacOS</title>
@@ -489,30 +516,6 @@
     <category term="前端" scheme="https://powerfooi.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
     <category term="GraphQL" scheme="https://powerfooi.github.io/tags/GraphQL/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>记2021年小程序大赛</title>
-    <link href="https://powerfooi.github.io/2021/07/20/TheThirdMiniprogramCompetition/"/>
-    <id>https://powerfooi.github.io/2021/07/20/TheThirdMiniprogramCompetition/</id>
-    <published>2021-07-20T13:24:40.000Z</published>
-    <updated>2024-08-04T02:31:10.735Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;从本科到现在总共参加过三次微信小程序大赛，前几天刚完成赛区决赛的答辩，心想着以后应该都不想再参加了，于是想记录一下这次的参赛经历。&lt;/p&gt;
-&lt;h1 id=&quot;2018-和-2020&quot;&gt;&lt;a href=&quot;#2018-和-2020&quot; class=&quot;headerlink&quot; title=&quot;2018 和 2020&quot;&gt;&lt;/a&gt;2018 和 2020&lt;/h1&gt;&lt;h2 id=&quot;2018-阴差阳错&quot;&gt;&lt;a href=&quot;#2018-阴差阳错&quot; class=&quot;headerlink&quot; title=&quot;2018 阴差阳错&quot;&gt;&lt;/a&gt;2018 阴差阳错&lt;/h2&gt;&lt;p&gt;微信小程序从 2017 年正式上线博得广大关注，在第二年 2018 年春季，微信就推出了全国高校微信小程序开发大赛，吸引了很多大学生参加，我就是其中一个。正在读大二的我报名了一位学长组织的 SRT(Student Research Training) 项目，原本的题目是要开发一款在线客服平台。然而当时已经把项目申请里面提到的客服平台提前完成了，于是我们真正做的就变成了小程序。甚至还用这个小程序参加了第一届的微信小程序大赛。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="学习" scheme="https://powerfooi.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="胡思乱想" scheme="https://powerfooi.github.io/tags/%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/"/>
-    
-    <category term="前端" scheme="https://powerfooi.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-    <category term="小程序" scheme="https://powerfooi.github.io/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
     
   </entry>
   
