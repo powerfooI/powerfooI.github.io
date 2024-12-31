@@ -47,9 +47,9 @@ https://powerfooi.github.io/tags/ECMAScript/
 https://powerfooi.github.io/tags/Lint/
 https://powerfooi.github.io/tags/%E6%91%84%E5%BD%B1/
 https://powerfooi.github.io/tags/%E6%B8%B8%E8%AE%B0/
-https://powerfooi.github.io/tags/GraphQL/
 https://powerfooi.github.io/tags/Deployment/
 https://powerfooi.github.io/tags/Web-Server/
+https://powerfooi.github.io/tags/GraphQL/
 https://powerfooi.github.io/tags/NPM/
 https://powerfooi.github.io/tags/Rust/
 https://powerfooi.github.io/tags/Network/
