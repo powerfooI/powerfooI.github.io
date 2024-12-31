@@ -1,7 +1,7 @@
 https://powerfooi.github.io/2024/12/25/UseMacLikeWindows/
+https://powerfooi.github.io/2024/12/04/WriteCodeWithCursor/
 https://powerfooi.github.io/2024/10/27/GoodByeBeijing/
 https://powerfooi.github.io/2021/03/28/EslintTaste/
-https://powerfooi.github.io/2024/12/04/WriteCodeWithCursor/
 https://powerfooi.github.io/2021/05/05/JourneyToTsingTao-1/
 https://powerfooi.github.io/2021/06/13/JourneyToTsingTao-2/
 https://powerfooi.github.io/2024/09/12/BlackMythWukong/
@@ -46,9 +46,9 @@ https://powerfooi.github.io/tags/ECMAScript/
 https://powerfooi.github.io/tags/Lint/
 https://powerfooi.github.io/tags/%E6%91%84%E5%BD%B1/
 https://powerfooi.github.io/tags/%E6%B8%B8%E8%AE%B0/
-https://powerfooi.github.io/tags/GraphQL/
 https://powerfooi.github.io/tags/Deployment/
 https://powerfooi.github.io/tags/Web-Server/
+https://powerfooi.github.io/tags/GraphQL/
 https://powerfooi.github.io/tags/NPM/
 https://powerfooi.github.io/tags/Rust/
 https://powerfooi.github.io/tags/Network/
@@ -64,9 +64,7 @@ https://powerfooi.github.io/tags/Docs/
 https://powerfooi.github.io/tags/Coding/
 https://powerfooi.github.io/tags/%E6%B8%B8%E6%88%8F/
 https://powerfooi.github.io/tags/%E4%BA%91%E6%B8%B8%E6%88%8F/
-https://powerfooi.github.io/tags/%E7%BC%96%E7%A8%8B/
-https://powerfooi.github.io/tags/%E5%B7%A5%E5%85%B7/
-https://powerfooi.github.io/tags/%E6%95%88%E7%8E%87/
+https://powerfooi.github.io/tags/AI/
 https://powerfooi.github.io/tags/MacOS/
 https://powerfooi.github.io/tags/Windows/
 https://powerfooi.github.io/categories/%E5%AD%A6%E4%B9%A0/

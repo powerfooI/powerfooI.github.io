@@ -6,7 +6,7 @@
   <link href="https://powerfooi.github.io/atom.xml" rel="self"/>
   
   <link href="https://powerfooi.github.io/"/>
-  <updated>2024-12-25T14:29:15.085Z</updated>
+  <updated>2024-12-29T15:32:49.443Z</updated>
   <id>https://powerfooi.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://powerfooi.github.io/2024/12/25/UseMacLikeWindows/"/>
     <id>https://powerfooi.github.io/2024/12/25/UseMacLikeWindows/</id>
     <published>2024-12-25T14:20:38.000Z</published>
-    <updated>2024-12-25T14:29:15.085Z</updated>
+    <updated>2024-12-29T15:32:49.443Z</updated>
     
     
     <summary type="html">&lt;p&gt;我在学校时实验室配备的办公台式机是 Windows 系统，而我自己的笔记本电脑是 macOS 系统。在使用两个操作系统的过程中，我发现有一些 Windows 系统的使用方式比较高效，而且在 macOS 上也可以实现，这样既能让我在两个系统之间的切换变得流畅，也可以提高我在 macOS 上的工作效率。以下是我在 MacOS 上实现 Windows 系统使用方式的一些方法。&lt;/p&gt;
@@ -45,7 +45,7 @@
     <link href="https://powerfooi.github.io/2024/12/04/WriteCodeWithCursor/"/>
     <id>https://powerfooi.github.io/2024/12/04/WriteCodeWithCursor/</id>
     <published>2024-12-04T15:20:06.000Z</published>
-    <updated>2024-12-14T14:30:38.086Z</updated>
+    <updated>2024-12-29T07:34:21.065Z</updated>
     
     
     <summary type="html">&lt;p&gt;Cursor 是一款使用 AI 能力加持的代码编辑器，或者说得更大一点，文本编辑器。正如它在官网所说的那样 &lt;code&gt;Built to make you extraordinarily productive, Cursor is the best way to code with AI.&lt;/code&gt; 使用它能够让在编程时更加高效，几倍地提升编码效率，将工程师从平常繁琐、简单、机械、重复的代码编写工作中解放出来，更加专注于分析、建模和解决关键的问题。&lt;/p&gt;
@@ -57,11 +57,11 @@
     <category term="学习" scheme="https://powerfooi.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="编程" scheme="https://powerfooi.github.io/tags/%E7%BC%96%E7%A8%8B/"/>
+    <category term="Tools" scheme="https://powerfooi.github.io/tags/Tools/"/>
     
-    <category term="工具" scheme="https://powerfooi.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
+    <category term="Coding" scheme="https://powerfooi.github.io/tags/Coding/"/>
     
-    <category term="效率" scheme="https://powerfooi.github.io/tags/%E6%95%88%E7%8E%87/"/>
+    <category term="AI" scheme="https://powerfooi.github.io/tags/AI/"/>
     
   </entry>
   
