@@ -6,7 +6,7 @@
   <link href="https://powerfooi.github.io/atom.xml" rel="self"/>
   
   <link href="https://powerfooi.github.io/"/>
-  <updated>2024-12-31T11:35:35.677Z</updated>
+  <updated>2025-02-15T12:46:19.842Z</updated>
   <id>https://powerfooi.github.io/</id>
   
   <author>
@@ -17,11 +17,35 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>再次认识 React</title>
+    <link href="https://powerfooi.github.io/2025/02/15/LearnReactAgain/"/>
+    <id>https://powerfooi.github.io/2025/02/15/LearnReactAgain/</id>
+    <published>2025-02-15T14:38:41.000Z</published>
+    <updated>2025-02-15T12:46:19.842Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;毕业之后很久没写前端代码了，但最近因为工作需要又开始接触前端项目。例如在 &lt;a href=&quot;https://github.com/oceanbase/ob-operator&quot;&gt;ob-operator&lt;/a&gt; 项目中我负责评审两位前端同学过去一年所有的 PR、在&lt;a href=&quot;/2024/12/04/WriteCodeWithCursor/&quot; title=&quot;用 Cursor 快速搭建软件原型&quot;&gt;用 Cursor 快速搭建软件原型&lt;/a&gt;提到的项目中也是用 Cursor 快速实现了一个以 TypeScript + Next.js + Shadcn UI 作为技术栈的 RAG 系统管理后台 Web 应用。&lt;/p&gt;
+&lt;p&gt;过去自己认为&lt;strong&gt;十分枯燥乏味的前端项目开发，在分别许久后似乎又迸发了出新的吸引力&lt;/strong&gt;。当然如果要回溯让我产生这样变化的原因，我会归因于通过新的路径重新认识 React 吧。这条新路径的载体是 Next.js 这个极度流行的框架。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="学习" scheme="https://powerfooi.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="前端" scheme="https://powerfooi.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="React" scheme="https://powerfooi.github.io/tags/React/"/>
+    
+    <category term="TypeScript" scheme="https://powerfooi.github.io/tags/TypeScript/"/>
+    
+  </entry>
+  
+  <entry>
     <title>2024 年终总结</title>
     <link href="https://powerfooi.github.io/2024/12/31/ForMy2024/"/>
     <id>https://powerfooi.github.io/2024/12/31/ForMy2024/</id>
     <published>2024-12-31T00:46:33.000Z</published>
-    <updated>2024-12-31T11:35:35.677Z</updated>
+    <updated>2024-12-31T11:37:41.281Z</updated>
     
     
     <summary type="html">&lt;p&gt;2024 年过得很快，时间就像倾盆大雨时的雨滴，挡不住地从空中落在地上，然后消失在草地或者泥土里。这一年我经历了很多事情，也学到了很多事情，希望可以用这篇博客来总结和梳理一下自己的想法。主要还是围绕着与自己工作和兴趣相关的&lt;strong&gt;云原生、RAG 和 AI 三个方面&lt;/strong&gt;展开。&lt;/p&gt;</summary>
@@ -490,32 +514,6 @@
     <category term="Deployment" scheme="https://powerfooi.github.io/tags/Deployment/"/>
     
     <category term="Web Server" scheme="https://powerfooi.github.io/tags/Web-Server/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>如何相对优雅地使用 GraphQL</title>
-    <link href="https://powerfooi.github.io/2021/07/23/UseGraphQLElegantly/"/>
-    <id>https://powerfooi.github.io/2021/07/23/UseGraphQLElegantly/</id>
-    <published>2021-07-23T05:38:11.000Z</published>
-    <updated>2024-08-04T02:31:29.259Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;关于 GraphQL，它的&lt;a href=&quot;https://graphql.org/&quot;&gt;官网&lt;/a&gt;(需要科学上网)是这样介绍的：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;GraphQL 既是一种用于 API 的查询语言也是一个满足你数据查询的运行时。 GraphQL 对你的 API 中的数据提供了一套易于理解的完整描述，使得客户端能够准确地获得它需要的数据，而且没有任何冗余，也让 API 更容易地随着时间推移而演进，还能用于构建强大的开发者工具。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;作为 RESTful API 的竞品，GraphQL 从开源之初就备受关注，一是因为它是由 Facebook 开源的项目，二是它&lt;strong&gt;挑战了 RESTful API 的地位&lt;/strong&gt;，这是很关键的一点。RESTful API 利用 URI 的具体内容和请求方法来区分请求的资源或者方法，其中的资源 URI 容易与路由路径产生混淆和重复；资源数量达到一定的数目之后，如何给资源 URI 起名或许也是一件困难的事情。而 GraphQL 则鼓励开发者将所有需要请求的信息显式的写在请求体当中，精确到具体的字段，不多也不少。&lt;/p&gt;
-&lt;p&gt;我参与的几个项目都是用 GraphQL 作为 API 的基础，我总结出了一个在前端相对优雅地使用 GraphQL 的方法。这篇博客不讨论 GraphQL 的基本概念，主要介绍这个方法。（为省篇幅，这篇博客里面的代码均不做异常处理）&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="学习" scheme="https://powerfooi.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="前端" scheme="https://powerfooi.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-    <category term="GraphQL" scheme="https://powerfooi.github.io/tags/GraphQL/"/>
     
   </entry>
   
