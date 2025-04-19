@@ -6,7 +6,7 @@
   <link href="https://powerfooi.github.io/atom.xml" rel="self"/>
   
   <link href="https://powerfooi.github.io/"/>
-  <updated>2025-02-15T12:46:19.842Z</updated>
+  <updated>2025-04-19T09:38:43.819Z</updated>
   <id>https://powerfooi.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>回旋镖之重回北京</title>
+    <link href="https://powerfooi.github.io/2025/03/22/BackToBeijing/"/>
+    <id>https://powerfooi.github.io/2025/03/22/BackToBeijing/</id>
+    <published>2025-03-22T12:22:17.000Z</published>
+    <updated>2025-04-19T09:38:43.819Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;2023 年毕业后我来到了杭州，开始了我的第一份工作。相比北京而言，杭州这个南方城市对我来说熟悉又新鲜。熟悉的是我作为南方人对这里的气候和风土人情有所了解，新鲜的是这里的山水江湖和人文历史让我感到耳目一新。初到的一年时间里，我常常在业余时间独自在城市里探索，在西湖、植物园、雷峰塔、灵隐寺、龙井村、西溪湿地等等地方都留下过足迹，我也用相机记录下了这些令人欣喜的时光。&lt;/p&gt;
+&lt;p&gt;在 2022 年找工作时经历过的难以抉择的时光如今依然历历在目。2020 年疫情开始我的学生生活就发生了翻天覆地的变化，不能自由地进出校门、进出北京让我在研究生阶段的探索计划通通落空，取而代之的是食堂的透明隔板、进出校的艰难报备以及隐隐约约的焦虑不安。三年的限制让我对北京没有过多的留恋，我甚至是抱着埋怨的心态选择了杭州的工作岗位，并且在毕业后如愿地、如释重负地来到了杭州。杭州的山水人文环境也确实疗愈了我，让我能够在今时今日决定回到北京。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="随笔" scheme="https://powerfooi.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="游记" scheme="https://powerfooi.github.io/tags/%E6%B8%B8%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>再次认识 React</title>
@@ -481,39 +501,6 @@
     
     
     <category term="胡思乱想" scheme="https://powerfooi.github.io/tags/%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Nginx 基础</title>
-    <link href="https://powerfooi.github.io/2021/08/15/NginxBasics-1/"/>
-    <id>https://powerfooi.github.io/2021/08/15/NginxBasics-1/</id>
-    <published>2021-08-15T07:35:11.000Z</published>
-    <updated>2024-08-04T02:30:24.565Z</updated>
-    
-    
-    <summary type="html">&lt;h1 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h1&gt;&lt;p&gt;Nginx 读作 &lt;code&gt;engine x&lt;/code&gt;，是一个高性能的 HTTP 和反向代理服务器，还能用作邮件代理服务器或是通用的 TCP&amp;#x2F;UDP 代理服务器。有过后端程序部署经历的同学应该会有所了解，用 Nginx 能够很方便地完成反向代理、服务静态文件、实现负载均衡、接入 HTTPS 协议等任务。&lt;/p&gt;
-&lt;p&gt;根据官方文档里面写到的，除了提供静态文件服务、反向代理和负载均衡等功能之外，还提供以下包括单不限于若干个方面的支持：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;FastCGI, uwsgi 之类服务器和反向代理服务器的缓存支持；&lt;/li&gt;
-&lt;li&gt;以域名&amp;#x2F;IP 为基础的虚拟服务器、Keep-alive 和流水线链接的支持；&lt;/li&gt;
-&lt;li&gt;访问日志、错误日志的输出和格式化，带缓存的日志写机制；&lt;/li&gt;
-&lt;li&gt;3xx-5xx 错误码重定向，根据正则表达式重写 URI (Rewrite)；&lt;/li&gt;
-&lt;li&gt;基于客户端地址的访问控制和函数调用；&lt;/li&gt;
-&lt;li&gt;HTTP referer 的验证、支持除了 GET 外的几种 HTTP 方法： PUT&amp;#x2F;DELETE&amp;#x2F;COPY&amp;#x2F;MOVE&amp;#x2F;MKCOL；&lt;/li&gt;
-&lt;li&gt;FLV&amp;#x2F;MP4 的流播放、响应限流、限制单点的并发连接数和请求数；&lt;/li&gt;
-&lt;li&gt;等等…（上面只列了我读得懂的）&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Nginx 的功能实在太多了，在这里全部列出来不太可能。一直以来我对 Nginx 都停留在“配置是什么，work 就行”的态度。因为这周程序部署时遇到的一点问题，上网搜了好多帖子、博客寻求解决方法那种捉襟见肘、有病乱投医的样子让我觉得很狼狈。借此为契机，决定周末看一下 Nginx 的官方文档。nginx 旧版的官网文档组织混乱，建议移步 &lt;a href=&quot;https://docs.nginx.com/&quot;&gt;Nginx Plus (Nginx 的商业版)官网&lt;/a&gt;。Nginx 和 Nginx Plus 的对比&lt;a href=&quot;https://www.nginx.com/products/nginx/compare-models&quot;&gt;放在这里&lt;/a&gt;。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="学习" scheme="https://powerfooi.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="Deployment" scheme="https://powerfooi.github.io/tags/Deployment/"/>
-    
-    <category term="Web Server" scheme="https://powerfooi.github.io/tags/Web-Server/"/>
     
   </entry>
   

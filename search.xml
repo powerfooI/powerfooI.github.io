@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>回旋镖之重回北京</title>
+      <link href="/2025/03/22/BackToBeijing/"/>
+      <url>/2025/03/22/BackToBeijing/</url>
+      
+        <content type="html"><![CDATA[<p>2023 年毕业后我来到了杭州，开始了我的第一份工作。相比北京而言，杭州这个南方城市对我来说熟悉又新鲜。熟悉的是我作为南方人对这里的气候和风土人情有所了解，新鲜的是这里的山水江湖和人文历史让我感到耳目一新。初到的一年时间里，我常常在业余时间独自在城市里探索，在西湖、植物园、雷峰塔、灵隐寺、龙井村、西溪湿地等等地方都留下过足迹，我也用相机记录下了这些令人欣喜的时光。</p><p>在 2022 年找工作时经历过的难以抉择的时光如今依然历历在目。2020 年疫情开始我的学生生活就发生了翻天覆地的变化，不能自由地进出校门、进出北京让我在研究生阶段的探索计划通通落空，取而代之的是食堂的透明隔板、进出校的艰难报备以及隐隐约约的焦虑不安。三年的限制让我对北京没有过多的留恋，我甚至是抱着埋怨的心态选择了杭州的工作岗位，并且在毕业后如愿地、如释重负地来到了杭州。杭州的山水人文环境也确实疗愈了我，让我能够在今时今日决定回到北京。</p><span id="more"></span><p>很感谢在杭州一年半的经历，这一段时间中我也确确实实参与到了开源项目的开发和开源社区的运维工作当中。具体来说，我深度参与了 OceanBase on Kubernetes 拓展的开发，与 Kubeblocks 以及 Dify 两个社区也都有所交集，发现不同社区的风格和工作模式截然不同。在参与开源的过程中结交了一些朋友，通过学习开源项目也些许拓宽了眼界，也让我越发的清楚我适合做什么、我想要做什么。</p><p>我不太擅长直接对接客户，这会极大地消耗我的能量。而 ToB 业务的开源部门或多或少需要直接对客沟通，包括但不限于拉群支持，在线会议支持，组织动手实验等形式。这些面向客户的活动本身是好的，但我觉得这些支持或者科普性质的工作较多地占用本该用于研发的时间后，真正要开始研发时自己可能就处在“低电量”模式了。</p><p>尽管如此，我的工作基本也都圆满完成并且得到了同事们的认可。但我深知这样的状态不可持续，因为我所追求的首要目标不是高绩效或者安逸的生活，而是高效地产出有意义有价值的工作成果。我需要做出改变。</p><p>在近期的几篇播客里我都提到了 AI 相关的内容，从 2022 年开始通过 Github Copilot 接触 AI 工具以来，我已经在 AI 的影响下度过了整整三个年头了。我目睹着 AI 工具从 Copilot 单纯的单行推断补全，到 ChatGPT 简单强大的智能对话，再到 Cursor 这样的新一代 AI 编辑器让我不用写一行代码就能完成应用开发。我一年前也曾经抱着“封闭”的态度看待 AI 及其应用的发展：ChatGPT 不过是优化版的搜索引擎，而且可能就会止步于此。到了现在，我发现 AI 已经深切地影响到了我从事的行业，我也利用它极大地提升了自己的效率，也完全认为它带来的影响是积极乐观的。既然已经从旁观者变成了冲浪者，那么不如全面拥抱变化成为造浪者！</p><p>我接下来将参与到 AI 的创业团队当中，开展 AI Infra 的研发工作，这让我踌躇满志。幸运的是团队成员都很有活力，一切都生机盎然，让我感觉这不是到了新的环境，而是与老朋友们的阔别重逢。</p><p>在杭州的最近半年时间里，我接触了很多与 RAG 有关的应用，看到了数据库检索给 AI 加持的能力，同时也看到了该过程的局限性。开发者为 LLM 预定义了一套他们认为具有高价值的检索方案，初期也确实看到了些许成效，但想进一步发掘 RAG 的能力时就会发现预定义的检索过程对 LLM 来说是一种限制或者规训，让人工创造的智能又重新受困于人工定义的工作流当中。</p><p>RAG 方案要解决的问题是对 LLM 进行时效性知识和领域特定知识的补充，根本场景还是要回答用户的问题。不妨把“回答用户问题”这一目标再往上抽象一层，要完成用户指定的特定任务，那么作为开发者是否需要把完成所有任务的 SOP 给模型预定好呢？我想着是不需要而且也是不可行的。我们应当为模型提供好工具、环境和规则，让它学习在规则约束下使用工具在环境中完成任务，正如同我们生活在这个世界上需要遵守各种规章制度，也要善用各种工具，以实现符合我们价值观的目标。</p><p>强化学习之父 Richard Sutton 在其 2019 年发表的一篇著名的文章 <em>The Bitter Lesson</em> 中提到，在 70 多年的 AI 领域研究过程中总是发现充分利用计算的通用方法最终总是大幅优于其他的特定方法，基于人类知识的方法总是让解决方案复杂化，使其难以充分利用计算的优势。</p><blockquote><p>The biggest lesson that can be read from 70 years of AI research is that general methods that leverage computation are ultimately the most effective, and by a large margin.<br>…<br>And the human-knowledge approach tends to complicate methods in ways that make them less suited to taking advantage of general methods leveraging computation. There were many examples of AI researchers’ belated learning of this bitter lesson, and it is instructive to review some of the most prominent.<br>…<br>One thing that should be learned from the bitter lesson is the great power of general purpose methods, of methods that continue to scale with increased computation even as the available computation becomes very great. The two methods that seem to scale arbitrarily in this way are search and learning.<br>– Richard Sutton</p></blockquote><p>我认为通用方法是实现通用智能的路径，既然如此我会给它搭好平台、造好工具，静静等待它的成长和出现。而现在所见到的针对特定场景的 AI 应用（In-Domain RAG、Web Search、Image Generation 等）都将成为通用智能的工具。那接下来就争取成为强有力的通用智能启动器吧！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 游记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>再次认识 React</title>
       <link href="/2025/02/15/LearnReactAgain/"/>
       <url>/2025/02/15/LearnReactAgain/</url>
