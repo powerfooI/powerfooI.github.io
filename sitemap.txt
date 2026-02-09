@@ -1,3 +1,4 @@
+https://powerfooi.github.io/2026/02/08/GiveupHandtyping/
 https://powerfooi.github.io/2025/03/01/BackToBeijing/
 https://powerfooi.github.io/2024/12/31/ForMy2024/
 https://powerfooi.github.io/2025/02/15/LearnReactAgain/
@@ -73,5 +74,7 @@ https://powerfooi.github.io/tags/Windows/
 https://powerfooi.github.io/tags/%E6%80%BB%E7%BB%93/
 https://powerfooi.github.io/tags/RAG/
 https://powerfooi.github.io/tags/Github/
+https://powerfooi.github.io/tags/Vibe-Coding/
+https://powerfooi.github.io/tags/Agent/
 https://powerfooi.github.io/categories/%E5%AD%A6%E4%B9%A0/
 https://powerfooi.github.io/categories/%E9%9A%8F%E7%AC%94/

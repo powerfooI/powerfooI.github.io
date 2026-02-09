@@ -6,7 +6,7 @@
   <link href="https://powerfooi.github.io/atom.xml" rel="self"/>
   
   <link href="https://powerfooi.github.io/"/>
-  <updated>2025-04-19T09:42:04.250Z</updated>
+  <updated>2026-02-09T16:03:42.316Z</updated>
   <id>https://powerfooi.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>放弃精耕细作式的编程吧</title>
+    <link href="https://powerfooi.github.io/2026/02/08/GiveupHandtyping/"/>
+    <id>https://powerfooi.github.io/2026/02/08/GiveupHandtyping/</id>
+    <published>2026-02-08T14:52:55.000Z</published>
+    <updated>2026-02-09T16:03:42.316Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;是时候放弃那种精耕细作式的写代码方式了。&lt;/p&gt;
+&lt;p&gt;我们更应该站在宏观的、高阶的、更广阔的视角来审视整个项目：最根本的目标是什么？为了达成目标，我们真正需要什么？而不是纠结于某一处技术细节该如何实现——这类问题，已经可以交给 AI 来协助解决。&lt;/p&gt;
+&lt;p&gt;若仍执着于事无巨细地掌控每一行代码，即使用上 AI，能带来的提升也相当有限。无非是从挥锄头换成了开拖拉机，效率或许能提升五倍、十倍，但本质上我们依然在「耕地」，而不是「想清楚要种什么、怎么收成」。我们只是换了一件更趁手的工具，却没有换一种角色：从执行者，变成能看见更大图景、设定更高目标的人。&lt;/p&gt;
+&lt;h2 id=&quot;接触-Vibe-Coding-的过程&quot;&gt;&lt;a href=&quot;#接触-Vibe-Coding-的过程&quot; class=&quot;headerlink&quot; title=&quot;接触 Vibe Coding 的过程&quot;&gt;&lt;/a&gt;接触 Vibe Coding 的过程&lt;/h2&gt;&lt;p&gt;2022 年下半年，我在 GitHub 上了解到 Copilot。在 VS Code 里启用之后，光是「光标后自动补全代码」这一项能力，在当时就让我很受震撼。&lt;/p&gt;
+&lt;p&gt;在此之前，一旦遇到不熟悉的内容或需要查资料，就不得不把注意力从编辑器切到浏览器，整个写代码的过程不断在「打断 → 恢复 → 再打断 → 再恢复」里循环，非常消耗精力。这种模式贯穿了我 2022 年之前几乎所有的编程时光。但 Copilot 能做的有限：它只能在光标之后做顺序补全，无法在任意位置跳转补全，实际带来的效率提升并不算大。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="随笔" scheme="https://powerfooi.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="AI" scheme="https://powerfooi.github.io/tags/AI/"/>
+    
+    <category term="Vibe Coding" scheme="https://powerfooi.github.io/tags/Vibe-Coding/"/>
+    
+    <category term="Agent" scheme="https://powerfooi.github.io/tags/Agent/"/>
+    
+  </entry>
   
   <entry>
     <title>回旋镖之重回北京</title>
@@ -482,25 +509,6 @@
     <category term="React" scheme="https://powerfooi.github.io/tags/React/"/>
     
     <category term="NPM" scheme="https://powerfooi.github.io/tags/NPM/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2022年我希望...</title>
-    <link href="https://powerfooi.github.io/2022/01/15/SomethingFor2022/"/>
-    <id>https://powerfooi.github.io/2022/01/15/SomethingFor2022/</id>
-    <published>2022-01-15T04:08:09.000Z</published>
-    <updated>2022-01-14T16:00:00.000Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;新年的元月已然过半，但直到现在我才能说我完成了上一年的工作。我一直在追求“忙的时候闲一点，闲的时候忙一点”的从容，这一年大部分时间是保持着这个状态的，让我非常欣慰。但是真正从学生身份蜕变成“开发者”“软件工程师”（或者“社畜”？其实即使是自嘲我也不太喜欢这个词），还是有着截然不同的感受和体会的。对于 2022 也有着无数的憧憬。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="随笔" scheme="https://powerfooi.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-    
-    <category term="胡思乱想" scheme="https://powerfooi.github.io/tags/%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/"/>
     
   </entry>
   
