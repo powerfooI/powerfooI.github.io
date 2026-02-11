@@ -6,7 +6,7 @@
   <link href="https://powerfooi.github.io/atom.xml" rel="self"/>
   
   <link href="https://powerfooi.github.io/"/>
-  <updated>2026-02-09T16:03:42.316Z</updated>
+  <updated>2026-02-11T15:59:13.963Z</updated>
   <id>https://powerfooi.github.io/</id>
   
   <author>
@@ -21,10 +21,10 @@
     <link href="https://powerfooi.github.io/2026/02/08/GiveupHandtyping/"/>
     <id>https://powerfooi.github.io/2026/02/08/GiveupHandtyping/</id>
     <published>2026-02-08T14:52:55.000Z</published>
-    <updated>2026-02-09T16:03:42.316Z</updated>
+    <updated>2026-02-11T15:59:13.963Z</updated>
     
     
-    <summary type="html">&lt;p&gt;是时候放弃那种精耕细作式的写代码方式了。&lt;/p&gt;
+    <summary type="html">&lt;p&gt;是时候放弃精耕细作的写代码方式了。&lt;/p&gt;
 &lt;p&gt;我们更应该站在宏观的、高阶的、更广阔的视角来审视整个项目：最根本的目标是什么？为了达成目标，我们真正需要什么？而不是纠结于某一处技术细节该如何实现——这类问题，已经可以交给 AI 来协助解决。&lt;/p&gt;
 &lt;p&gt;若仍执着于事无巨细地掌控每一行代码，即使用上 AI，能带来的提升也相当有限。无非是从挥锄头换成了开拖拉机，效率或许能提升五倍、十倍，但本质上我们依然在「耕地」，而不是「想清楚要种什么、怎么收成」。我们只是换了一件更趁手的工具，却没有换一种角色：从执行者，变成能看见更大图景、设定更高目标的人。&lt;/p&gt;
 &lt;h2 id=&quot;接触-Vibe-Coding-的过程&quot;&gt;&lt;a href=&quot;#接触-Vibe-Coding-的过程&quot; class=&quot;headerlink&quot; title=&quot;接触 Vibe Coding 的过程&quot;&gt;&lt;/a&gt;接触 Vibe Coding 的过程&lt;/h2&gt;&lt;p&gt;2022 年下半年，我在 GitHub 上了解到 Copilot。在 VS Code 里启用之后，光是「光标后自动补全代码」这一项能力，在当时就让我很受震撼。&lt;/p&gt;
@@ -34,6 +34,8 @@
     
     <category term="随笔" scheme="https://powerfooi.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
     
+    
+    <category term="Coding" scheme="https://powerfooi.github.io/tags/Coding/"/>
     
     <category term="AI" scheme="https://powerfooi.github.io/tags/AI/"/>
     
