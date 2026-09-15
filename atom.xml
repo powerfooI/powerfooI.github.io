@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>PowerfooI 的个人博客</title>
+  <icon>https://powerfooi.github.io/img/apple-touch-icon.png</icon>
+  <subtitle>有趣的技术和精彩的生活</subtitle>
+  <link href="https://powerfooi.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://powerfooi.github.io/"/>
+  <updated>2026-08-09T03:59:39.000Z</updated>
+  <id>https://powerfooi.github.io/</id>
+  
+  <author>
+    <name>PowerfooI</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Vibe Or Dive</title>
+    <link href="https://powerfooi.github.io/2026/08/09/VibeOrDive/"/>
+    <id>https://powerfooi.github.io/2026/08/09/VibeOrDive/</id>
+    <published>2026-08-09T03:59:39.000Z</published>
+    <updated>2026-08-09T03:59:39.000Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;最好的时代，也是最坏的时代&quot;&gt;&lt;a href=&quot;#最好的时代，也是最坏的时代&quot; class=&quot;headerlink&quot; title=&quot;最好的时代，也是最坏的时代&quot;&gt;&lt;/a&gt;最好的时代，也是最坏的时代&lt;/h2&gt;&lt;p&gt;对于开发者而言，这是最好的时代，也是最坏的时代。&lt;/p&gt;
+&lt;p&gt;说它最好，是因为在现在只要有好的创意和想法，大部分都可以快速地验证、构建并且转换成希望看到的产品形态。说它最坏，是因为开发者过去从课本和项目里学到的很多知识大多变得“无用”，提升效率的同时也提高了构建过程获取快乐的阈值，降低了上手门槛导致竞争压力增大。&lt;/p&gt;
+&lt;p&gt;最近几年里，体感上几乎每半年都会经历一次生产工具的大换血，GitHub Copilot, Cursor, Windsurf, Claude Code, Codex, &lt;a href=&quot;http://raft.build/&quot;&gt;Slock&lt;/a&gt;, &lt;a href=&quot;https://github.com/block/buzz&quot;&gt;Buzz&lt;/a&gt;…&lt;/p&gt;
+&lt;p&gt;工具是否趁手已经无关紧要，因为很快又会有新的更好用的工具诞生。GitHub Copilot 是编辑器插件，核心动线仍是用户主要负责编码，AI 进行辅助；Cursor&amp;#x2F;Windsurf 是 AI 主导的编辑器，人类用户的编辑工作进一步减少；Claude Code &amp;#x2F; Codex 这样的 Local (Coding) Agent 则让开发者几乎不用写代码；Slock&amp;#x2F;Buzz 则屏蔽了绝大多数开发工作的细节，端到端的实现从需求到产品的转化。开发者的编码工作越来越少，难免会出现“被取代”的紧张情绪。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="随笔" scheme="https://powerfooi.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="AI" scheme="https://powerfooi.github.io/tags/AI/"/>
+    
+    <category term="Vibe Coding" scheme="https://powerfooi.github.io/tags/Vibe-Coding/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>放弃精耕细作式的编程吧</title>
+    <link href="https://powerfooi.github.io/2026/02/08/GiveupHandtyping/"/>
+    <id>https://powerfooi.github.io/2026/02/08/GiveupHandtyping/</id>
+    <published>2026-02-08T14:52:55.000Z</published>
+    <updated>2026-09-15T14:43:19.694Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;是时候放弃精耕细作的写代码方式了。&lt;/p&gt;
+&lt;p&gt;我们更应该站在宏观的、高阶的、更广阔的视角来审视整个项目：最根本的目标是什么？为了达成目标，我们真正需要什么？而不是纠结于某一处技术细节该如何实现——这类问题，已经可以交给 AI 来协助解决。&lt;/p&gt;
+&lt;p&gt;若仍执着于事无巨细地掌控每一行代码，即使用上 AI，能带来的提升也相当有限。无非是从挥锄头换成了开拖拉机，效率或许能提升五倍、十倍，但本质上我们依然在「耕地」，而不是「想清楚要种什么、怎么收成」。我们只是换了一件更趁手的工具，却没有换一种角色：从执行者，变成能看见更大图景、设定更高目标的人。&lt;/p&gt;
+&lt;h2 id=&quot;接触-Vibe-Coding-的过程&quot;&gt;&lt;a href=&quot;#接触-Vibe-Coding-的过程&quot; class=&quot;headerlink&quot; title=&quot;接触 Vibe Coding 的过程&quot;&gt;&lt;/a&gt;接触 Vibe Coding 的过程&lt;/h2&gt;&lt;p&gt;2022 年下半年，我在 GitHub 上了解到 Copilot。在 VS Code 里启用之后，光是「光标后自动补全代码」这一项能力，在当时就让我很受震撼。&lt;/p&gt;
+&lt;p&gt;在此之前，一旦遇到不熟悉的内容或需要查资料，就不得不把注意力从编辑器切到浏览器，整个写代码的过程不断在「打断 → 恢复 → 再打断 → 再恢复」里循环，非常消耗精力。这种模式贯穿了我 2022 年之前几乎所有的编程时光。但 Copilot 能做的有限：它只能在光标之后做顺序补全，无法在任意位置跳转补全，实际带来的效率提升并不算大。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="随笔" scheme="https://powerfooi.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="Coding" scheme="https://powerfooi.github.io/tags/Coding/"/>
+    
+    <category term="AI" scheme="https://powerfooi.github.io/tags/AI/"/>
+    
+    <category term="Vibe Coding" scheme="https://powerfooi.github.io/tags/Vibe-Coding/"/>
+    
+    <category term="Agent" scheme="https://powerfooi.github.io/tags/Agent/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>回旋镖之重回北京</title>
+    <link href="https://powerfooi.github.io/2025/03/01/BackToBeijing/"/>
+    <id>https://powerfooi.github.io/2025/03/01/BackToBeijing/</id>
+    <published>2025-03-01T12:22:17.000Z</published>
+    <updated>2026-09-15T14:43:19.694Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;2023 年毕业后我来到了杭州，开始了我的第一份工作。相比北京而言，杭州这个南方城市对我来说熟悉又新鲜。熟悉的是我作为南方人对这里的气候和风土人情有所了解，新鲜的是这里的山水江湖和人文历史让我感到耳目一新。初到的一年时间里，我常常在业余时间独自在城市里探索，在西湖、植物园、雷峰塔、灵隐寺、龙井村、西溪湿地等等地方都留下过足迹，我也用相机记录下了这些令人欣喜的时光。&lt;/p&gt;
+&lt;p&gt;在 2022 年找工作时经历过的难以抉择的时光如今依然历历在目。2020 年疫情开始我的学生生活就发生了翻天覆地的变化，不能自由地进出校门、进出北京让我在研究生阶段的探索计划通通落空，取而代之的是食堂的透明隔板、进出校的艰难报备以及隐隐约约的焦虑不安。三年的限制让我对北京没有过多的留恋，我甚至是抱着埋怨的心态选择了杭州的工作岗位，并且在毕业后如愿地、如释重负地来到了杭州。杭州的山水人文环境也确实疗愈了我，让我能够在今时今日决定回到北京。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="随笔" scheme="https://powerfooi.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="游记" scheme="https://powerfooi.github.io/tags/%E6%B8%B8%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>再次认识 React</title>
+    <link href="https://powerfooi.github.io/2025/02/15/LearnReactAgain/"/>
+    <id>https://powerfooi.github.io/2025/02/15/LearnReactAgain/</id>
+    <published>2025-02-15T14:38:41.000Z</published>
+    <updated>2026-09-15T14:43:19.694Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;毕业之后很久没写前端代码了，但最近因为工作需要又开始接触前端项目。例如在 &lt;a href=&quot;https://github.com/oceanbase/ob-operator&quot;&gt;ob-operator&lt;/a&gt; 项目中我负责评审两位前端同学过去一年所有的 PR、在&lt;a href=&quot;/2024/12/04/WriteCodeWithCursor/&quot; title=&quot;用 Cursor 快速搭建软件原型&quot;&gt;用 Cursor 快速搭建软件原型&lt;/a&gt;提到的项目中也是用 Cursor 快速实现了一个以 TypeScript + Next.js + Shadcn UI 作为技术栈的 RAG 系统管理后台 Web 应用。&lt;/p&gt;
+&lt;p&gt;过去自己认为&lt;strong&gt;十分枯燥乏味的前端项目开发，在分别许久后似乎又迸发了出新的吸引力&lt;/strong&gt;。当然如果要回溯让我产生这样变化的原因，我会归因于通过新的路径重新认识 React 吧。这条新路径的载体是 Next.js 这个极度流行的框架。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="学习" scheme="https://powerfooi.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="前端" scheme="https://powerfooi.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="React" scheme="https://powerfooi.github.io/tags/React/"/>
+    
+    <category term="TypeScript" scheme="https://powerfooi.github.io/tags/TypeScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2024 年终总结</title>
+    <link href="https://powerfooi.github.io/2024/12/31/ForMy2024/"/>
+    <id>https://powerfooi.github.io/2024/12/31/ForMy2024/</id>
+    <published>2024-12-31T00:46:33.000Z</published>
+    <updated>2026-09-15T14:43:19.691Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;2024 年过得很快，时间就像倾盆大雨时的雨滴，挡不住地从空中落在地上，然后消失在草地或者泥土里。这一年我经历了很多事情，也学到了很多事情，希望可以用这篇博客来总结和梳理一下自己的想法。主要还是围绕着与自己工作和兴趣相关的&lt;strong&gt;云原生、RAG 和 AI 三个方面&lt;/strong&gt;展开。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="学习" scheme="https://powerfooi.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="CloudNative" scheme="https://powerfooi.github.io/tags/CloudNative/"/>
+    
+    <category term="总结" scheme="https://powerfooi.github.io/tags/%E6%80%BB%E7%BB%93/"/>
+    
+    <category term="RAG" scheme="https://powerfooi.github.io/tags/RAG/"/>
+    
+    <category term="AI" scheme="https://powerfooi.github.io/tags/AI/"/>
+    
+    <category term="Github" scheme="https://powerfooi.github.io/tags/Github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>像使用 Windows 一样使用 MacOS</title>
+    <link href="https://powerfooi.github.io/2024/12/25/UseMacLikeWindows/"/>
+    <id>https://powerfooi.github.io/2024/12/25/UseMacLikeWindows/</id>
+    <published>2024-12-25T14:20:38.000Z</published>
+    <updated>2026-09-15T14:43:19.690Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;我在学校时实验室配备的办公台式机是 Windows 系统，而我自己的笔记本电脑是 macOS 系统。在使用两个操作系统的过程中，我发现有一些 Windows 系统的使用方式比较高效，而且在 macOS 上也可以实现，这样既能让我在两个系统之间的切换变得流畅，也可以提高我在 macOS 上的工作效率。以下是我在 MacOS 上实现 Windows 系统使用方式的一些方法。&lt;/p&gt;
+&lt;p&gt;主要分为鼠标使用、窗口管理、软件切换、云盘存储和跨平台软件使用几个方面。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="随笔" scheme="https://powerfooi.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="Tools" scheme="https://powerfooi.github.io/tags/Tools/"/>
+    
+    <category term="MacOS" scheme="https://powerfooi.github.io/tags/MacOS/"/>
+    
+    <category term="Windows" scheme="https://powerfooi.github.io/tags/Windows/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>用 Cursor 快速搭建软件原型</title>
+    <link href="https://powerfooi.github.io/2024/12/04/WriteCodeWithCursor/"/>
+    <id>https://powerfooi.github.io/2024/12/04/WriteCodeWithCursor/</id>
+    <published>2024-12-04T15:20:06.000Z</published>
+    <updated>2026-09-15T14:43:19.688Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Cursor 是一款使用 AI 能力加持的代码编辑器，或者说得更大一点，文本编辑器。正如它在官网所说的那样 &lt;code&gt;Built to make you extraordinarily productive, Cursor is the best way to code with AI.&lt;/code&gt; 使用它能够让在编程时更加高效，几倍地提升编码效率，将工程师从平常繁琐、简单、机械、重复的代码编写工作中解放出来，更加专注于分析、建模和解决关键的问题。&lt;/p&gt;
+&lt;p&gt;但需要说在开头的是，Cursor &lt;strong&gt;无法让零基础的用户变成专精的软件工程师&lt;/strong&gt;，以能够解决所编写代码中发生的各种疑难杂症，但能让他们轻松搭建出一些有意思的应用，例如简单的网页，便捷的脚本等，真正遇到问题需要定位和调试的时候，往往是需要人类提供指导方案的。Cursor 能够做的是让有一定编程基础的用户更加高效地编写代码，让专业的软件工程师更加专注于解决问题本身。简而言之，让零基础的人玩得起来，让有基础的人更加高效。&lt;/p&gt;
+&lt;p&gt;本文介绍了我如何使用 Cursor 在业余时间独立完成了一个软件系统的原型搭建、后续演化以及最终部署上线的。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="学习" scheme="https://powerfooi.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="Tools" scheme="https://powerfooi.github.io/tags/Tools/"/>
+    
+    <category term="Coding" scheme="https://powerfooi.github.io/tags/Coding/"/>
+    
+    <category term="AI" scheme="https://powerfooi.github.io/tags/AI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>再见北京 👋</title>
+    <link href="https://powerfooi.github.io/2024/10/27/GoodByeBeijing/"/>
+    <id>https://powerfooi.github.io/2024/10/27/GoodByeBeijing/</id>
+    <published>2024-10-27T12:24:12.000Z</published>
+    <updated>2026-09-15T14:43:19.676Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;因公司在北京举办的活动需要人员到现场支持，我提前了一个周末来到北京。刚到那天的温度就给了我一个下马威：寒潮过境，最低温度来到了 0 度，而我刚从气温接近 30 度的杭州过来，一时间难以适应。&lt;/p&gt;
+&lt;p&gt;上午 10 点到达预定的酒店被告知没有空余房间，这也合乎情理，金秋时节的北京是热门的出游目的地，游客众多，用房需求也相应的高。和朋友相约到二里沟地铁站旁边的新疆大厦吃了顿自助，羊肉串、羊腰大快朵颐，酸奶、格瓦斯畅快下肚，好不痛快，就是最后肠胃承受了消化的重负，撑了一下午。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="随笔" scheme="https://powerfooi.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="摄影" scheme="https://powerfooi.github.io/tags/%E6%91%84%E5%BD%B1/"/>
+    
+    <category term="游记" scheme="https://powerfooi.github.io/tags/%E6%B8%B8%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>记黑神话悟空云通关☁️</title>
+    <link href="https://powerfooi.github.io/2024/09/12/BlackMythWukong/"/>
+    <id>https://powerfooi.github.io/2024/09/12/BlackMythWukong/</id>
+    <published>2024-09-12T14:55:54.000Z</published>
+    <updated>2026-09-15T14:43:19.669Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;第一印象&quot;&gt;&lt;a href=&quot;#第一印象&quot; class=&quot;headerlink&quot; title=&quot;第一印象&quot;&gt;&lt;/a&gt;第一印象&lt;/h1&gt;&lt;p&gt;游戏科学在 2020 年 8 月放出黑神话悟空第一个实机演示视频以吸引游戏人才，“被迫”开始了对外宣传，到今年 2024 年 8 月 20 日正式发售，经历了四年的时间。这四年里，每年的 8 月 20 日都会释放出新的实机演示视频，赚足了单机游戏玩家的期待，其中自然也包括了我。&lt;/p&gt;
+&lt;p&gt;我在小学时期玩过很多游戏，各种各样的游戏都爱玩，仙剑奇侠传、波斯王子、英雄无敌、魔兽争霸、鬼泣等，对单机游戏是有足够好感的。中学之后娱乐时间变少后玩游戏的时间就趋近于零了，这个习惯一直延续到了大学毕业。在研究生阶段中期，多多少少受到些黑神话悟空的影响，我又开始断断续续接触了几款动作 RPG 游戏，例如古剑奇谭三、塞尔达传说、只狼、黑魂三、刺客信条·奥德赛等。&lt;/p&gt;
+&lt;p&gt;从释出的实机演示视频来看，黑悟空与近期接触过的只狼比较相似，战斗系统、画面风格、故事背景（都具有东方特色）等，而只狼是我玩过类似游戏里最喜欢的。黑悟空刺激的战斗系统搭配上西游记的故事背景，进一步拔高了我对黑悟空的期待。&lt;/p&gt;
+&lt;img src=&quot;/2024/09/12/BlackMythWukong/tianzhending.jpg&quot; class=&quot;&quot; title=&quot;通往天真顶的道路一隅&quot;&gt;
+
+&lt;h1 id=&quot;八十一难之第零难：启动游戏&quot;&gt;&lt;a href=&quot;#八十一难之第零难：启动游戏&quot; class=&quot;headerlink&quot; title=&quot;八十一难之第零难：启动游戏&quot;&gt;&lt;/a&gt;八十一难之第零难：启动游戏&lt;/h1&gt;&lt;p&gt;我手头的设备是 MacBook Pro 和 Switch，并且 Switch 长时间吃灰，彻底沦为了有氧拳击启动器。同时因为没有业余时间打游戏的习惯，没有再增配主机，近期只对黑悟空这一款游戏感兴趣，不打算单单为了它添置设备，所以我开始摸索如何在 Mac 上运行黑悟空。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="随笔" scheme="https://powerfooi.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="游戏" scheme="https://powerfooi.github.io/tags/%E6%B8%B8%E6%88%8F/"/>
+    
+    <category term="云游戏" scheme="https://powerfooi.github.io/tags/%E4%BA%91%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一起来做类型体操吧！😊</title>
+    <link href="https://powerfooi.github.io/2024/07/27/TypeGymnastics/"/>
+    <id>https://powerfooi.github.io/2024/07/27/TypeGymnastics/</id>
+    <published>2024-07-27T15:52:22.000Z</published>
+    <updated>2026-09-15T14:43:19.669Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;类型重要吗？&quot;&gt;&lt;a href=&quot;#类型重要吗？&quot; class=&quot;headerlink&quot; title=&quot;类型重要吗？&quot;&gt;&lt;/a&gt;类型重要吗？&lt;/h1&gt;&lt;p&gt;长话短说，类型很重要。&lt;/p&gt;
+&lt;h2 id=&quot;类型的重要性&quot;&gt;&lt;a href=&quot;#类型的重要性&quot; class=&quot;headerlink&quot; title=&quot;类型的重要性&quot;&gt;&lt;/a&gt;类型的重要性&lt;/h2&gt;&lt;h3 id=&quot;静态检查&quot;&gt;&lt;a href=&quot;#静态检查&quot; class=&quot;headerlink&quot; title=&quot;静态检查&quot;&gt;&lt;/a&gt;静态检查&lt;/h3&gt;&lt;p&gt;在编程中，类型往往是我们的第一道防线，它可以帮助我们在编译阶段就发现一些潜在的问题，避免一些不必要的错误。在过去，由于 JavaScript 是弱类型、解释型语言，所以在编译阶段无法发现一些类型相关的问题，这就需要我们在运行时进行一些类型检查，这样就会增加一些不必要的开销。而 TypeScript 则是由微软推出的、基于 JavaScript 的强类型语言，它可以在编译阶段就发现一些类型相关的问题，这样就可以避免一些不必要的错误。&lt;/p&gt;
+&lt;p&gt;当然也不是说用 JavaScript 就一定会出问题，但这&lt;strong&gt;要求编程者有更高的责任心和编程能力&lt;/strong&gt;，能够在编码阶段就提前规避问题，但对于大型项目来说，这是不现实的。不要完全相信任何人的代码，即使是自己的代码。因为人是会犯错的，需要加以约束。在 Web 应用开发过程中，JavaScript 代码如果访问了一个空对象的字段则会导致异常，如果程序有限定错误边界，那么这个错误可能会被忽略，但是如果没有限定错误边界，那么这个错误可能会导致程序崩溃，也就是页面白屏。而使用 TypeScript 配合 IDE 的类型检查、其他静态检查工具，可以在编码、编译和代码合并时就发现并修复这些问题。&lt;/p&gt;
+&lt;h3 id=&quot;类型即文档&quot;&gt;&lt;a href=&quot;#类型即文档&quot; class=&quot;headerlink&quot; title=&quot;类型即文档&quot;&gt;&lt;/a&gt;类型即文档&lt;/h3&gt;&lt;p&gt;另外，用弱类型语言编写的项目一旦涉及到多人协作（甚至是对于现在的自己和过去的自己来说也是如此），就会变得难以维护和协作，因为弱类型语言无法提供足够的信息，所以在多人协作时，很容易出现一些问题。而强类型语言则可以提供足够的信息，帮助我们更好地理解代码，提高代码的可维护性。所以我也认为“类型即文档”。&lt;/p&gt;
+&lt;p&gt;现在很多语言都有相关工具可以通过类型信息来生成文档，例如 openapi-generator、TypeDoc、JSDoc 等等，通过代码自动生成文档可以帮助开发者省去很多写文档的时间，同时也可以极大程度地提高交流效率。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="学习" scheme="https://powerfooi.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="TypeScript" scheme="https://powerfooi.github.io/tags/TypeScript/"/>
+    
+    <category term="Python" scheme="https://powerfooi.github.io/tags/Python/"/>
+    
+    <category term="Docs" scheme="https://powerfooi.github.io/tags/Docs/"/>
+    
+    <category term="Coding" scheme="https://powerfooi.github.io/tags/Coding/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>rFTP - 用 Rust 实现简单的 FTP Server (2)</title>
+    <link href="https://powerfooi.github.io/2024/06/22/RFTP-2/"/>
+    <id>https://powerfooi.github.io/2024/06/22/RFTP-2/</id>
+    <published>2024-06-22T15:48:27.000Z</published>
+    <updated>2026-09-15T14:43:19.669Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;前情提要&quot;&gt;&lt;a href=&quot;#前情提要&quot; class=&quot;headerlink&quot; title=&quot;前情提要&quot;&gt;&lt;/a&gt;前情提要&lt;/h1&gt;&lt;p&gt;在&lt;a href=&quot;/2023/01/20/RFTP-1&quot;&gt;上一篇文章&lt;/a&gt;中，我讲述了我为什么选择 Rust 作为学习计算机底层知识的工具，一些 Rust 的基础知识和我当时所遇到的困难。在这篇又是属于&lt;strong&gt;目标回收&lt;/strong&gt;的文章中，我将介绍最近的进展、Rust 开发的体验和下一步的计划。总的来说，用 Rust 写项目体验尚可，通过与编译器博弈而最终通过“考试”后，自己对 Rust 的理解也有了些许提升。&lt;/p&gt;
+&lt;h1 id=&quot;异步编程&quot;&gt;&lt;a href=&quot;#异步编程&quot; class=&quot;headerlink&quot; title=&quot;异步编程&quot;&gt;&lt;/a&gt;异步编程&lt;/h1&gt;&lt;p&gt;在 Rust 中，异步编程是通过 &lt;code&gt;Future&lt;/code&gt; 特征和 &lt;code&gt;async/await&lt;/code&gt; 语法糖来实现的。&lt;code&gt;Future&lt;/code&gt; 是 Rust 中的异步编程的基础，它代表了一个异步计算的结果或者异步任务的“承诺”，可以通过 &lt;code&gt;poll&lt;/code&gt; 方法来获取计算的结果。&lt;code&gt;async/await&lt;/code&gt; 语法糖则是为了让异步编程更加友好，通过 &lt;code&gt;async&lt;/code&gt; 关键字来定义异步函数，通过 &lt;code&gt;await&lt;/code&gt; 关键字来等待异步计算的结果。&lt;/p&gt;
+&lt;p&gt;越来越多的语言采纳异步编程机制，比如 Python 的 &lt;code&gt;asyncio&lt;/code&gt;、JavaScript 的 &lt;code&gt;Promise&lt;/code&gt;（或者是同样的 &lt;code&gt;async/await&lt;/code&gt;）、Golang 的 &lt;code&gt;goroutine&lt;/code&gt; 等等。异步编程的优势在于可以提高程序的并发性能，因为异步编程可以让程序在等待 I&amp;#x2F;O 操作的时候不阻塞，可以继续执行其他任务。Rust 的 Tokio 是一个基于 &lt;code&gt;Future&lt;/code&gt; 的异步编程框架，它提供了很多异步编程的工具，比如 &lt;code&gt;tokio::spawn&lt;/code&gt;、&lt;code&gt;tokio::net::TcpStream&lt;/code&gt; 等等。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="学习" scheme="https://powerfooi.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="Rust" scheme="https://powerfooi.github.io/tags/Rust/"/>
+    
+    <category term="Network" scheme="https://powerfooi.github.io/tags/Network/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在 Kubernetes 中安全地运行应用</title>
+    <link href="https://powerfooi.github.io/2024/05/19/RunAppSafelyInK8s/"/>
+    <id>https://powerfooi.github.io/2024/05/19/RunAppSafelyInK8s/</id>
+    <published>2024-05-19T13:54:57.000Z</published>
+    <updated>2026-09-15T14:43:19.669Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h1&gt;&lt;p&gt;在近期的工作当中我大量接触 Kubernetes 集群以及容器化应用，在完成 Operator 拓展的开发和发布后，有海外用户反映在 OpenShift 平台上运行我们的容器化应用会遇到安全性问题，具体而言是我们的容器化应用默认需要 root 用户运行，而 OpenShift 平台如果不进行专门的设置是不允许容器使用 root 用户的。为了解决该用户的问题我们花费了一些功夫，正好我也想以此为契机进一步了解如何在 Kubernetes 中安全地运行应用。本文将记录我在调研和学习过程中的一些心得体会。&lt;/p&gt;
+&lt;h1 id=&quot;容器安全&quot;&gt;&lt;a href=&quot;#容器安全&quot; class=&quot;headerlink&quot; title=&quot;容器安全&quot;&gt;&lt;/a&gt;容器安全&lt;/h1&gt;&lt;h2 id=&quot;Docker-Init-CLI&quot;&gt;&lt;a href=&quot;#Docker-Init-CLI&quot; class=&quot;headerlink&quot; title=&quot;Docker Init CLI&quot;&gt;&lt;/a&gt;Docker Init CLI&lt;/h2&gt;&lt;p&gt;Docker Init 命令是用来创建遵循最佳实践的 Docker 配置文件的命令行工具。在使用时通过选择需要运行的应用类型（例如 Go、Python、Node、Rust 等），Docker 会自动帮助用户创建出符合最佳实践的 Dockerfile 和 compose.yaml 文件。&lt;/p&gt;
+&lt;article class=&quot;message message-immersive is-success&quot;&gt;&lt;div class=&quot;message-body&quot;&gt;
+
+&lt;p&gt;&lt;i class=&quot;fa-solid fa-circle-info mr-2&quot;&gt;&lt;/i&gt;我的操作系统是 macOS, Docker 版本为 25.0.5，后续的版本中支持的应用类型可能会更多。&lt;/p&gt;
+&lt;/div&gt;&lt;/article&gt;</summary>
+    
+    
+    
+    <category term="学习" scheme="https://powerfooi.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="CloudNative" scheme="https://powerfooi.github.io/tags/CloudNative/"/>
+    
+    <category term="Security" scheme="https://powerfooi.github.io/tags/Security/"/>
+    
+    <category term="AccessControl" scheme="https://powerfooi.github.io/tags/AccessControl/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>VSCode 插件 - YAI</title>
+    <link href="https://powerfooi.github.io/2024/02/27/YetAnotherImporter-VSCode/"/>
+    <id>https://powerfooi.github.io/2024/02/27/YetAnotherImporter-VSCode/</id>
+    <published>2024-02-27T15:46:17.000Z</published>
+    <updated>2026-09-15T14:43:19.663Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h1&gt;&lt;p&gt;这又是一次目标回收计划，早在 2021 年我还在广泛地写 TypeScript 代码时就想完成这样一个插件来满足我“不打断心流地引入模块”的需求，但“新建文件夹”之后我一直没有实际的迭代动作。直到最近高频写 Go 代码时，才真正意识到这个需求的重要性。于是我又重新打开了这个项目的代码仓库。&lt;/p&gt;
+&lt;p&gt;这是一个 VSCode 插件，叫做 YAI，全称 Yet Another Importer，英文项目命名的 Yet Another 数不胜数，我也随波逐流一次。这个插件是用来帮助开发者方便地引入模块的，它可以自动识别当前项目中的依赖，并且扫描项目本地的文件，统计当前项目中引入模块的规律和频次，在需要引入模块时给出相应提示，并且以编程语言“原生”的方式将模块引入到代码中。何为“原生”，也就是适应当前项目编程语言的引入方式，比如在 JavaScript 项目中，它会使用 &lt;code&gt;import&lt;/code&gt; 或 &lt;code&gt;require&lt;/code&gt; 语句引入模块，而在 Python 项目中，它会使用 &lt;code&gt;import&lt;/code&gt; 语句引入模块，在 Go 项目中，它会使用别名来引入模块等。&lt;/p&gt;
+&lt;p&gt;目前这个插件还处于开发阶段，但是已经可以在 Go 语言中使用了。目前规划的编程语言还有 ECMAScript、Python、C&amp;#x2F;C++ 这几种。该插件的代码仓库在 Github &lt;a href=&quot;https://github.com/PowerfooI/yai-vscode&quot;&gt;代码仓库&lt;/a&gt;中，如果你也对这个插件感兴趣，欢迎使用或者参与开发。&lt;/p&gt;
+&lt;p&gt;插件已发布，可以在 &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=powerfooi.yai&quot;&gt;yai - VSCode Marketplace&lt;/a&gt; 查看安装。&lt;/p&gt;
+&lt;p&gt;这篇文章可以算作插件的设计文档，我会在这里记录一些关于这个插件的设计思路和实现细节。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="学习" scheme="https://powerfooi.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="前端" scheme="https://powerfooi.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="Tools" scheme="https://powerfooi.github.io/tags/Tools/"/>
+    
+    <category term="VSCode" scheme="https://powerfooi.github.io/tags/VSCode/"/>
+    
+    <category term="Go" scheme="https://powerfooi.github.io/tags/Go/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Controller-runtime 源码阅读</title>
+    <link href="https://powerfooi.github.io/2024/02/03/ReadSourceOfControllerRuntime/"/>
+    <id>https://powerfooi.github.io/2024/02/03/ReadSourceOfControllerRuntime/</id>
+    <published>2024-02-03T13:56:52.000Z</published>
+    <updated>2026-09-15T14:43:19.657Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Operator 是 Kubernetes 用来拓展其 API 的一种开发范式（Pattern），其核心是定义若干的自定义资源及其对应的资源控制器，当这些资源发生变化时其对应的控制器对变化进行调解（Reconcile），最终使得实际状态与预期状态达成一致。K8s-sigs 推出的 &lt;a href=&quot;https://book.kubebuilder.io/&quot;&gt;kubebuilder&lt;/a&gt; 是一个用于构建 Operator 应用的框架，和 &lt;a href=&quot;https://github.com/operator-framework/operator-sdk&quot;&gt;Operator-SDK&lt;/a&gt; 一样都依赖了 &lt;a href=&quot;https://github.com/kubernetes-sigs/controller-runtime&quot;&gt;controller-runtime&lt;/a&gt;，提供了高级 API 和抽象，让开发者更直观地编写操作逻辑，并提供用于快速启动新项目的脚手架和代码生成工具。&lt;/p&gt;
+&lt;p&gt;截至目前我已经参与了两个 Operator 项目的搭建和维护，均采用了 kubebuilder 做基础脚手架。我目前对 CRD 的设计生成、Webhook 的校验机制和、Controller 的控制循环机制有了一定认识，接触时间稍长后在日常开发 Operator 项目时难免出现缺乏新意的情况，Operator 模式看久了和 CURD 之于后端有些许相似。但我乐观地估计通过观察下层实现可以收获一些启发。既然 kubebuilder 和 Operator-SDK 都依赖了 controller-runtime，那么就先从它出发吧。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="学习" scheme="https://powerfooi.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="CloudNative" scheme="https://powerfooi.github.io/tags/CloudNative/"/>
+    
+    <category term="Reading" scheme="https://powerfooi.github.io/tags/Reading/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>当我执行 kubectl create 时发生了什么[译]</title>
+    <link href="https://powerfooi.github.io/2024/01/13/WhatHappensWhenK8s/"/>
+    <id>https://powerfooi.github.io/2024/01/13/WhatHappensWhenK8s/</id>
+    <published>2024-01-13T14:15:49.000Z</published>
+    <updated>2026-09-15T14:43:19.657Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;翻译自 &lt;a href=&quot;https://github.com/jamiehannaford/what-happens-when-k8s&quot;&gt;What happens when … Kubernetes edition!&lt;/a&gt;。我认为这篇文章写得生动有趣，且在关键位置都给出了有价值的链接，引导进一步的阅读学习，让我有了重读并翻译的冲动。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;如果我希望往 Kubernetes 集群当中部署 nginx，我大概率会在命令行输入下面这样的命令并敲下回车键：&lt;/p&gt;
+&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;kubectl create deployment nginx --image=nginx --replicas=3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;几秒之后，我应该能看到三个 nginx 的 pod 散布在集群的工作节点上。这很神奇！但这个过程背后究竟发生了什么？&lt;/p&gt;
+&lt;p&gt;关于 Kubernetes 的惊人的特点是，它通过用户友好的 API 处理工作负载的部署。其中的复杂性被简单的抽象隐藏起来。但为了充分理解它所提供的价值，了解其内部工作原理也是很有用的。本指南将引导您了解从客户端 kubectl 到 kubelet 的请求的完整生命周期，并在必要时链接到源代码（或者相关文档和博客）来进一步说明正在发生的事情。&lt;/p&gt;
+&lt;p&gt;这是一份不断修订的文档。如果您发现可以改进或重写的地方，欢迎贡献！&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="学习" scheme="https://powerfooi.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="CloudNative" scheme="https://powerfooi.github.io/tags/CloudNative/"/>
+    
+    <category term="Reading" scheme="https://powerfooi.github.io/tags/Reading/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>用两年读完《白鹿原》</title>
+    <link href="https://powerfooi.github.io/2023/12/31/WhiteDeerPlain/"/>
+    <id>https://powerfooi.github.io/2023/12/31/WhiteDeerPlain/</id>
+    <published>2023-12-31T14:49:03.000Z</published>
+    <updated>2026-09-15T14:43:19.657Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;陈忠实先生花了六年时间著出《白鹿原》这部巨作，而我却前前后用了近两年时间才读完这部作品，实在惭愧。因为用的是“微信读书”读的电子书，阅读记录都有存储在其平台上，才能得知我原来在 2022 年看完《杀死一只知更鸟》之后就开启了《白鹿原》。然而，过去在学校因为事情众多难以聚焦到“读闲书”上，所以 2022 年的 2 月开启这部书的阅读，走入白鹿原的广袤天地之后就一度搁置。&lt;/p&gt;
+&lt;p&gt;直到 2023 年毕业工作后的某个瞬间，决定要重拾读书计划之后才想起在一年前的某个时间我曾读过这本书的三分之一。过去了这么长时间，我还能明确地记得我读到三分之一的节点是白灵和鹿兆海用掷铜钱的形式分别投身国共两党追求理想而愉快分别的场景，再次拾起此书时两人分别时欣喜的场景还历历在目，但后来的结局竟是如此，实在令人惋惜…&lt;/p&gt;
+&lt;p&gt;过去没有写读后感的习惯，最多在中学时因为看书中人物罹难后过于激动而在 QQ 空间发动态抒怀。但不得不说毕业后独居的生活给予了我更多的思考时间，让我能够在品读作品之余思索其中深意，感慨书中角色之悲壮或卑劣，也算是双面硬币里好的一面了。&lt;/p&gt;
+&lt;p&gt;向外输出是向内消化的高级姿态，我希望通过写出自己的感受加深自己对作品的理解。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="随笔" scheme="https://powerfooi.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="读后感" scheme="https://powerfooi.github.io/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>rFTP - 用 Rust 实现简单的 FTP Server (1)</title>
+    <link href="https://powerfooi.github.io/2023/01/20/RFTP-1/"/>
+    <id>https://powerfooi.github.io/2023/01/20/RFTP-1/</id>
+    <published>2023-01-20T14:30:19.000Z</published>
+    <updated>2026-09-15T14:43:19.657Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;开发动机&quot;&gt;&lt;a href=&quot;#开发动机&quot; class=&quot;headerlink&quot; title=&quot;开发动机&quot;&gt;&lt;/a&gt;开发动机&lt;/h1&gt;&lt;p&gt;核心动力是我有&lt;strong&gt;学会一门系统级编程语言的梦想&lt;/strong&gt;。所以计划用 Rust 为开发语言（手段）完成本科三年级计算机网络专业课上的 FTP 大作业（目标），学习 Rust 的同时巩固计网的基础知识。&lt;/p&gt;
+&lt;p&gt;虽然大一刚入学就开始接触 &lt;code&gt;C/C++&lt;/code&gt;，但是对于当时没有任计算机知识何积累的我来说用这样的方式开始我的编程入门实在是颇为残忍。或许我当时连内存大小和磁盘容量都分不清，不知堆栈为何物，也搞不懂什么编译链接，让我去理解指针实在是有点为难。现在回过头来看，当时的教学顺序对零基础的学生来说是不太友好的：老师在讲指针结构的内存优化时我甚至还写不出像样的符合语法的程序，课程内容就自然也就无法很好地消化了。&lt;/p&gt;
+&lt;p&gt;如果由我来制定教学计划，我一定将最开始的编程入门课定为使用 Python 教学而不是 C&amp;#x2F;C++，在知道如何写出鲁棒、高效、优雅的代码前，先要做到能写代码，就好似学会跑步之前需要先学会走路；等学生们了解了计算机组成原理、操作系统等计算机基础知识之后（或同时），再教授 C&amp;#x2F;C++ 等较低层的、系统的编程语言了。话扯太远了，就此打住。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="学习" scheme="https://powerfooi.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="Rust" scheme="https://powerfooi.github.io/tags/Rust/"/>
+    
+    <category term="Network" scheme="https://powerfooi.github.io/tags/Network/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>再见了，兵荒马乱的 2022</title>
+    <link href="https://powerfooi.github.io/2022/12/30/Goodbye2022/"/>
+    <id>https://powerfooi.github.io/2022/12/30/Goodbye2022/</id>
+    <published>2022-12-30T14:32:17.000Z</published>
+    <updated>2026-09-15T14:43:19.657Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;今天是2022年12月31日，2022年的最后一天，先给年初的自己说一声对不起：年初立的 Flag 基本没有一条是顺利达成的，我以为目标量化以后就可以逐项实现，但还是高估自己的执行力和时间充裕程度了。今年是我第二个本命年，本应过的虎虎生风，生龙活虎，但是现实没有我想象中那么精彩，但有一些事情还是值得记载。这一年我在专业上经历了迷茫，在情感上遇到波折，在工作上也遭遇了挑战，大环境上也在年底迎来了疫情政策的转折。我想对这一年做个小小的总结，也对明年做些展望和规划。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="随笔" scheme="https://powerfooi.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="胡思乱想" scheme="https://powerfooi.github.io/tags/%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>为什么前端开发要选择 GraphQL</title>
+    <link href="https://powerfooi.github.io/2022/06/03/WhyWeChooseGraphQL/"/>
+    <id>https://powerfooi.github.io/2022/06/03/WhyWeChooseGraphQL/</id>
+    <published>2022-06-03T15:32:11.000Z</published>
+    <updated>2026-09-15T14:43:19.646Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;这篇博客其实是以一次公司内的技术分享为基础做的调研和总结归纳，包含了我自己很多不成熟的观点看法。这次分享主要是想向新同事介绍为什么我们选择在项目中大规模使用 GraphQL 而不是更传统更简单的 RESTful API。&lt;/p&gt;
+&lt;h1 id=&quot;GraphQL-是什么&quot;&gt;&lt;a href=&quot;#GraphQL-是什么&quot; class=&quot;headerlink&quot; title=&quot;GraphQL 是什么&quot;&gt;&lt;/a&gt;GraphQL 是什么&lt;/h1&gt;&lt;p&gt;在上一篇有关 GraphQL 的&lt;a href=&quot;/2021/07/23/UseGraphQLElegantly&quot;&gt;博客&lt;/a&gt;里，我简单地说明了 GraphQL 的定义及其大致用途，贴了官网链接就开始介绍我使用 GraphQL 的“更优雅的”方式，对 GraphQL 本身描述得并不多。这里又贴一下英文的定义：&lt;strong&gt;A query language for your API&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. GraphQL provides a complete and understandable description of the data in your API, gives clients the power to ask for exactly what they need and nothing more, makes it easier to evolve APIs over time, and enables powerful developer tools.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;划重点，它是一种&lt;strong&gt;查询语言&lt;/strong&gt;和&lt;strong&gt;使数据可查询的运行时&lt;/strong&gt;。作为一种语言，它有自己的语法，能够定义&lt;code&gt;Type&lt;/code&gt;, &lt;code&gt;Enum&lt;/code&gt;, &lt;code&gt;Input&lt;/code&gt;, &lt;code&gt;Fragment&lt;/code&gt;, &lt;code&gt;Query&lt;/code&gt;, &lt;code&gt;Mutation&lt;/code&gt;等元素，熟悉 Typescript 的朋友会对此感到亲切。而在前端开发中需要重点关注的是以下几个部分：&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="学习" scheme="https://powerfooi.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="前端" scheme="https://powerfooi.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="GraphQL" scheme="https://powerfooi.github.io/tags/GraphQL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>好久不见，前端再见</title>
+    <link href="https://powerfooi.github.io/2022/05/09/GoodbyeFrontEnd/"/>
+    <id>https://powerfooi.github.io/2022/05/09/GoodbyeFrontEnd/</id>
+    <published>2022-05-09T14:33:27.000Z</published>
+    <updated>2026-09-15T14:43:19.644Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;断断续续写前端项目也有好几年了，从大二接触 Javascript 和 Vue 时的兴奋，到接触小程序和 React 时的“渐入佳境”，再到这段时间的感到无比疲惫，我希望我在前端开发上大规模投入的阶段先暂告一段落了。为什么有这样的疲惫感呢？原因总结起来有以下几点：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;前端开发面临的大多不是技术问题，是产品问题或美学问题，最终目标是让用户满意；&lt;/li&gt;
+&lt;li&gt;前端开发过于琐碎，需要处理的细枝末节极多，每个页面元素都有相应的状态需要管理；&lt;/li&gt;
+&lt;li&gt;前端难于抽象，对应到用户上则表现为具体业务需求是千变万化的。&lt;/li&gt;
+&lt;/ol&gt;</summary>
+    
+    
+    
+    <category term="随笔" scheme="https://powerfooi.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="胡思乱想" scheme="https://powerfooi.github.io/tags/%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/"/>
+    
+    <category term="前端" scheme="https://powerfooi.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+</feed>

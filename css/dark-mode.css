@@ -1,0 +1,436 @@
+/*
+ * Dark mode overrides for the Icarus theme.
+ *
+ * Two entry points set the same variables:
+ *   1. Manual toggle: html[data-theme="dark"] / [data-theme="light"] (JS, localStorage)
+ *   2. No-JS / auto fallback: @media (prefers-color-scheme: dark)
+ * Component rules reference the variables unconditionally, so light values
+ * below must match the theme's default appearance.
+ */
+
+:root {
+	--dm-body-bg: #f7f7f7;
+	--dm-card-bg: #ffffff;
+	--dm-navbar-bg: #ffffff;
+	--dm-footer-bg: #ffffff;
+	--dm-text: #4a4a4a;
+	--dm-text-strong: #363636;
+	--dm-text-muted: #7a7a7a;
+	--dm-border: #ededed;
+	--dm-inset-bg: #f5f5f5;
+	--dm-link: #3273dc;
+	--dm-link-hover: #363636;
+	--dm-menu-active-bg: hsl(219, 70%, 96%);
+	--dm-navbar-hover-bg: #fafafa;
+	--dm-shadow: 0 4px 10px rgba(0, 0, 0, 0.05), 0 0 1px rgba(0, 0, 0, 0.1);
+
+	/* code highlight (atom-one-light) */
+	--dm-hl-bg: #fafafa;
+	--dm-hl-text: #383a42;
+	--dm-hl-comment: #a0a1a7;
+	--dm-hl-keyword: #a626a4;
+	--dm-hl-string: #50a14f;
+	--dm-hl-number: #986801;
+	--dm-hl-title: #4078f2;
+	--dm-hl-attr: #c18401;
+	--dm-hl-builtin: #0184bc;
+	--dm-hl-meta: #e45649;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root:not([data-theme="light"]) {
+		--dm-body-bg: #12161d;
+		--dm-card-bg: #1b212b;
+		--dm-navbar-bg: #1b212b;
+		--dm-footer-bg: #171c25;
+		--dm-text: #b9c2cc;
+		--dm-text-strong: #e8edf3;
+		--dm-text-muted: #7f8a97;
+		--dm-border: #2e3743;
+		--dm-inset-bg: #232b37;
+		--dm-link: #6ea8fe;
+		--dm-link-hover: #a3c2ff;
+		--dm-menu-active-bg: #24303f;
+		--dm-navbar-hover-bg: #232b37;
+		--dm-shadow: 0 4px 10px rgba(0, 0, 0, 0.35), 0 0 1px rgba(0, 0, 0, 0.6);
+
+		/* code highlight (atom-one-dark) */
+		--dm-hl-bg: #262b35;
+		--dm-hl-text: #abb2bf;
+		--dm-hl-comment: #5c6370;
+		--dm-hl-keyword: #c678dd;
+		--dm-hl-string: #98c379;
+		--dm-hl-number: #d19a66;
+		--dm-hl-title: #61afef;
+		--dm-hl-attr: #e5c07b;
+		--dm-hl-builtin: #56b6c2;
+		--dm-hl-meta: #e06c75;
+	}
+}
+
+:root[data-theme="dark"] {
+	--dm-body-bg: #12161d;
+	--dm-card-bg: #1b212b;
+	--dm-navbar-bg: #1b212b;
+	--dm-footer-bg: #171c25;
+	--dm-text: #b9c2cc;
+	--dm-text-strong: #e8edf3;
+	--dm-text-muted: #7f8a97;
+	--dm-border: #2e3743;
+	--dm-inset-bg: #232b37;
+	--dm-link: #6ea8fe;
+	--dm-link-hover: #a3c2ff;
+	--dm-menu-active-bg: #24303f;
+	--dm-navbar-hover-bg: #232b37;
+	--dm-shadow: 0 4px 10px rgba(0, 0, 0, 0.35), 0 0 1px rgba(0, 0, 0, 0.6);
+
+	/* code highlight (atom-one-dark) */
+	--dm-hl-bg: #262b35;
+	--dm-hl-text: #abb2bf;
+	--dm-hl-comment: #5c6370;
+	--dm-hl-keyword: #c678dd;
+	--dm-hl-string: #98c379;
+	--dm-hl-number: #d19a66;
+	--dm-hl-title: #61afef;
+	--dm-hl-attr: #e5c07b;
+	--dm-hl-builtin: #56b6c2;
+	--dm-hl-meta: #e06c75;
+}
+
+/* ---------- surfaces ---------- */
+
+body {
+	background-color: var(--dm-body-bg);
+	color: var(--dm-text);
+}
+
+.card {
+	background-color: var(--dm-card-bg);
+	box-shadow: var(--dm-shadow);
+	color: var(--dm-text);
+}
+
+.box {
+	background-color: var(--dm-card-bg);
+	box-shadow: var(--dm-shadow);
+	color: var(--dm-text);
+}
+
+.navbar-main {
+	background-color: var(--dm-navbar-bg);
+	box-shadow: var(--dm-shadow);
+}
+
+.footer {
+	background-color: var(--dm-footer-bg);
+}
+
+/* ---------- text ---------- */
+
+.title,
+.subtitle,
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6,
+.content strong {
+	color: var(--dm-text-strong);
+}
+
+a {
+	color: var(--dm-link);
+}
+
+a:hover {
+	color: var(--dm-link-hover);
+}
+
+/* theme sets this with !important, so we must too */
+.link-muted:hover {
+	color: var(--dm-link) !important;
+}
+
+.navbar-item,
+.navbar-link {
+	color: var(--dm-text);
+}
+
+a.navbar-item:hover,
+a.navbar-item:focus,
+a.navbar-item.is-active,
+.navbar-link:hover,
+.navbar-link:focus {
+	background-color: var(--dm-navbar-hover-bg);
+	color: var(--dm-link);
+}
+
+.menu-label {
+	color: var(--dm-text-muted);
+}
+
+.menu-list a {
+	color: var(--dm-text);
+}
+
+.menu-list a:hover {
+	background-color: var(--dm-inset-bg);
+	color: var(--dm-text-strong);
+}
+
+.menu-list a.is-active {
+	background-color: var(--dm-menu-active-bg);
+	color: var(--dm-link);
+}
+
+/* ---------- inset elements ---------- */
+
+.content blockquote {
+	background-color: var(--dm-inset-bg);
+	border-left-color: var(--dm-border);
+}
+
+.content code {
+	background-color: var(--dm-inset-bg);
+	color: var(--dm-text-strong);
+}
+
+hr {
+	background-color: var(--dm-border);
+}
+
+.tag:not(body) {
+	background-color: var(--dm-inset-bg);
+	color: var(--dm-text);
+}
+
+.card-footer {
+	border-top-color: var(--dm-border);
+}
+
+.content table td,
+.content table th {
+	border-color: var(--dm-border);
+	color: var(--dm-text);
+}
+
+.content table th {
+	color: var(--dm-text-strong);
+}
+
+/* ---------- forms & widgets ---------- */
+
+.input,
+.textarea {
+	background-color: var(--dm-card-bg);
+	border-color: var(--dm-border);
+	color: var(--dm-text);
+}
+
+.input::placeholder,
+.textarea::placeholder {
+	color: var(--dm-text-muted);
+}
+
+.dropdown-content {
+	background-color: var(--dm-card-bg);
+	box-shadow: var(--dm-shadow);
+}
+
+a.dropdown-item,
+.dropdown .dropdown-menu .has-link a {
+	color: var(--dm-text);
+}
+
+a.dropdown-item:hover {
+	background-color: var(--dm-inset-bg);
+}
+
+.pagination-previous,
+.pagination-next,
+.pagination-link {
+	background-color: var(--dm-card-bg);
+	border-color: var(--dm-border);
+	color: var(--dm-text);
+}
+
+/* search overlay (insight search): the .searchbox backdrop itself stays
+   rgba(10,10,10,.86) — already dark-friendly; only the panel needs theming.
+   The result-item hover rule mirrors the theme's exact :not chain so equal
+   specificity + later load order lets our value win. */
+.searchbox .searchbox-header,
+.searchbox .searchbox-input {
+	background-color: var(--dm-card-bg);
+	color: var(--dm-text);
+}
+
+.searchbox .searchbox-close:hover {
+	background-color: var(--dm-inset-bg);
+}
+
+.searchbox .searchbox-body {
+	border-top-color: var(--dm-border);
+	color: var(--dm-text);
+}
+
+.searchbox .searchbox-result-section {
+	border-bottom-color: var(--dm-border);
+}
+
+.searchbox
+	.searchbox-result-item:not(.disabled):not(.active):not(:active):hover {
+	background-color: var(--dm-inset-bg);
+}
+
+/* ---------- code highlight ---------- */
+
+.highlight {
+	background-color: var(--dm-hl-bg);
+	color: var(--dm-hl-text);
+}
+
+.highlight pre,
+.highlight .code pre {
+	background-color: var(--dm-hl-bg);
+	color: var(--dm-hl-text);
+}
+
+.highlight .gutter pre {
+	background-color: var(--dm-hl-bg);
+	color: var(--dm-hl-comment);
+}
+
+.highlight figcaption {
+	background-color: var(--dm-hl-bg);
+	color: var(--dm-hl-comment);
+	border-bottom-color: var(--dm-border);
+}
+
+.highlight .comment,
+.highlight .quote,
+.highlight .hljs-comment,
+.highlight .hljs-quote {
+	color: var(--dm-hl-comment);
+}
+
+.highlight .keyword,
+.highlight .selector-tag,
+.highlight .hljs-keyword,
+.highlight .hljs-selector-tag {
+	color: var(--dm-hl-keyword);
+}
+
+.highlight .string,
+.highlight .regexp,
+.highlight .addition,
+.highlight .hljs-string,
+.highlight .hljs-regexp,
+.highlight .hljs-addition {
+	color: var(--dm-hl-string);
+}
+
+.highlight .number,
+.highlight .literal,
+.highlight .hljs-number,
+.highlight .hljs-literal {
+	color: var(--dm-hl-number);
+}
+
+.highlight .title,
+.highlight .section,
+.highlight .hljs-title,
+.highlight .hljs-section {
+	color: var(--dm-hl-title);
+}
+
+.highlight .attr,
+.highlight .attribute,
+.highlight .variable,
+.highlight .template-variable,
+.highlight .type,
+.highlight .hljs-attr,
+.highlight .hljs-attribute,
+.highlight .hljs-variable,
+.highlight .hljs-template-variable,
+.highlight .hljs-type {
+	color: var(--dm-hl-attr);
+}
+
+.highlight .built_in,
+.highlight .builtin-name,
+.highlight .name,
+.highlight .selector-id,
+.highlight .selector-class,
+.highlight .hljs-built_in,
+.highlight .hljs-builtin-name,
+.highlight .hljs-name,
+.highlight .hljs-selector-id,
+.highlight .hljs-selector-class {
+	color: var(--dm-hl-builtin);
+}
+
+.highlight .symbol,
+.highlight .bullet,
+.highlight .link,
+.highlight .meta,
+.highlight .deletion,
+.highlight .hljs-symbol,
+.highlight .hljs-bullet,
+.highlight .hljs-link,
+.highlight .hljs-meta,
+.highlight .hljs-deletion {
+	color: var(--dm-hl-meta);
+}
+
+/* ---------- article "read more" button ---------- */
+
+article.article .article-more {
+	background-color: var(--dm-inset-bg);
+	color: var(--dm-text-strong);
+}
+
+/* ---------- cookie consent banner (theme loads it with !important) ---------- */
+
+.cc-window {
+	background-color: var(--dm-card-bg) !important;
+	color: var(--dm-text) !important;
+}
+
+/* ---------- profile avatar (transparent PNG needs a light sticker base in dark mode) ---------- */
+
+@media (prefers-color-scheme: dark) {
+	:root:not([data-theme="light"]) img.avatar {
+		background: rgba(245, 245, 245, 0.96);
+		border-radius: 16px;
+		padding: 10px;
+		box-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+	}
+}
+
+:root[data-theme="dark"] img.avatar {
+	background: rgba(245, 245, 245, 0.96);
+	border-radius: 16px;
+	padding: 10px;
+	box-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* ---------- back-to-top button appears/disappears instantly ---------- */
+
+#back-to-top {
+	transition: none;
+}
+
+/* ---------- transition & toggle button ---------- */
+
+body,
+.card,
+.navbar-main,
+.footer {
+	transition: background-color 0.25s ease;
+}
+
+.navbar-item.dark-mode-toggle i {
+	width: 1.1em;
+	text-align: center;
+}
